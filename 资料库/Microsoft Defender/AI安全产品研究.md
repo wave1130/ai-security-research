@@ -1,0 +1,96 @@
+# Microsoft Defender：AI安全长期跟踪
+
+核实日期：2026-11-05。来源范围：微软官方公告与公开文档；未独立部署测评。
+
+## 最新核实：发现正式可用，运行时防护仍在预览
+
+2026年10月29日，微软宣布Windows和macOS受支持本地Agent及其MCP配置发现正式可用；公告称支持范围扩展到50余种Agent和MCP服务器。Windows运行时防护及Intune部署能力仍为预览，不能用发现的GA状态代替防护状态。
+
+本轮于2026年11月5日建立长期跟踪基线。发现概览和支持矩阵页面标注11月3日更新；这是文档更新时间，不是本轮确认的新功能发布日期。10月29日公告本身还显示10月28日Updated字段，记录时采用文章主日期并保留差异。
+
+来源：[10月29日正式可用公告](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/now-generally-available-discover-local-ai-agents-with-microsoft-defender/4568216)
+
+## 发现的对象、粒度和证据边界
+
+发现概览区分运行进程观察与已安装VS Code扩展的周期性清单采集。一个Agent条目通常由用户、设备和Agent类型组合定义：同用户同设备在不同项目目录运行同类工具，并不一定形成多个独立Agent资产。
+
+清单条目不能证明用户提交过提示、成功访问模型服务或执行过某个工具。MCP配置可以说明Agent配置了哪些本地或远端服务，但配置存在不等于发生调用，也不是完整trace。MCP配置发现还要求杀毒处于active模式并启用实时保护；扩展清单采集的要求不同。
+
+研究分析：与Akto或Zenity比较时，应分别统计软件/进程、配置、实际会话、工具请求、参数和结果的证据。不能把一个“资产数量”直接当作实际使用覆盖率，也不能由端点可见性推出SaaS内部Agent均已纳管。
+
+来源：[本地Agent发现概览](https://learn.microsoft.com/en-us/defender-endpoint/local-agent-discovery-overview)
+
+## 两种运行时检查方式，以及支持矩阵的限制
+
+运行时概览描述两条路径：Agent原生事件接口检查，以及受支持Agent至模型服务的网络流量检查。前者利用厂商接口在Agent循环的可用检查点执行审计或阻断，后者扩展至没有相应原生事件接口的部分网络路径。网络检查不支持证书固定和HTTP/3。
+
+支持矩阵将发现和防护分别列出。Windows预览的原生接口行包括Claude Code、GitHub Copilot CLI及部分桌面/扩展场景；网络检查列出OpenClaw、Ollama Desktop和部分ChatGPT场景。macOS可以有发现支持，却不能据此宣称具有同等Windows运行时防护。WSL发现预览也不等于原生Linux端点支持。
+
+需要持续核对的差异：运行时概览将Codex CLI作为暴露事件接口的例子，但本次读取的防护矩阵未单独列出Codex CLI行。因此本文只确认它在发现矩阵中的支持，不据概览示例认定其防护组合已获官方矩阵确认。
+
+研究分析：发现面与控制面可能使用不同接入路径。评估应按具体Agent、版本、系统、模式及传输方式测试，并记录未列支持组合，而不是将营销覆盖数字当作阻断覆盖数字。
+
+来源：[运行时防护概览（预览）](https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-runtime-protection-overview) · [Agent支持矩阵](https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-support-matrix)
+
+## 从Audit到Block：部署条件和实际执行
+
+配置文档要求受支持Windows设备已接入Defender for Endpoint，Defender Antivirus active模式及实时保护开启，并满足许可、Agent和更新版本要求。文档列出的许可选项包括MDE P2等；Intune是独立产品，不能假设MDE许可自动包含Intune。预览测试文档还要求平台及引擎Beta更新渠道。
+
+Audit记录检测并允许动作继续，Block对受支持路径执行阻断，Disabled不进行该项检查。原生事件与网络检查有各自开关；Intune的原生保护配置模板不等于网络检查也已开启。配置完成后还要核查设备有效设置和实际告警，不能把策略已分配当成已生效。
+
+研究分析：先用小范围设备建立正常任务与攻击测试基线，再检查误报、延迟和告警处置。离线、服务不可用、用户修改hook或直连模型时是放行还是关闭，需要单独测试；本轮资料没有充分回答这些边界。
+
+来源：[运行时防护配置（预览）](https://learn.microsoft.com/en-us/defender-endpoint/configure-ai-agent-runtime-protection)
+
+## 官方测试怎样证明Defender介入
+
+官方提供无害测试提示，用于核对检测链路；本轮只阅读步骤，没有运行。测试区分Audit和Block结果，并要求在Windows保护历史、设备时间线、Defender告警或Advanced Hunting中查验证据。
+
+文档特别说明：Agent自己拒绝提示，不能单独证明Defender检测成功。应把终端反馈与Defender来源的告警关联起来。官方固定测试串可以证明配置和上报链路工作，但不能代表对真实多步提示注入、记忆投毒或新型绕过的检出率。
+
+研究分析：验收至少保留Agent输入、时间戳、受影响进程、策略模式、告警ID、阻断点和目标资源状态。判断“阻止外传”时，还需检查目标网络端或文件端结果，不能只凭界面显示Blocked。
+
+来源：[官方无害测试与验证](https://learn.microsoft.com/en-us/defender-endpoint/defender-endpoint-demonstration-ai-agent-runtime-protection)
+
+## 云端Agent与AI基础设施：不把不同产品混为一体
+
+Defender AI资产总览描述Agent 365纳管、姿态建议、威胁检测和调查。其工具调用实时保护依赖接入Agent 365的Work IQ MCP或客户MCP工具；默认规则审计，自定义规则可阻断匹配动作，行为可进入BehaviorInfo查询。
+
+同一总览也涉及模型、依赖、仓库和容器等AI基础设施风险。这里的连接器、授权、可观测数据与本地端点并不相同，不能将云端能力外推到任意未接入的第三方Agent。本文记录为当前文档能力说明，不将全部能力标记为11月新发布。
+
+研究分析：长期跟踪将Defender作为主产品，Entra身份、Purview数据治理、Intune配置、Agent 365控制平面分别关联。需逐项核对许可与执行位置，特别是数据分类、撤权、DLP、工具阻断分别由谁决策、谁执行、谁保留证据。
+
+来源：[云端与AI资产保护总览](https://learn.microsoft.com/en-us/defender-xdr/security-for-ai/defender-security-for-ai)
+
+## 用AI做安全运营，与保护AI分开评估
+
+Security Store中的Security Copilot Agents可用于告警分诊、调查、威胁狩猎和情报任务，部署需要Security Copilot工作区容量等前提。文档对邮件/协作分诊与云、身份分诊列出不同可用状态和依赖许可。
+
+这类Agent提升SOC工作方式，不能替代保护业务Agent的控制。前者应评估调查依据、错误处置和人员复核；后者应验证恶意内容是否在工具执行前被阻断，以及超权限任务是否受到约束。
+
+10月19日微软Agentic Insider战略文章提出持续监督内部Agent及Guardian Agents方向。战略叙述不是所有租户已获全功能的证据；具体落地仍以产品配置文档、支持矩阵和租户可用性为准。
+
+来源：[Defender中的Security Copilot Agents](https://learn.microsoft.com/en-us/defender-xdr/security-copilot-agents-defender) · [微软Agentic Insider战略说明](https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/)
+
+## 与Akto、Zenity、Cyera的后续比较
+
+研究分析：Microsoft Defender的端点安装基础和现有SOC数据关联值得重点跟踪；Akto的多连接器、Atlas/Argus分工可作为对比问题。比较应围绕同一Agent和同一业务任务：谁先发现、谁拿到调用参数、谁在执行前有控制点、谁能解释处置结果。
+
+未来每次更新记录：GA/预览变化；操作系统和Agent组合；Hooks及网络检查范围；实际调用和MCP配置的区别；接入许可；提示与trace的数据处理位置、保留及访问权限；离线与旁路行为；可复现测试证据。
+
+当前未安装产品、未启用Beta渠道、未修改用户设备安全策略，也未独立验证覆盖率或拦截效果。本页为官方公开材料的详细研究解读，不是完整翻译或产品测评报告。
+
+来源：
+
+
+## 11月16日补充：告警与实际执行必须分开验证
+
+微软运行时概览列出两项已知问题：Audit模式告警可能误写为已阻断；某些受影响设备上，Claude Code即使处于Block模式且报告工具响应阻断，仍可能继续处理该响应。这两者分别属于告警表述问题与实际阻断限制。
+
+工具响应检查发生在工具运行之后，不能撤销工具已经完成的动作；告警标题也不能独自证明结果未进入Agent。Windows运行时支持矩阵仍标预览，原生Hooks与网络检查分别列示。
+
+编辑分析：验收需分开记录设备有效模式、告警、Agent是否消费结果、后续工具是否运行及实际副作用。可在隔离测试环境用无敏感数据的标记内容比较Audit与Block，不应仅靠出现一条“blocked”告警判断防线通过。若某检查点不能可靠阻止内容继续流转，仍需独立的最小权限、出站限制和高风险动作审批约束影响。
+
+本条是11月16日文档核查补录，概览与矩阵分别标11月11、12日更新，不是新增GA或已核实的新问题发布日期。微软未在所读段落列出受影响Claude Code具体版本、修复版本及完整条件；未在用户设备安装或实测，不推断所有Block路径失效。
+
+[官方已知问题](https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-runtime-protection-overview)

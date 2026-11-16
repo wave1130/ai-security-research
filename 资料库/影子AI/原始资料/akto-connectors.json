@@ -1,0 +1,156 @@
+{
+  "url": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents",
+  "title": "AI Discovery Connectors | Akto",
+  "text": "For the complete documentation index, see llms.txt. This page is also available as Markdown.\nCopy\nAkto Atlas: Agentic AI Security for Employee Endpoints\nAI Discovery Connectors\n\nConnect Atlas to every surface where your employees run AI: CLIs, IDEs, browsers, SaaS AI suites, and the EDR/MDM tooling you already deploy through. Every connector feeds the same Agentic AI Discovery inventory: it doesn't matter which mix you pick, you get one view of everything discovered.\n\nStart With AI Endpoint Shield\n\nFor most fleets, AI Endpoint Shield is the connector to deploy: it discovers local MCP servers, installs your CLI and IDE hooks, and bundles the System Proxy for standalone desktop apps, all through one fleet-wide rollout. Everything below either plugs into it or covers a surface it doesn't reach.\n\nPrefer a Lighter Touch?\n\nIf you're not ready for a fleet-wide rollout, or just want to cover one specific tool on a endpoint, set these up directly:\n\nAgentic CLI hooks, zero-install, per tool:\n\nClaude CLI Hooks\n\nCodex CLI Hooks\n\nGemini CLI Hooks\n\nKiro CLI Hooks\n\nCopilot Hooks - covers GitHub Copilot in VS Code and the CLI\n\nSnowflake Cortex Code CLI Hooks\n\nHermes Hooks\n\nAmp Hooks\n\nOpenCode Hooks\n\nAgentic IDEs and desktop apps:\n\nCursor Hooks\n\nNeovim Hooks\n\nClaude Cowork Connector\n\nBrowser-based AI usage, a surface AI Endpoint Shield doesn't cover at all:\n\nBrowser Extensions - discovery and inline guardrails for AI usage inside Chrome, Firefox, and Safari.\n\nAlready Running an EDR?\n\nDetect AI coding tools already running on managed endpoints through the EDR you deploy, no separate agent to install:\n\nDeploy via SentinelOne\n\nDeploy via CrowdStrike\n\nDeploy via Microsoft Defender Endpoint\n\nFor MDM-based rollout instead (Intune, NinjaOne, Automox, Jamf, Mosyle), see the deployment options on the AI Endpoint Shield page.\n\nSaaS and Compliance Connectors\n\nThese pull activity data straight from the vendor's own API, no device agent required:\n\nAnthropic Connector - pulls compliance activity from Claude.ai, Claude Console, and the Claude API via Anthropic's Compliance API.\n\nClaude Inference Hooks - use Atlas as the security server behind Anthropic's Inference Hooks, to allow or deny Claude prompts inline before inference runs.\n\nGrok Bot Inference Hooks (Beta) - use Atlas as the security server behind Grok Bot's Inference Hooks, to allow or deny Grok Bot prompts inline before inference runs.\n\nOpenAI Connector - pulls audit log and org activity data from ChatGPT and OpenAI via the OpenAI Admin API.\n\nGitHub Copilot Enterprise - agent discovery, centralized guardrails, and enterprise-wide policy enforcement for Copilot.\n\nCopilot Studio, Copilot Studio (Multi Environment), and Copilot Studio (Threat Detection) - secure agents built in Microsoft Copilot Studio, across single or multiple Power Platform environments.\n\nLocally Hosted Models\n\nAtlas also discovers models served by local model runners on employee devices, including Ollama, vLLM, SGLang, and Docker Model Runner.\n\nPrevious\nOverview\nNext\nBrowser Extensions\n\nLast updated 12 hours ago",
+  "links": [
+    {
+      "text": "llms.txt",
+      "href": "https://ai-security-docs.akto.io/llms.txt"
+    },
+    {
+      "text": "Markdown",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents.md"
+    },
+    {
+      "text": "Akto Atlas: Agentic AI Security for Employee Endpoints",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/overview"
+    },
+    {
+      "text": "Agentic AI Discovery",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/ai-agent-activity"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents#start-with-ai-endpoint-shield"
+    },
+    {
+      "text": "AI Endpoint Shield",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/ai-endpoint-shield"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents#prefer-a-lighter-touch"
+    },
+    {
+      "text": "Claude CLI Hooks",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/claude-cli-hooks"
+    },
+    {
+      "text": "Codex CLI Hooks",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/codex-cli-hooks"
+    },
+    {
+      "text": "Gemini CLI Hooks",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/gemini-cli-hooks"
+    },
+    {
+      "text": "Kiro CLI Hooks",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/kiro-cli-hooks"
+    },
+    {
+      "text": "Copilot Hooks",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/copilot-cli-hooks"
+    },
+    {
+      "text": "Snowflake Cortex Code CLI Hooks",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/snowflake-cortex-cli-hooks"
+    },
+    {
+      "text": "Hermes Hooks",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/hermes-hooks"
+    },
+    {
+      "text": "Amp Hooks",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/amp-hooks"
+    },
+    {
+      "text": "OpenCode Hooks",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/opencode-hooks"
+    },
+    {
+      "text": "Cursor Hooks",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/cursor-hooks"
+    },
+    {
+      "text": "Neovim Hooks",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/neovim-hooks"
+    },
+    {
+      "text": "Claude Cowork Connector",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/claude-cowork-connector"
+    },
+    {
+      "text": "Browser Extensions",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/browser-extensions"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents#already-running-an-edr"
+    },
+    {
+      "text": "Deploy via SentinelOne",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/deploy-via-sentinelone"
+    },
+    {
+      "text": "Deploy via CrowdStrike",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/deploy-via-crowdstrike"
+    },
+    {
+      "text": "Deploy via Microsoft Defender Endpoint",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/deploy-via-microsoft-defender"
+    },
+    {
+      "text": "AI Endpoint Shield",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/ai-endpoint-shield"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents#saas-and-compliance-connectors"
+    },
+    {
+      "text": "Anthropic Connector",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/anthropic-connector"
+    },
+    {
+      "text": "Claude Inference Hooks",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/claude-inference-hooks"
+    },
+    {
+      "text": "Grok Bot Inference Hooks (Beta)",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/grok-bot-inference-hooks"
+    },
+    {
+      "text": "OpenAI Connector",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/openai-connector"
+    },
+    {
+      "text": "GitHub Copilot Enterprise",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/github-copilot-enterprise"
+    },
+    {
+      "text": "Copilot Studio",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/microsoft-copilot-studio"
+    },
+    {
+      "text": "Copilot Studio (Multi Environment)",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/microsoft-copilot-studio-multi-environment"
+    },
+    {
+      "text": "Copilot Studio (Threat Detection)",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/microsoft-copilot-studio-threat-detection"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents#locally-hosted-models"
+    },
+    {
+      "text": "PreviousOverview",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/overview"
+    },
+    {
+      "text": "NextBrowser Extensions",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents/browser-extensions"
+    }
+  ],
+  "media": []
+}

@@ -1,0 +1,68 @@
+{
+  "url": "https://ai-security-docs.akto.io/akto-argus-agentic-ai-security-for-homegrown-ai/overview",
+  "title": "Overview | Akto",
+  "text": "For the complete documentation index, see llms.txt. This page is also available as Markdown.\nCopy\nAkto Argus: Agentic AI Security for Homegrown AI\nOverview\n\nAkto Argus secures homegrown AI agents, MCP servers, and GenAI applications across the full lifecycle; from pre-deployment in CI/CD to runtime enforcement in cloud environments. Argus provides visibility, continuous security assessment, and runtime guardrails for autonomous AI systems that traditional AppSec and cloud security tools cannot adequately protect.\n\nThe Problem You Face\n\nEngineering teams are rapidly deploying AI agents, MCP servers, and GenAI applications into production. Security teams are expected to secure these systems, but face structural gaps:\n\nYou lack clear visibility into which AI agents, MCP servers, and GenAI applications are running across cloud environments.\n\nAI agent behavior evolves dynamically at runtime, making static or pre-deployment scanning insufficient.\n\nMost AI agents ship without runtime controls, exposing production systems to prompt injection, tool abuse, unsafe actions, and data leakage.\n\nHow Akto Argus Helps\n\nAkto Argus is purpose-built for securing autonomous and agentic AI systems. Argus integrates directly into your CI/CD pipelines and cloud runtime to help you discover, scan, and control AI behavior before and after deployment.\n\nWhy Argus Is Different\n\nTraditional AppSec and cloud security platforms were designed for deterministic applications. Autonomous AI agents operate with dynamic prompts, tools, and decision paths, which require continuous assessment and runtime enforcement. Argus addresses these gaps with AI-specific discovery, scanning, and guardrails.\n\nCore Capabilities\nDiscover Agentic AI in Your Cloud\n\nAutomatically discover AI agents, MCP servers, and GenAI applications across cloud environments.\n\nMaintain a continuously updated inventory of agentic AI assets across development, staging, and production.\n\nContinuous Agentic AI Red Teaming\n\nUse Akto’s 4,000+ AI-specific probes to continuously scan AI agents, MCPs, and GenAI applications in CI/CD.\n\nIdentify risks such as prompt injection, tool misuse, unsafe actions, policy bypass, and emerging attack patterns.\n\nEnforce Runtime Guardrails\n\nDefine and enforce policies that control what AI agents can and cannot do in production.\n\nRestrict sensitive actions, tools, topics, and data access during runtime execution.\n\nEnterprise-Ready Deployment\n\nDeploy using Akto’s 50+ connectors, eBPF-based visibility, and cloud-native integrations.\n\nRoute traffic through Akto’s MCP Gateway or AI Gateway for centralized control.\n\nIntegrate with popular agent frameworks and platforms such as AWS Bedrock, n8n, and Databricks.\n\nNext Step: Homegrown Agentic Discovery\n\nBegin by setting up Homegrown Agentic Discovery to automatically identify AI agents, MCP servers, and GenAI applications running in your cloud. This establishes the inventory required for continuous scanning and runtime guardrails.\n\nPrevious\nAtlas Guardrails\nNext\nConnectors\n\nLast updated 12 hours ago",
+  "links": [
+    {
+      "text": "llms.txt",
+      "href": "https://ai-security-docs.akto.io/llms.txt"
+    },
+    {
+      "text": "Markdown",
+      "href": "https://ai-security-docs.akto.io/akto-argus-agentic-ai-security-for-homegrown-ai/overview.md"
+    },
+    {
+      "text": "Akto Argus: Agentic AI Security for Homegrown AI",
+      "href": "https://ai-security-docs.akto.io/akto-argus-agentic-ai-security-for-homegrown-ai/overview"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-argus-agentic-ai-security-for-homegrown-ai/overview#the-problem-you-face"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-argus-agentic-ai-security-for-homegrown-ai/overview#how-akto-argus-helps"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-argus-agentic-ai-security-for-homegrown-ai/overview#why-argus-is-different"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-argus-agentic-ai-security-for-homegrown-ai/overview#core-capabilities"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-argus-agentic-ai-security-for-homegrown-ai/overview#discover-agentic-ai-in-your-cloud"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-argus-agentic-ai-security-for-homegrown-ai/overview#continuous-agentic-ai-red-teaming"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-argus-agentic-ai-security-for-homegrown-ai/overview#enforce-runtime-guardrails"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-argus-agentic-ai-security-for-homegrown-ai/overview#enterprise-ready-deployment"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-argus-agentic-ai-security-for-homegrown-ai/overview#next-step-homegrown-agentic-discovery"
+    },
+    {
+      "text": "Homegrown Agentic Discovery",
+      "href": "https://ai-security-docs.akto.io/akto-argus-agentic-ai-security-for-homegrown-ai/connectors"
+    },
+    {
+      "text": "PreviousAtlas Guardrails",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/atlas-guardrails"
+    },
+    {
+      "text": "NextConnectors",
+      "href": "https://ai-security-docs.akto.io/akto-argus-agentic-ai-security-for-homegrown-ai/connectors"
+    }
+  ],
+  "media": []
+}

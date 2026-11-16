@@ -1,0 +1,74 @@
+[
+  {
+    "id": "huorong",
+    "org": "火绒安全",
+    "date": "2026-09-01",
+    "title": "银狐借AI信任链钓鱼，搜索结果暗藏下载陷阱",
+    "url": "https://huorong.cn/document/tech/vir_report/2047",
+    "scope": "已读取技术正文；未运行样本、未复现AI推荐过程"
+  },
+  {
+    "id": "cncert-may",
+    "org": "CNCERT",
+    "date": "2026-05-22",
+    "title": "高仿真钓鱼网站传播银狐木马风险提示",
+    "url": "https://www.cert.org.cn/publish/main/10/2026/20260522113326926111046/20260522113326926111046_.html",
+    "scope": "取得原始页面搜索索引内容；直接访问返回404，未取得PDF全文"
+  },
+  {
+    "id": "360",
+    "org": "360",
+    "date": "2026-09-24",
+    "title": "360 AI安全专家捕获最新“银狐”利用样本",
+    "url": "https://www.360.cn/n/13051.html",
+    "scope": "依据官方页面搜索索引内容；正文抓取不完整，产品效果为厂商主张"
+  },
+  {
+    "id": "domaintools",
+    "org": "DomainTools Investigations",
+    "date": "2026-08-19",
+    "title": "Chinese Malware Delivery Domains Part V",
+    "url": "https://dti.domaintools.com/research/chinese-malware-delivery-domains-part-v",
+    "scope": "已读取网页研究内容；未独立验证基础设施与归因"
+  },
+  {
+    "id": "microsoft",
+    "org": "Microsoft Security / Defender Experts",
+    "date": "2026-09-01",
+    "title": "Counterfeit installers to system compromise",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/09/01/counterfeit-installers-system-compromise-tracking-deceptive-software-download-campaign/",
+    "scope": "已读取网页攻击链与防护材料；未实测产品检测覆盖"
+  },
+  {
+    "id": "cato",
+    "org": "Cato CTRL",
+    "date": "2026-07-28",
+    "title": "SilverFox Evolves: ValleyRAT in Japan",
+    "url": "https://www.catonetworks.com/blog/cato-ctrl-silverfox-evolves/",
+    "scope": "已读取研究概述、关键技术与范围说明；非逐项样本复现"
+  },
+  {
+    "id": "atos",
+    "org": "Atos Threat Research Center",
+    "date": "2026-08-31",
+    "title": "Campaign KCPhoenix: ValleyRAT chain",
+    "url": "https://www.atos.ai/en/news-insights/blog/TRC-campaign-kcphoenix-inside-silver-foxs-latest-valleyrat-chain",
+    "scope": "仅阅读官方报告摘要页，未取得独立全文附件"
+  },
+  {
+    "id": "threatbook",
+    "org": "ThreatBook Research Team",
+    "date": "初发2023-07-01；页面更新2026-10-26",
+    "title": "SilverFox: Not an Organization, But a Tool",
+    "url": "https://threatbook.io/blog/silver-fox-not-an-organization-but-a-tool-uncovering-the-underground-ecosystem",
+    "scope": "读取网页研究内容；区分历史初发和本次页面更新时间"
+  },
+  {
+    "id": "cncert-g01",
+    "org": "CNCERT / 天融信",
+    "date": "2026-09-28",
+    "title": "甲蚁（G01）团伙攻击态势深入分析报告",
+    "url": "https://www.cert.org.cn/publish/main/10/2026/20260928181524758579103/20260928181524758579103_.html",
+    "scope": "仅取得原始公告搜索索引；正文附件未获取，直接访问返回404"
+  }
+]

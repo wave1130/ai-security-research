@@ -1,0 +1,531 @@
+=== PDF PAGE 1 ===
+CISO Guide To
+Shadow AI
+
+=== PDF PAGE 2 ===
+Shadow AI r epr esents a critical se curity challenge that 
+e xtends beyond traditional shadow IT concerns.  While shadow 
+IT encompasses unauthorized te chnology usage,  shadow AI 
+r epr esents a mor e danger ous subset - wher e well-meaning 
+employees unknowingly e xpose enterprise data thr ough AI 
+systems that permanently r etain and learn fr om every 
+interaction.
+0 2
+0 2
+
+
+=== PDF PAGE 3 ===
+C u r r e n t  L a n d s c a p e
+R e cent data shows that while 45% o f e x e cutives have adopted a "wait and watch" 
+appr oach to AI adop tion,  75% o f employees ar e alr eady actively using AI tools at work.  
+This dis conne ct between cautious leader ship and pr oductivity-seeking employees has led 
+to significant se curity incidents,  with one in five companies e xperiencing data leakage due 
+to employees using generative AI.
+C r i t i c a l  R i s k s
+Or ganizations face several key challenges with shadow AI adop tion:
+1 .  D a t a  E x p o s u r e
+R e cent studies show that 27% o f corporate data input into AI tools is sensitive,  nearly 
+triple the amount fr om the pr evious year .     Once data is uploaded to AI systems,  it 
+be comes permanently ac cessible and cannot be r e called.
+2 .  U n a u t h o r i z e d  A c c e s s
+Office worker s ar e 7 7% mor e likely than r emote worker s to e xpose sensitive data thr ough 
+AI tools,  with this risk incr easing five f old when logging in fr om o ff site.    This risk intensifies 
+when employees use per sonal ac counts that lack enterprise se curity pr ote ctions.
+3 .  C o m p l i a n c e  V i o l a t i o n s
+Or ganizations face potential r egulatory violations,  fines,  and insurance claim denials when 
+employees use unauthorized AI tools.  The most significant concerns ar e cyber se curity 
+(54%),  privacy (53%),  and liability (46%).
+1  "R obinson,  B ryan.  " S hadow AI :  The C ontr over sial 2 0 2 4 T r end That C ould C r eate D isaster ,  E xperts S ay." F orbes,  August 2 ,  2 0 2 4 ,  https: / /
+www.f orbes.com/sites/bryanr obinson/20 2 4/08/0 2/shadow-ai-the-contr over sial-20 2 4-tr end-that-could-cr eate-disaster-e xperts-say/
+2 " S hadow AI :  H ow E mployees Ar e L eading the C har ge in AI Adop tion and P utting C ompany D ata at Risk." C yberhaven,  M ay 2 1 ,  2 0 2 4 ,  
+https: / /www.cyberhaven.com/blog/shadow-ai-how-employees-ar e-leading-the-char ge-in-ai-adop tion-and-putting-company-data-at-
+risk 
+3 " S hadow AI on the Rise: S ensitive D ata Input by W orker s U p 1 56%." S C  W orld,  M ar ch 2 0 2 4 ,  https: / /ww.s cworld.com/news/shadow-ai-
+on-the-risesensitive-
+data-input-by-worker s-up-156 
+4 " U sing G enerative AI to S tr engthen C yber se curity." KPMG  LLP ,  August 2 0 23,  https: / /kpmg.com/kpmg-us/content/dam/kpmg/
+pdf/20 23/20 23-GenAIcyber se curity.pdf 
+0 3
+[1]  
+[ 4 ]  
+[ 2 ]  
+[ 3 ]  
+C I S O G uide to S hadow AI
+
+=== PDF PAGE 4 ===
+0 4
+I m p l e m e n t a t i o n  S t r a t e g y
+R ather than implementing outright bans,  which o ften drive usage under gr ound,  
+or ganizations must develop compr ehensive se curity frameworks that balance pr ote ction 
+with pr oductivity.  With 92% o f or ganizations acknowledging moderate to high 
+implementation risks,  CIS Os must f ocus on: 
+Cr eating clear channels f or r eques ting AI tool ac cess
+Establishing r ole-based permission framework
+Implementing continuous monitoring o f ac cess pattern
+Maintaining detailed audit trails 
+The key to suc cess ful shadow AI management lies in acknowledging that employees 
+typically adopt these tools with good intentions while implementing ne cessary contr ols to 
+pr ote ct sensitive data.
+U n d e r s t a n d i n g  A I  S e c u r i t y  R i s k s
+It 's everywher e now,  like mushr ooms after the rain: AI.  F or every tool or pie ce o f so ftwar e,  
+ther e now seems to be an additional layer o f "AI" on top,  whether user s – or their se curity 
+and IT adminis trator s – want it.
+This e xplosive gr owth o f AI tools has cr eated a se curity crisis that trans cends traditional 
+shadow IT concerns.  While shadow IT encompasses unauthorized te chnology usage,  
+shadow AI r epr esents a dis tinct and mor e danger ous subset wher e well-meaning 
+employees unknowingly e xpose enterprise data thr ough AI systems that permanently 
+r etain and learn fr om every interaction.  R e cent data shows that while 45% o f e x e cutives 
+have adopted a "wait and watch" appr oach to AI adop tion,  75% o f employees ar e alr eady 
+actively using AI tools at work,  cr eating a critical dis conne ct between or ganizational 
+r eadiness and employee innovation.  This gap between cautious leader ship and 
+pr oductivity-seeking employees has led to the rapid rise o f shadow AI incidents,  as 
+worker s inadvertently e xpose sensitive data thr ough AI tools – many o f which ar e now 
+built into their established business tools – that can never truly "f or get" what they learn.
+Often these employees' – or or ganizations' – e ff orts to enhance pr oductivity cr eates a 
+perf e ct storm o f risk that se curity and te chnology leader s must addr ess thr ough 
+compr ehensive se curity frameworks rather than outright pr ohibition as r e cent studies 
+indicate that 15% o f employees r egularly post company data into AI tools,  with over a 
+quarter o f that data being sensitive inf ormation.   
+5 “ Over a Thir d o f Employees Se cr etly Sharing Work Inf o with AI." Inf ose curity Magazine,  F ebruary 2 0 2 4 , 
+https: / /www.inf ose curity-
+magazine.com/news/thir d-employees-sharing-work-inf o/
+[ 5 ]  
+CIS O G uide to Shadow AI
+
+=== PDF PAGE 5 ===
+0 5
+C u r r e n t  L a n d s c a p e
+The seemingly e xponential gr owth o f AI tools has cr eated unpr e cedented visibility 
+challenges f or se curity teams.  While many e x e cutives maintain a cautious "wait and watch" 
+appr oach,  employees ar e actively seeking pr oductivity gains thr ough easily ac cessible AI 
+tools,  o ften bypassing or ganizational se curity by using per sonal ac counts that lack 
+enterprise se curity contr ols.  R e cent studies show that 55% o f data loss pr ote ction events 
+now involve user s sharing per sonally identifiable inf ormation with generative AI sites,  
+highlighting even fur ther how quickly this pr oblem has gr own in a short time.
+R i s k  P r o fi l e
+1 .  D a t a  E x p o s u r e
+The most sever e risk stems fr om permanent data e xposur e thr ough model sharing and 
+training.  When employees input sensitive inf ormation into consumer AI tools,  that data 
+be comes irr etrievable as it enter s the AI maker s' black bo x o f training models.  R e cent 
+studies show that 38% o f employees shar e sensitive work inf ormation without 
+permission,  o ften simply trying to impr ove their pr oductivity.
+2 .  U n a u t h o r i z e d  A c c e s s
+AI operator s gain per sistent ac cess to corporate inf ormation thr ough human r eview o f 
+customer pr ompts and training data.  This risk intensifies when employees use per sonal 
+ac counts that lack enterprise se curity pr ote ctions,  cr eating a natural se curity 
+degradation compar ed to corporate identity pr ovider s.
+3 .  C o m p l i a n c e  V i o l a t i o n s
+Or ganizations face potential r egulatory violations,  fines,  and insurance claim denials 
+when employees use unauthorized AI tools.  The most significant concerns ar e 
+cyber se curity (54%),  privacy (53%),  and liability (46%).
+6 " G en AI Risk :  55% o f C ompany D ata L oss Involves P er sonal Inf o." AI M agazine,  F ebruary 20 2 4 ,  https: / /aimagazine.com/ai-applications/
+gen-airisk-55-o f-company-data-loss-involves-per sonal-inf o
+7  “ 38% o f AI -U sing E mployees Admit to S ending S ensitive Work D ata." S C  World,  April 20 2 4 ,  https: / /www.s cworld.com/news/38-o f-ai-
+using-employeesadmit-to-sending-sensitive-work-data
+[ 6 ]  
+[7]  
+C I S O G uide to S hadow AI
+B u s i n e s s  I m p a c t
+The ac celerated adop tion cycles o f AI tools and their integrations into employees' business 
+tools have compr essed de cision - making time frames,  challenging se curity teams' ability to 
+implement appr opriate contr ols.  This ac celeration has alr eady led to significant incidents,  
+with 92 % o f or ganizations acknowledging moderate to high implementation risks.
+
+=== PDF PAGE 6 ===
+0 6
+D e t e c t i o n  a n d  V i s i b i l i t y
+The comple xity o f shadow AI cr eates unpr e cedented visibility challenges that e xtend 
+beyond traditional shadow IT dete ction methods.  While shadow IT tools can o ften be 
+identified thr ough network monitoring,  shadow AI pr esents unique challenges due to its 
+ability to embed itself within appr oved applications and operate thr ough per sonal 
+ac counts.
+D e t e c t i o n  C h a l l e n g e s
+The most critical dete ction challenges stem fr om AI's unique ability to mask its pr esence 
+within legitimate business operations.  R e cent studies show that 55% o f data loss 
+pr ote ction events involve user s sharing per sonally identifiable inf ormation with generative 
+AI sites,  o ften thr ough seemingly normal business activities.
+A p p l i c a t i o n  I n t e g r a t i o n
+AI me chanisms fr equently embed themselves within standar d business critical applications,  
+making traditional dete ction methods ine ff e ctive.  These tools o ften appear as legitimate 
+business applications,  masking their AI capabilities and data ac cess r equir ements behind 
+standar d functionality.
+D a t a  T r a n s f e r  P a t t e r n s
+Or ganizations face significant challenges in monitoring data movement between corporate 
+and per sonal identities.  The comple xity incr eases when employees use per sonal ac counts 
+that naturally have less se curity than corporate identity pr ovider s,  cr eating a se curity 
+degradation that 's difficult to dete ct.
+P e r m a n e n t  D a t a  E x p o s u r e
+Once employees begin uploading data to AI systems,  that inf ormation can never be fully 
+r e called or erased.  This permanence cr eates a unique challenge wher e dete ction must 
+f ocus on pr evention rather than r emediation,  as traditional data r e covery methods pr ove 
+ine ff e ctive.
+C o n fi g u r a t i o n  M a n a g e m e n t
+Shadow AI o ften manif ests thr ough subtle configuration changes and ac cess patterns that 
+may appear legitimate despite unauthorized AI usage.  These changes can oc cur when 
+vendor s integrate new AI f eatur es into e xis ting tools,  making it difficult to dis tinguish 
+between authorized and unauthorized AI usage.
+CIS O Guide to Shadow AI
+
+=== PDF PAGE 7 ===
+0 7
+I m p l e m e n t a t i o n  S t r a t e g y
+Or ganizations must implement multi-layer ed dete ction appr oaches that can identify both 
+obvious and subtle f orms o f AI usage.  This includes:
+Continuous monitoring o f data trans f er pattern
+R egular audits o f application configuration
+Implementation o f S SPM solutions f or visibilit
+Integration with e xis ting se curity tools 
+The key to suc cess ful dete ction lies in maintaining continuous visibility while balancing 
+se curity r equir ements with legitimate business needs f or AI adop tion.  Or ganizations must 
+acknowledge that employees typically adopt these tools with good intentions - seeking to 
+impr ove e fficiency rather than cause harm.
+C o n t i n u o u s  M o n i t o r i n g  R e q u i r e m e n t s
+Or ganizations must implement multi-layer ed dete ction appr oaches that can identify both 
+obvious and subtle f orms o f AI usage.  T raditional network monitoring pr oves insufficient,  as 
+AI me chanisms o ften appear as standar d application traffic.  R e cent studies show that one 
+in five UK companies have e xperienced data leakage due to employees using generative 
+AI,  highlighting the critical need f or enhanced visibility.      
+
+The most challenging aspe ct o f shadow AI dete ction involves monitoring data movement 
+between corporate and per sonal identities.  Or ganizations must track:
+C o r p o r a t e  D a t a  F l o w
+When employees input sensitive inf ormation into consumer AI tools,  that data be comes 
+irr etrievable.  R e cent studies show that 27% o f corporate data employees put into AI tools 
+was sensitive in early 20 2 4 ,  nearly triple the amount fr om the pr evious year .
+CIS O Guide to Shadow AI
+A p p l i c a t i o n  I n t e g r a t i o n
+AI me chanisms embedded within standar d applications can mask their pr esence,  making 
+traditional dete ction methods ine ff e ctive.  With 8 0% o f companies using AI or in the pr ocess 
+o f incorporating AI,  or ganizations must implement monitoring solutions that can identify AI 
+capabilities within appr oved applications.
+
+=== PDF PAGE 8 ===
+0 8
+S S P M  I m p l e m e n t a t i o n
+My SaaS Se curity P ostur e Management (S SPM) has emer ged as a critical component f or 
+maintaining visibility into shadow AI usage.  S SPM pr ovides:
+Continuous postur e management acr oss the SaaS envir onmen
+Unified risk assessment and compliance monitoring
+Clear visibility into SaaS envir onment conne ctions
+R eal-time monitoring o f user activities and data ac cess patterns
+The key to suc cess ful dete ction lies in maintaining continuous visibility while balancing 
+se curity r equir ements with legitimate business needs f or AI adop tion.  Or ganizations must 
+acknowledge that employees typically adopt these tools with good intentions - seeking to 
+impr ove e fficiency rather than cause harm.
+I d e n t i t y  a n d  A c c e s s  M a n a g e m e n t
+Se curing AI systems r equir es r obust identity and ac cess management contr ols that e xtend 
+beyond traditional IAM frameworks.  With over 80% o f legal documents e xposed thr ough 
+non-corporate AI ac counts and half o f all or ganizations e xperiencing sour ce code 
+e xposur e thr ough unauthorized AI tools,  or ganizations must implement compr ehensive 
+ac cess contr ols that addr ess both sanctioned and shadow AI usage.
+A c c e s s  C o n t r o l  A r c h i t e c t u r e
+Office worker s ar e 7 7% mor e likely than r emote worker s to e xpose sensitive data thr ough 
+AI tools,  with this risk incr easing five f old when logging in fr om o ff site.  Or ganizations must 
+implement s trict r ole-based permissions that consider both location and r ole-based risk 
+factor s while maintaining pr oductivity.
+8 "Q2  2 0 2 4  AI Adop tion and Risk R epor t. "  Cyberhaven L abs,  May 2 0 2 4 ,  https: / /inf o.cyberhaven.com/hub f s/Content%20PDF/ 
+Cyberhaven%20Q2%20 20 2 4%20AI%20Adop tion%20and%20Risk%20R epor t%200520 2 4 .pdf
+[ 8 ]  
+CIS O G uide to Shadow AI
+D a t a  P r o t e c t i o n  R e q u i r e m e n t s
+R e cent studies r eveal concerning patterns in sensitive data e xposur e thr ough AI tools:
+ L egal documents r epr esent the highest risk category,  with over 80% e xposed thr ough 
+non-corporate ac count 
+Sour ce code e xposur e aff e cts half o f all or ganizations using AI tool 
+R esear ch and development materials face significant e xposur e thr ough per sonal 
+ac count 
+ H R and employee r e cor ds r equir e par ticular pr ote ction due to privacy r egulations
+
+=== PDF PAGE 9 ===
+0 9
+A u t h e n t i c a t i o n  F r a m e w o r k
+Or ganizations must implement s tr ong authentication me chanisms that can identify and 
+contr ol AI tool usage while maintaining pr oductivity.  Customer suppor t,  sour ce code,  and 
+R&D material r epr esent the top sensitive data types e xposed thr ough unauthorized AI 
+usage,  highlighting the need f or conte xtual authentication contr ols.
+I m p l e m e n t a t i o n  S t r a t e g y
+R ather than implementing outright bans,  which o ften drive usage under gr ound,  
+or ganizations should develop a compr ehensive IAM s trategy that:
+Cr eates clear channels f or r eques ting AI tool ac ce
+Establishes r ole-based permission framework
+Implements continuous monitoring o f ac cess pattern
+Maintains audit trails o f AI tool usage
+The key to suc cess ful IAM lies in balancing se curity r equir ements with legitimate business 
+needs f or AI adop tion,  acknowledging that employees typically adopt these tools with 
+good intentions while implementing ne cessary contr ols to pr ote ct sensitive data.
+T h i r d - P a r t y  S a a S  S e c u r i t y  a n d  A I
+Modern or ganizations face unique se curity challenges as AI capabilities be come embedded 
+within SaaS applications.  With 92% o f or ganizations acknowledging moderate to high 
+implementation risks,  se curing thir d-party AI tools r equir es a compr ehensive appr oach that 
+e xtends beyond traditional vendor assessment methods.
+V e n d o r  A s s e s s m e n t
+Or ganizations must thor oughly evaluate AI vendor s '  se curity practices acr oss several 
+critical domains.  R e cent studies show cyber se curity (54 % ) ,  privacy (53 % ) ,  and liability 
+(46 % )  rank as the top risks when implementing AI solutions thr ough thir d-party vendor s.
+S e c u r i t y  C o n t r o l s
+Str ong vendor se curity practices must include r obust data encryp tion,  r ole-based ac cess 
+contr ols,  and r egular se curity assessments.  Or ganizations need clear visibility into data 
+storage locations,  r etention policies,  and privacy pr ote ction me chanisms,  par ticularly given 
+that 2 7 % o f corporate data input into AI tools is classified as sensitive.
+CIS O G uide to Shadow AI
+[ 9 ]  
+9 "U sing G enerative AI to Str engthen Cyber se curity. "  KP M G  LLP ,  August 2 0 2 3 ,  https: / /kpmg.com/kpmg-us/content/dam/kpmg/
+pdf/20 23/20 23-GenAIcyber se curity.pdf
+
+=== PDF PAGE 10 ===
+1 0
+I n t e g r a t i o n  S e c u r i t y
+Thir d-party AI tools o ften r equir e e xtensive ac cess to or ganizational systems,  cr eating 
+new attack surfaces and vulnerabilities.  Or ganizations must implement s trict API ac cess 
+contr ols and r egular se curity assessments while maintaining continuous monitoring o f data 
+flows between systems.
+D a t a  P r o t e c t i o n
+Or ganizations must establish compr ehensive data pr ote ction measur es that addr ess
+Clear data storage locations and r etention policie
+T ranspar ent data ac cess and sharing policie
+Str ong privacy pr ote ction me chanism
+Compr ehensive compliance frameworks
+I n c i d e n t  R e s p o n s e
+Or ganizations must establish clear pr ocedur es f or AI-r elated incidents involving thir d-party 
+tools,  including de fined r oles and r esponsibilities,  clear communication channels,  and 
+documented r esponse pr ocedur es.  R egular tes ting ensur es these pr ocedur es r emain 
+e ff e ctive and curr ent.  The key to suc cess ful thir d-party AI se curity lies in maintaining 
+continuous visibility while acknowledging that employees typically adopt these tools with 
+good intentions - seeking to impr ove e fficiency rather than cause harm.
+M o n i t o r i n g  a n d  I n c i d e n t  R e s p o n s e
+Modern or ganizations r equir e sophis ticated monitoring and incident r esponse pr otocols 
+that e xtend beyond traditional se curity frameworks.  With over 25% o f sensitive corporate 
+data being input into AI tools,  or ganizations must implement compr ehensive monitoring 
+s trategies that can identify and r espond to AI-spe cific thr eats.
+C o n t i n u o u s  M o n i t o r i n g  R e q u i r e m e n t s
+Or ganizations must implement multi-layer ed dete ction appr oaches that can identify both 
+obvious and subtle f orms o f AI usage.  T raditional network monitoring pr oves insufficient,  as 
+AI me chanisms o ften appear as standar d application traffic.  R e cent studies show that one 
+in five companies have e xperienced data leakage due to employees using generative AI,  
+highlighting the critical need f or enhanced visibility.
+CIS O Guide to Shadow AI
+
+=== PDF PAGE 11 ===
+1 1
+D a t a  T r a n s f e r  P a t t e r n s
+The most challenging aspe ct o f shadow AI dete ction involves monitoring data movement 
+between corporate and per sonal identities.  Office worker s ar e 7 7% mor e likely than r emote 
+worker s to e xpose sensitive data thr ough AI tools,  with this risk incr easing five f old when 
+logging in fr om o ff site.
+R i s k  D e t e c t i o n  M e c h a n i s m s
+Or ganizations must implement spe cific monitoring me chanisms f or AI-r elated risks:
+1 .  D a t a  E x p o s u r e
+The most sever e risk stems fr om permanent data e xposur e thr ough model sharing and 
+training.  When employees input sensitive inf ormation into consumer AI tools,  that data 
+be comes irr etrievable - everything uploaded to the internet r emains f or ever .
+2 .  U n a u t h o r i z e d  A c c e s s
+AI operator s gain per sistent ac cess to corporate inf ormation thr ough human r eview o f 
+customer pr ompts and training data.  This risk intensifies when employees use per sonal 
+ac counts that lack enterprise se curity pr ote ctions.
+3 .  C o m p l i a n c e  V i o l a t i o n s
+Or ganizations face potential r egulatory violations,  fines,  and insurance claim denials when 
+employees use unauthorized AI tools.  The most significant concerns ar e cyber se curity 
+(54%),  privacy (53%),  and liability (46%).
+I m p l e m e n t a t i o n  S t r a t e g y
+R ather than implementing outright bans,  which o ften drive usage under gr ound,  
+or ganizations should develop a compr ehensive monitoring s trategy that:
+C r eates clear incident r esponse channel 
+E stablishes r ole-based monitoring framework 
+ Implements continuous visibility tool 
+M aintains detailed audit trails
+The key to suc cess ful monitoring lies in balancing se curity r e q uir ements with legitimate 
+business needs f or AI adop tion,  acknowledging that employees typically adopt these tools 
+with good intentions while implementing ne cessary contr ols to pr ote ct sensitive data.
+10  "S ur ge in S hadow AI Ac counts P oses F r esh Risks to C orporate D ata. "  T e ch N ewsWorld,  M ay 20 2 4 ,  https: / /www.te chnewsworld.com/
+story/sur ge-inshadow-ai-ac counts-poses-fr esh-risks-to-corporate-data-179299 .html
+C I S O G uide to S hadow AI
+[10]  
+
+=== PDF PAGE 12 ===
+1 2
+E m p l o y e e  E d u c a t i o n  a n d  T r a i n i n g
+Modern or ganizations must develop compr ehensive training pr ograms that addr ess the 
+unique challenges o f shadow AI usage.  With 75% o f employees alr eady using AI tools 
+despite only 45% o f e x e cutives having f ormal s trategies,  education be comes a critical 
+component o f risk management.
+A w a r e n e s s  P r o g r a m s
+Or ganizations must cr eate tar geted awar eness pr ograms that help employees under stand 
+the risks o f unauthorized AI tool usage without s tifling innovation.  These pr ograms should 
+f ocus on the permanent natur e o f data e xposur e and the importance o f using appr oved 
+tools.  R e cent studies show that o ffice worker s ar e 7 7% mor e likely than r emote worker s to 
+e xpose sensitive data thr ough AI tools,  highlighting the need f or location-spe cific training 
+appr oaches.
+CIS O Guide to Shadow AI
+S e c u r i t y  C u l t u r e
+R ather than implementing outright bans,  which o ften drive usage under gr ound,  
+or ganizations should f oster a cultur e o f r esponsible AI adop tion.  This includes:
+Cr eating clear channels f or r eques ting new AI tool appr ova
+Establishing f eedback me chanisms f or tool sugges tion
+Developing collaborative solutions between se curity and business unit
+Maintaining open dialogue about AI usage and needs
+R i s k  C o m m u n i c a t i o n
+Or ganizations must e ff e ctively communicate the spe cific risks o f shadow AI usage while 
+acknowledging employees good intentions.  T raining should emphasize that over 80% o f 
+legal documents e xposed thr ough non-corporate AI ac counts be come permanently 
+available,  helping employees under stand the las ting impact o f their de cisions.
+I m p l e m e n t a t i o n  S t r a t e g y
+The education pr ogram should enable rather than r es trict,  f ocusing on pr oviding se cur e 
+alternatives to shadow AI while maintaining ne cessary se curity contr ols.  With customer 
+support (16 % ) ,  sour ce code (13 % ) ,  and R & D material (11 % )  being the top sensitive data types 
+e xposed,  or ganizations must prioritize training f or employees handling these critical data 
+types.
+11  U nauthorized AI is Eating Y our Company Data Thanks to Y our Employees. "  C S O Online,  J une 2 0 2 4 ,  https: / /www.csoonline.com/
+ar ticle/21384 47/unauthorized-ai-is-eating-your-company-data-thanks-to-your-employees.html
+[11]  
+
+=== PDF PAGE 13 ===
+1 3
+R e c o :  R e d u c i n g  A I  D a t a  E x p o s u r e  A t  S c a l e
+R e co is a leading SaaS Se curity P ostur e Management (S SPM) solution that helps 
+or ganizations dis cover shadow AI,  se cur e their AI implementations and mitigate the unique 
+risks associated with AI-power ed SaaS applications.  By leveraging advanced AI and 
+machine learning capabilities se cur ely baked into the cor e o f the pr oduct,  R e co pr ovides 
+compr ehensive visibility,  continuous monitoring,  and automated se curity che cks acr oss an 
+or ganization's SaaS envir onment,  including AI systems and integrations.
+
+Key f eatur es o f R e co's AI se curity solution include:
+
+AI-power ed SaaS dis covery and monitoring: R e co can automatically dis cover and monitor 
+AI-power ed SaaS applications that ar e unauthorized within an or ganization's envir onment,  
+pr oviding r eal-time visibility into their configurations,  user activities,  and data ac cess.  
+ Identify when AI apps ar e conne cted to other SaaS platf orms ( e.g.  ChatGPT ac cessing 
+Shar eP oint) and monitor data-sharing activities.
+[11] 
+CIS O Guide to Shadow AI
+Copilot r eadiness: Automatically dete ct if a copilot ( e.g.  Micr oso ft AI assistant) is enabled 
+within your tenant,  and track data consump tion and usage.
+Anomaly dete ction and risk prioritization: R e co's AI algorithms establish baselines f or 
+normal behavior and can dete ct anomalies or deviations that may indicate potential 
+se curity thr eats or misuse.  These anomalies ar e then prioritized based on risk levels,  
+enabling se curity teams to f ocus on the most critical issues fir s t.  
+Automated se curity and compliance c h e cks: R e co leverages AI and automation to 
+continuously assess the se curity postur e o f AI-power ed SaaS applications,  identify 
+potential compliance violations,  and pr ovide pr oactive r e commendations f or r emediation.
+E nf or ce contr ols: Conne ct to any SaaS AI apps to r eview their se curity settings via API,  
+ensuring postur e management f or compliance.  Align AI tool usage with se curity policies 
+and indus try r egulations including MITR E ,  N IS T C S F ,  and mor e.  
+Integration wit h  e x is ting se curity tools: R e co seamlessly integrates with an or ganization's 
+e x is ting se curity infras tructur e,  such as Se curity Inf ormation and E vent Management 
+(SI E M) and Governance,  Risk,  and Compliance (GRC) platf orms,  enabling a holis tic and 
+coor dinated appr oach to AI se curity and risk management.  R e co's AI se curity solution is 
+built on a f oundation o f advanced AI and machine learning te chnologies,  enabling it to 
+e ff e ctively monitor and se cur e AI systems within an or ganization's SaaS envir onment.  By 
+leveraging AI to monitor AI,  R e co can :  
+
+=== PDF PAGE 14 ===
+1 4
+Under stand and adapt to the comple xities o f AI systems: R e co's AI algorithms ar e 
+designed to compr ehend and adapt to the intricate de cision-making pr ocesses and 
+dynamic natur e o f AI systems,  ensuring ac curate monitoring and dete ction o f potential 
+thr eats or anomalies.  
+Continuously learn and impr ove: R e co's AI solution is designed to continuously learn and 
+impr ove based on new data and se curity patterns,  enabling it to stay ahead o f emer ging 
+thr eats and adapt to evolving AI te chnologies and use cases and pr ovide continuous 
+compliance. 
+Pr ovide intelligent and conte xt-rich r e commendations: R e co can pr ovide intelligent 
+conte xt-rich r e commendations f or se curing AI systems,  op timizing configurations,  and 
+implementing best practices f or AI governance and risk management.  
+By combining cutting-edge AI te chnologies with S SPM e xper tise, R e co empower s 
+or ganizations to se cur ely adopt and integrate AI into their operations,  mitigating risks while 
+unlocking the bene fits o f these powerful te chnologies.
+CIS O Guide to Shadow AI
+
+=== PDF PAGE 15 ===
+1 5
+C I S O ’ s  S h a d o w  A I  S e c u r i t y  C h e c k l i s t
+As CIS Os navigate the comple xities o f AI adop tion,  it is essential to have a compr ehensive 
+che cklist to ensur e that se curity measur es ar e e ff e ctively implemented and maintained.  
+This che cklist serves as a guiding framework f or CIS Os to addr ess critical aspe cts o f 
+se curing shadow AI:
+D e t e c t i o n  a n d  V i s i b i l i t y
+A c c e s s  C o n t r o l s
+D a t a  P r o t e c t i o n
+P o l i c y  D e v e l o p m e n t
+Implement s trict r ole-based permissions 
+Configur e location-based ac cess r es trictions 
+Deploy s tr ong authentication me chanisms 
+Establish clear channels f or AI tool r equests 
+R eview thir d-party vendor ac cess contr ols
+Implement multi-layer ed dete ction appr oaches f or AI usage 
+Deploy S SPM solutions f or continuous monitoring 
+Establish data trans f er pattern monitoring 
+Configur e alerts f or unauthorized AI tool usage 
+Set up audit trails f or AI system activities
+Cr eate f ormal AI governance framework 
+Establish clear r oles and r esponsibilities 
+De fine ac ceptable AI tool usage guidelines 
+Develop incident r esponse pr ocedur es 
+Document compliance r equir ements
+Identify sensitive data e xposur e points 
+Implement data classification systems 
+Configur e encryp tion r equir ements f or AI interactions 
+Establish data r etention policies 
+Deploy data loss pr evention contr ols
+O n g o i n g  M a n a g e m e n t
+CIS O Guide to Shadow AI
+
+=== PDF PAGE 16 ===
+1 6
+E m p l o y e e  T r a i n i n g
+Implement AI se curity awar eness pr ograms 
+Cr eate tool r equest pr ocedur es 
+Establish f eedback me chanisms 
+Deploy r ole-spe cific training modules 
+Document appr oved AI tool alternatives
+V e n d o r  M a n a g e m e n t
+Evaluate AI vendor se curity practices 
+R eview data handling pr ocedur es 
+Assess compliance frameworks 
+Monitor vendor configurations 
+Establish incident r esponse pr otocols
+M o n i t o r i n g  R e q u i r e m e n t s
+R eview dete ction me chanisms quarterly 
+Update monitoring tools and pr ocedur es 
+Assess e ff e ctiveness o f contr ols 
+Evaluate new AI se curity risks 
+Update incident r esponse pr ocedur es
+C o m p l i a n c e  V e r i f i c a t i o n
+V erify r egulatory compliance 
+R eview audit findings 
+Update se curity contr ols 
+Assess policy e ff e ctiveness 
+Document impr ovements needed
+R e g u l a r  R e v i e w
+CIS O Guide to Shadow AI
+
+=== PDF PAGE 17 ===
+0 2
+A b o u t  R e c o
+R e co is the leader in  — the only appr oach that eliminates the SaaS 
+Se curity Gap.  This gap is driven by SaaS Sprawl — the pr olif eration o f apps,  AI,  and identities; the 
+challenge o f keeping their configurations se cur e amidst constant updates,  and the challenge o f 
+finding thr eats hidden within an ever-gr owing number o f events.  
+
+Dynamic SaaS Se curity by R e co keeps pace with this sprawl,  no matter how fast it evolves,  by 
+covering the entir e SaaS lif e cycle — cradle to grave.  It tracks all apps,  SaaS-to-SaaS conne ctions,  
+Shadow SaaS ,  AI Agents,  and Shadow AI tools,  including their user s and data,  and adds support f or 
+new apps in days,  not quarter s.  It maintains air tight postur e and compliance — even as apps and AI 
+Agents ar e added or updated.  And it also ensur es ac counts r emain se cur e,  ac cess privileges ar e 
+minimized,  and alerts ar e pr ovided f or critical thr eats.  
+
+R e co’ s AI-based graph te chnology conne cts in minutes and pr ovides immediate value to se curity 
+teams to continuously dis cover all SaaS applications including sanctioned and unsanctioned apps,  
+shadow apps,  associated identities fr om both humans and machines,  their permission level,  and 
+actions.
+
+R e co uses advanced analytics ar ound per sona,  actions,  interactions and r elationships to other 
+user s,  and then alerts on e xposur e fr om mis configurations,  over-permission user s,  compr omised 
+ac counts,  and risky user behavior .  
+
+This compr ehensive pictur e is generated continuously using the R e co Knowledge Graph and 
+empower s se curity teams to take swift action to e ff e ctively prioritize their most critical points o f 
+risk.  R e co uses a low-code/no-code appr oach to add a new SaaS integration in 3-5 days.
+ Dynamic SaaS Se curity
+  S c h e d u l e  a  D e m o
+1 7
+CIS O Guide to Shadow AI

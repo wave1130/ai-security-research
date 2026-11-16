@@ -22,10 +22,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Extract static research site
+      - name: Prepare static research site
         run: |
           mkdir -p _site
-          unzip -q ai-security-site.zip -d _site
+          cp -R web 资料库 docs index.html .nojekyll WechatIMG85.jpg _site/
+          python3 - <<'PY'
+          import base64, hashlib, json
+          from pathlib import Path
+          for asset in json.loads(Path('asset-manifest.json').read_text()):
+              chunks = sorted(Path('_asset_chunks').glob(asset['id'] + '-*/*.b64'))
+              data = base64.b64decode(''.join(p.read_text() for p in chunks), validate=True)
+              assert hashlib.sha256(data).hexdigest() == asset['sha256'], asset['path']
+              target = Path('_site') / asset['path']
+              target.parent.mkdir(parents=True, exist_ok=True)
+              target.write_bytes(data)
+          PY
           test -f _site/index.html
           test -f _site/web/industry.html
       - uses: actions/configure-pages@v5

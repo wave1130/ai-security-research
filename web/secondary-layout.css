@@ -1,0 +1,18 @@
+/* Secondary pages share a quiet top navigation and one centered reading column. */
+body.secondary-page{background:#f7f8fc}
+.secondary-page>aside{display:none}
+.secondary-page main{margin:0 auto;width:100%;max-width:1240px;padding:0 48px}
+.secondary-page .site-navigation{display:flex;flex-wrap:wrap;gap:8px 28px;padding:20px 0;border-bottom:1px solid #dce1f0}
+.secondary-page .site-navigation a{display:block;font-size:13px;padding:5px 0;color:#002fa7}
+.secondary-page .site-navigation .site-brand{font-size:17px;font-weight:700;margin-right:auto}
+.secondary-page header{height:auto;min-height:68px;gap:20px;padding:16px 0;line-height:1.8}
+.page-contents{margin:16px 0;border:1px solid #dce1f0;background:#fff;padding:12px 18px}
+.page-contents summary{cursor:pointer;color:#002fa7;font-size:13px;font-weight:600}
+.page-contents nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px 24px;margin-top:12px;overflow:visible}
+.page-contents nav a{display:block;white-space:normal;font-size:12px;padding:6px 0;color:#354464}
+.page-contents nav a span{font-size:12px}
+.secondary-page .document-reading{max-width:880px}
+.secondary-page section{scroll-margin-top:20px}
+@media(max-width:760px){.secondary-page main{padding:0 20px}.secondary-page .site-navigation{gap:6px 18px;padding:15px 0}.secondary-page .site-navigation a{font-size:12px}.page-contents nav{grid-template-columns:1fr 1fr}.secondary-page header{align-items:flex-start;flex-wrap:wrap;gap:6px 18px}}
+@media(max-width:420px){.page-contents nav{grid-template-columns:1fr}}
+@media print{.site-navigation,.page-contents{display:none}.secondary-page main{max-width:none;padding:0}}

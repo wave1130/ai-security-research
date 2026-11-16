@@ -1,0 +1,222 @@
+[
+  {
+    "title": "Armadin Red: Autonomous Offensive Security Platform",
+    "url": "https://www.youtube.com/watch?v=9tmnf-3vDBk",
+    "id": "9tmnf-3vDBk",
+    "duration": "1:54",
+    "category": "产品概览",
+    "zh": "Armadin Red 产品概览",
+    "note": "先看产品定位和输出形式；这是宣传概览，不应视为完整控制台演示。",
+    "order": 1,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "Building the AI Attacker: Inside Armadin Episode 2",
+    "url": "https://www.youtube.com/watch?v=5bSl7pZnOrY",
+    "id": "5bSl7pZnOrY",
+    "duration": "7:13",
+    "category": "架构与团队",
+    "zh": "Inside Armadin 02：构建 AI 攻击者",
+    "note": "重点追问模型之外的安全边界、沙箱、代理与人工判断。",
+    "order": 2,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "Human Tradecraft Training Machine-Speed AI: Inside Armadin Episode 4",
+    "url": "https://www.youtube.com/watch?v=-JFU0d3zudA",
+    "id": "-JFU0d3zudA",
+    "duration": "5:57",
+    "category": "架构与团队",
+    "zh": "Inside Armadin 04：把红队经验训练给 AI",
+    "note": "观察专家经验如何进入训练与评估，以及哪些操作需要人介入。",
+    "order": 3,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "Red Team/Blue Team Collaboration: Armadin and CrowdStrike at Fal.Con",
+    "url": "https://www.youtube.com/watch?v=lyc2tg8JhCs",
+    "id": "lyc2tg8JhCs",
+    "duration": "34:23",
+    "category": "集成与运营",
+    "zh": "Fal.Con：Armadin 与 CrowdStrike 红蓝联动",
+    "note": "重点看攻击发现如何交接给防守，以及控制更新后的复测。",
+    "order": 4,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "Why AI Beats Human Pentesting: Kill Chains and Coffee Episode 5",
+    "url": "https://www.youtube.com/watch?v=LXzHIG4CqnA",
+    "id": "LXzHIG4CqnA",
+    "duration": "19:28",
+    "category": "攻击链案例",
+    "zh": "Kill Chains 05：AI 与人工渗透测试",
+    "note": "关注测试覆盖与多智能体交接；区分案例结果与普遍成功率。",
+    "order": 5,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "The AI Red Team: Inside Armadin Episode 3",
+    "url": "https://www.youtube.com/watch?v=15xYQiEpTYA",
+    "id": "15xYQiEpTYA",
+    "duration": "8:50",
+    "category": "架构与团队",
+    "zh": "Inside Armadin 03：AI 红队",
+    "note": "关注红队工作如何从亲自执行转向训练、监督与确认影响。",
+    "order": 6,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "The Rising Frontier AI Model Attack Threat: Inside Armadin Episode 1",
+    "url": "https://www.youtube.com/watch?v=DiQj-Sl6gyU",
+    "id": "DiQj-Sl6gyU",
+    "duration": "5:37",
+    "category": "架构与团队",
+    "zh": "Inside Armadin 01：前沿模型与攻击威胁",
+    "note": "用于理解公司判断威胁演进的出发点，不作为产品效果评测。",
+    "order": 7,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "World’s Largest Controlled Hyperattack: Kill Chains and Coffee Episode 4",
+    "url": "https://www.youtube.com/watch?v=RxLj-4BsYhg",
+    "id": "RxLj-4BsYhg",
+    "duration": "18:37",
+    "category": "攻击链案例",
+    "zh": "Kill Chains 04：受控 Hyperattack",
+    "note": "配合官网案例理解规模、路径和证据，不把单次结果外推。",
+    "order": 8,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "Step-by-Step Walkthrough: Kill Chains and Coffee Episode 4",
+    "url": "https://www.youtube.com/watch?v=eFBNNu5zTLk",
+    "id": "eFBNNu5zTLk",
+    "duration": "3:03",
+    "category": "攻击链案例",
+    "zh": "Kill Chains 04：步骤概览短片",
+    "note": "适合先了解路径呈现形式，再观看对应长访谈。",
+    "order": 9,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "Cloud Compromise and OT Reachability: Kill Chains and Coffee Episode 3 - Black Hat Edition",
+    "url": "https://www.youtube.com/watch?v=EIXWUWXRlXs",
+    "id": "EIXWUWXRlXs",
+    "duration": "30:56",
+    "category": "攻击链案例",
+    "zh": "Kill Chains 03：云环境与 OT 可达性",
+    "note": "关注跨环境影响范围的证据，以及可达性与实际控制的区别。",
+    "order": 10,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "Command Execution on Cleo Harmony via SAML Bypass: Kill Chains and Coffee Episode 6",
+    "url": "https://www.youtube.com/watch?v=TUv9lKEgbVQ",
+    "id": "TUv9lKEgbVQ",
+    "duration": "19:46",
+    "category": "攻击链案例",
+    "zh": "Kill Chains 06：Cleo Harmony 案例",
+    "note": "从产品角度观察多个缺陷怎样被组织成有影响的链条。",
+    "order": 11,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "Zero-Day Exploitation to Internal Compromise: Kill Chains and Coffee",
+    "url": "https://www.youtube.com/watch?v=sKDIeM41t0s",
+    "id": "sKDIeM41t0s",
+    "duration": "23:15",
+    "category": "攻击链案例",
+    "zh": "零日利用与内部系统影响",
+    "note": "关注人类研究者与 AI 各自贡献，避免把协同成果全部归于自主模型。",
+    "order": 12,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "Armadin Threat Intelligence Debrief and Insights",
+    "url": "https://www.youtube.com/watch?v=lJpkG6o3Qss",
+    "id": "lJpkG6o3Qss",
+    "duration": "24:59",
+    "category": "研究与情报",
+    "zh": "机会情报研究解读",
+    "note": "与 11 月 2 日研究摘要配套阅读，重点核对指标分母与修复建议。",
+    "order": 13,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "Transforming the Speed and Scale of Web App Testing: Kill Chains and Coffee",
+    "url": "https://www.youtube.com/watch?v=s_qh_HZmvBw",
+    "id": "s_qh_HZmvBw",
+    "duration": "25:32",
+    "category": "攻击链案例",
+    "zh": "Web 应用测试的速度与规模",
+    "note": "依据标题列为 Web 测试材料，内容深度待实际观看确认。",
+    "order": 14,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "Why Agentic Hyperattacks Keep You Safer than Traditional Pentesting",
+    "url": "https://www.youtube.com/watch?v=o3Ry5OWj4_w",
+    "id": "o3Ry5OWj4_w",
+    "duration": "0:57",
+    "category": "产品概览",
+    "zh": "Hyperattack 与传统渗透测试短片",
+    "note": "一分钟短片，适合快速了解营销主张，不足以判断完整技术能力。",
+    "order": 15,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "Kill Chains and Coffee Episode 2 - Watch How the Armadin Attacker Gained RCE from a CLAUDE.md file",
+    "url": "https://www.youtube.com/watch?v=KPLQmX_dqNM",
+    "id": "KPLQmX_dqNM",
+    "duration": "1:51",
+    "category": "攻击链案例",
+    "zh": "Kill Chains 02：公开开发资料引出的风险",
+    "note": "关注不敏感外观信息如何成为路径起点；不在本页复现攻击指令。",
+    "order": 16,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "Kill Chains and Coffee Episode 1 - Turning Exposed DLL Folder into Remote Code Execution",
+    "url": "https://www.youtube.com/watch?v=6H07KzPNT2w",
+    "id": "6H07KzPNT2w",
+    "duration": "1:44",
+    "category": "攻击链案例",
+    "zh": "Kill Chains 01：暴露资源与代码执行风险",
+    "note": "观察如何把暴露发现转化为影响说明和修复任务。",
+    "order": 17,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "Integrating LLMs into Offensive Workflows - WebDAV Coercion and Relaying with Armadin BloodHound MCP",
+    "url": "https://www.youtube.com/watch?v=6nDtMoq5ymU",
+    "id": "6nDtMoq5ymU",
+    "duration": "2:24",
+    "category": "工具与工作流",
+    "zh": "LLM 工作流：BloodHound MCP",
+    "note": "可用于理解工具接口与 AI 工作流的连接；不等于通用 MCP 防护产品。",
+    "order": 18,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "Integrating LLMs into Offensive Workflows - WebDAV Coercion and Relaying",
+    "url": "https://www.youtube.com/watch?v=my2qFNYpsp8",
+    "id": "my2qFNYpsp8",
+    "duration": "3:11",
+    "category": "工具与工作流",
+    "zh": "LLM 与进攻工作流集成",
+    "note": "技术工具演示材料；不要由单一工作流推断整个平台覆盖。",
+    "order": 19,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  },
+  {
+    "title": "Kill Chains and Coffee at Black Hat USA 2026 - Teaser",
+    "url": "https://www.youtube.com/watch?v=U3_IB_YKcCg",
+    "id": "U3_IB_YKcCg",
+    "duration": "1:49",
+    "category": "产品概览",
+    "zh": "Black Hat 系列预告",
+    "note": "预告片用于定位相关系列，不承担产品能力证明。",
+    "order": 20,
+    "verified": "官方频道标题、时长和直链已核实；未完整观看或核实字幕"
+  }
+]

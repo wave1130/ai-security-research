@@ -1,0 +1,51 @@
+[
+  {
+    "file": "Reco-CISO-Guide-to-Shadow-AI.pdf",
+    "url": "https://go.reco.ai/hubfs/Gated%20Assets/CISO%20Guide%20to%20Shadow%20AI.pdf",
+    "pages": 17,
+    "sha256": "ac950243e1f95cfaa4474e7c6b7122d05430d951f565093cc11581fed38bc6ed",
+    "captured": "2026-11-03"
+  },
+  {
+    "file": "akto-argus.json",
+    "url": "https://ai-security-docs.akto.io/akto-argus-agentic-ai-security-for-homegrown-ai/overview",
+    "title": "Overview | Akto",
+    "captured": "2026-11-03"
+  },
+  {
+    "file": "akto-atlas.json",
+    "url": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/overview",
+    "title": "Overview | Akto",
+    "captured": "2026-11-03"
+  },
+  {
+    "file": "akto-connectors.json",
+    "url": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents",
+    "title": "AI Discovery Connectors | Akto",
+    "captured": "2026-11-03"
+  },
+  {
+    "file": "akto-discovery.json",
+    "url": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/ai-agent-activity",
+    "title": "Agentic AI Discovery | Akto",
+    "captured": "2026-11-03"
+  },
+  {
+    "file": "cyera-agent-guardian.json",
+    "url": "https://www.cyera.com/platform/agent-guardian",
+    "title": "Cyera Agent Guardian | The AI Agent Security Platform",
+    "captured": "2026-11-03"
+  },
+  {
+    "file": "reco-discovery.json",
+    "url": "https://www.reco.ai/use-cases/shadow-ai-discovery",
+    "title": "Shadow AI Discovery with Reco for GenAI and AI Tool Risks",
+    "captured": "2026-11-03"
+  },
+  {
+    "file": "zenity-observability.json",
+    "url": "https://zenity.io/platform/ai-observability",
+    "title": "AI Observability | Zenity AI Security Platform",
+    "captured": "2026-11-03"
+  }
+]

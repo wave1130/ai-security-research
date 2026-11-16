@@ -1,0 +1,88 @@
+{
+  "url": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/overview",
+  "title": "Overview | Akto",
+  "text": "For the complete documentation index, see llms.txt. This page is also available as Markdown.\nCopy\nAkto Atlas: Agentic AI Security for Employee Endpoints\nOverview\n\nAkto Atlas secures the AI agents, MCP servers, and GenAI tools your employees actually use: IDEs, CLIs, browsers, and local dev environments. You get a live inventory of every agentic asset on your employees' devices, governance over the credentials those tools create, and guardrails enforced inline, all without disrupting anyone's workflow.\n\nThe Problem You Face\n\nYou have little to no visibility into which AI agents, IDEs, CLIs, MCP servers, and LLMs your employees actually use.\n\nYou likely have no guardrails in place for endpoint AI usage.\n\nAgentic tools silently mint API keys and tokens on your employees' behalf that you rarely track or rotate.\n\nYour inventory of AI agents and MCP connections is probably incomplete or stale.\n\nHow Akto Atlas Helps\n\nAtlas discovers AI activity across your employees' devices, scores your overall exposure, tracks the credentials your agentic tools create, and enforces guardrails, all at the source.\n\nWhy Atlas Is Different\n\nTraditional endpoint tools were not built for AI. With Atlas, you get:\n\nCoverage native to AI surfaces: CLIs, IDEs, browsers, SaaS AI suites, and locally hosted models.\n\nVisibility into the real risk: prompts, responses, and tool calls, not just files and processes.\n\nFlexibility on deployment: a hook, an MDM-managed shield, or your existing EDR, whichever fits.\n\nCore Capabilities\nDiscover AI Usage Across Every Employee and Device\n\n40+ connectors let you cover every surface where your employees run AI:\n\nAgentic CLIs & IDEs: Claude Code, Codex, Gemini, Copilot, Kiro, Hermes, Amp, Cursor, VS Code, Antigravity, Neovim, OpenCode, and more.\n\nSaaS AI suites: Claude Suite, ChatGPT Suite, Microsoft Suite (365 Copilot, Copilot Studio).\n\nBrowser extensions: Chrome, Firefox, Safari.\n\nLocally hosted models: Ollama, vLLM, SGLang, Docker Model Runner.\n\nPlatform connectors: Amazon Q, Glean.\n\nAgentic proxies: Global Proxy (hosted), Gateway (on-prem).\n\nEndpoint & MDM integrations: Microsoft Defender, SentinelOne, CrowdStrike, Intune, NinjaOne, Automox, Jamf, Mosyle.\n\nEvery connector feeds one continuously updated inventory, so you always know which agents, MCP servers, LLMs, skills, and plugins are in use, and on which endpoint, employee, and device.\n\nAI Security Posture\n\nThe AI Security Posture dashboard gives you a single risk view: agentic assets, exploits, sensitive-data events, guardrail score, and alignment against FedRAMP, MITRE ATLAS, CIS Controls, and CMMC.\n\nAgentic AI Discovery\n\nAgentic AI Discovery lets you drill into what's been found: Agentic Assets (every agent, MCP server, LLM, skill, and plugin, with risk score and sensitive-data flags), Components, Traces & Audit Data, and Users and Devices.\n\nNHI Governance\n\nNHI Governance gives you an inventory of the credentials (API keys, tokens, secrets) your agentic tools create, so you can track expiry, enforce rotation policies, and catch violations before they become incidents.\n\nAtlas Guardrails\n\nAtlas Guardrails run inside the same connectors to inspect prompts, responses, and tool calls locally, blocking sensitive-data exposure, prompt injection, risky MCP tool calls, shadow AI, and personal-account sign-ins before they ever leave the device.\n\nNext Step: AI Discovery Connectors\n\nStart by connecting the AI Discovery Connectors that match your environment. This inventory is your foundation for AI Security Posture, NHI Governance, and Atlas Guardrails.\n\nPrevious\nWhat is AI Agent Security?\nNext\nAI Discovery Connectors\n\nLast updated 12 hours ago",
+  "links": [
+    {
+      "text": "llms.txt",
+      "href": "https://ai-security-docs.akto.io/llms.txt"
+    },
+    {
+      "text": "Markdown",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/overview.md"
+    },
+    {
+      "text": "Akto Atlas: Agentic AI Security for Employee Endpoints",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/overview"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/overview#the-problem-you-face"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/overview#how-akto-atlas-helps"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/overview#why-atlas-is-different"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/overview#core-capabilities"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/overview#discover-ai-usage-across-every-employee-and-device"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/overview#ai-security-posture"
+    },
+    {
+      "text": "AI Security Posture",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoint-security-posture"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/overview#agentic-ai-discovery"
+    },
+    {
+      "text": "Agentic AI Discovery",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/ai-agent-activity"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/overview#nhi-governance"
+    },
+    {
+      "text": "NHI Governance",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/nhi-governance"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/overview#atlas-guardrails"
+    },
+    {
+      "text": "Atlas Guardrails",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/atlas-guardrails"
+    },
+    {
+      "text": "",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/overview#next-step-ai-discovery-connectors"
+    },
+    {
+      "text": "AI Discovery Connectors",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents"
+    },
+    {
+      "text": "PreviousWhat is AI Agent Security?",
+      "href": "https://ai-security-docs.akto.io/what-is-ai-agent-security"
+    },
+    {
+      "text": "NextAI Discovery Connectors",
+      "href": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents"
+    }
+  ],
+  "media": []
+}
