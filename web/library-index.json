@@ -1462,7 +1462,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.exaforce.com/press-release/exaforce-raises-125m-series-b-to-combat-ai-powered-attacks-with-real-time-security-reasoning",
-    "reading": "daily-2026-11-17.html#exaforce-exau-announcement",
+    "reading": "news-exaforce-exau-announcement.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-16",
     "pages": [
@@ -1488,7 +1488,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
-    "reading": "daily-2026-11-17.html#california-openai-hf-lawsuit",
+    "reading": "news-california-openai-hf-lawsuit.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-16",
     "pages": [
@@ -1509,7 +1509,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://oag.ca.gov/system/files/attachments/press-docs/complaint-oai-cyber.pdf",
-    "reading": "daily-2026-11-17.html#california-openai-hf-lawsuit",
+    "reading": "news-california-openai-hf-lawsuit.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-16",
     "pages": [
@@ -1530,7 +1530,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.apolloresearch.ai/blog/pilot-towards-embedded-evaluations",
-    "reading": "daily-2026-11-17.html#openai-embedded-assessment-agreements",
+    "reading": "news-openai-embedded-assessment-agreements.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-16",
     "pages": [
@@ -1553,7 +1553,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-runtime-protection-overview",
-    "reading": "daily-2026-11-16.html#defender-preview-tool-response-limit",
+    "reading": "news-defender-preview-tool-response-limit.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "未标明",
     "pages": [
@@ -1577,7 +1577,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-support-matrix",
-    "reading": "daily-2026-11-16.html#defender-preview-tool-response-limit",
+    "reading": "news-defender-preview-tool-response-limit.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "未标明",
     "pages": [
@@ -1604,7 +1604,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://cursor.com/blog/security-incident-update",
-    "reading": "daily-2026-11-16.html#cursor-fireworks-postmortem",
+    "reading": "news-cursor-fireworks-postmortem.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-13",
     "pages": [
@@ -1625,7 +1625,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://cohere.com/blog/cohere-expands-its-sovereign-ai-platform-with-aisle-and-cubic",
-    "reading": "daily-2026-11-15.html#cohere-aisle-cubic-completion",
+    "reading": "news-cohere-aisle-cubic-completion.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-13",
     "pages": [
@@ -1646,7 +1646,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.cubic.dev/blog/cubic-joins-cohere",
-    "reading": "daily-2026-11-15.html#cohere-aisle-cubic-completion",
+    "reading": "news-cohere-aisle-cubic-completion.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-13",
     "pages": [
@@ -1667,7 +1667,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.darktrace.com/blog/introducing-darktrace-mcp-connect-your-ai-assistants-to-the-darktrace-behavioral-defense-platform",
-    "reading": "daily-2026-11-15.html#darktrace-mcp-ga",
+    "reading": "news-darktrace-mcp-ga.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-13",
     "pages": [
@@ -1692,7 +1692,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.notion.com/en-gb/security/advisories/security-incident-involving-a-third-party-ai-vendor",
-    "reading": "daily-2026-11-16.html#notion-fireworks-impact",
+    "reading": "news-notion-fireworks-impact.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-12",
     "pages": [
@@ -1714,7 +1714,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/",
-    "reading": "daily-2026-11-16.html#unit42-cairn-campaign",
+    "reading": "news-unit42-cairn-campaign.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-12",
     "pages": [
@@ -1735,7 +1735,7 @@
     "section": "行业标准",
     "language": "原文",
     "url": "https://www.samr.gov.cn/bzjss/zqyj/art/2026/art_c2d24d77e2cb4363832437cb39c85af6.html",
-    "reading": "daily-2026-11-15.html#humanoid-infosec-project-consultation",
+    "reading": "news-humanoid-infosec-project-consultation.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-12",
     "pages": [
@@ -1753,7 +1753,7 @@
     "section": "行业标准",
     "language": "原文",
     "url": "https://aihub.caict.ac.cn/docs/TCS5VZ6QmVGR",
-    "reading": "daily-2026-11-13.html#caict-mcp-cooperation-project",
+    "reading": "news-caict-mcp-cooperation-project.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-12",
     "pages": [
@@ -1771,7 +1771,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://blog.railway.com/p/incident-report-october-security-incident",
-    "reading": "daily-2026-11-16.html#railway-ai-credential-postmortem",
+    "reading": "news-railway-ai-credential-postmortem.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-10",
     "pages": [
@@ -1792,7 +1792,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://corelight.com/blog/mcp-server-supply-chain-risk",
-    "reading": "daily-2026-11-15.html#corelight-mcp-dependency-drift",
+    "reading": "news-corelight-mcp-dependency-drift.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-10",
     "pages": [
@@ -1813,7 +1813,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://daylight.ai/blog/as-ai-threats-surge-daylight-raises-80m-led-by-goldman-sachs-alternatives",
-    "reading": "daily-2026-11-13.html#daylight-series-b",
+    "reading": "news-daylight-series-b.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-10",
     "pages": [
@@ -1839,7 +1839,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/",
-    "reading": "daily-2026-11-13.html#daylight-series-b",
+    "reading": "news-daylight-series-b.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-10",
     "pages": [
@@ -1865,7 +1865,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.prnewswire.com/news-releases/whitematter-raises-20m-series-a-to-close-the-growing-gap-between-ai-autonomy-and-enterprise-governance-302934477.html",
-    "reading": "daily-2026-11-13.html#whitematter-series-a",
+    "reading": "news-whitematter-series-a.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-10",
     "pages": [
@@ -1888,7 +1888,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
-    "reading": "daily-2026-11-13.html#microsoft-lazarus",
+    "reading": "news-microsoft-lazarus.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-10",
     "pages": [
@@ -1914,7 +1914,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
-    "reading": "daily-2026-11-13.html#microsoft-lazarus",
+    "reading": "news-microsoft-lazarus.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-10",
     "pages": [
@@ -1940,7 +1940,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.commvault.com/de-de/news/ai-agent-recovery-plan",
-    "reading": "daily-2026-11-13.html#commvault-agentrecover-extension",
+    "reading": "news-commvault-agentrecover-extension.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-10",
     "pages": [
@@ -1961,7 +1961,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.commvault.com/blogs/agentrecover-ai-agents-are-everywhere-do-you-know-what-theyre-doing",
-    "reading": "daily-2026-11-13.html#commvault-agentrecover-extension",
+    "reading": "news-commvault-agentrecover-extension.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-10",
     "pages": [
@@ -1982,7 +1982,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.minister.defence.gov.au/media-releases/2026-11-10/new-australian-ai-safety-security-protections",
-    "reading": "daily-2026-11-13.html#australia-ai-safety-proposal",
+    "reading": "news-australia-ai-safety-proposal.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-10",
     "pages": [
@@ -2000,7 +2000,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.pmc.gov.au/domestic-policy/rapid-review-australian-government-arrangements-ai-driven-cyber-incident",
-    "reading": "daily-2026-11-13.html#australia-ai-safety-proposal",
+    "reading": "news-australia-ai-safety-proposal.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-10",
     "pages": [
@@ -2018,7 +2018,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://fireworks.ai/security/bulletins/october-2026-security-incident-update",
-    "reading": "daily-2026-11-16.html#fireworks-october-impact-update",
+    "reading": "news-fireworks-october-impact-update.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-09",
     "pages": [
@@ -2039,7 +2039,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://near.ai/blog/security-incident-report-sglang-vulnerability",
-    "reading": "daily-2026-11-16.html#near-ai-sglang-incident",
+    "reading": "news-near-ai-sglang-incident.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-09",
     "pages": [
@@ -2060,7 +2060,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.vanta.com/resources/vanta-acquires-pillar",
-    "reading": "daily-2026-11-10.html#vanta-pillar-agreement",
+    "reading": "news-vanta-pillar-agreement.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-09",
     "pages": [
@@ -2080,7 +2080,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.pillar.security/blog/vanta-to-acquire-pillar-security-building-trust-in-ai-together",
-    "reading": "daily-2026-11-10.html#vanta-pillar-agreement",
+    "reading": "news-vanta-pillar-agreement.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-09",
     "pages": [
@@ -2100,7 +2100,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.vanta.com/resources/vanta-announces-series-a",
-    "reading": "daily-2026-11-10.html#vanta-pillar-agreement",
+    "reading": "news-vanta-pillar-agreement.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-09",
     "pages": [
@@ -2120,7 +2120,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://blogs.cisco.com/ai/cisco-ai-defense-to-add-anthropics-claude-mythos-for-ai-red-teaming",
-    "reading": "daily-2026-11-10.html#cisco-controlled-redteam",
+    "reading": "news-cisco-controlled-redteam.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-09",
     "pages": [
@@ -2141,7 +2141,7 @@
     "section": "行业标准",
     "language": "原文",
     "url": "https://csrc.nist.gov/pubs/sp/2400-102/e2026/ipd",
-    "reading": "daily-2026-11-10.html#nist-aml-2026-draft",
+    "reading": "news-nist-aml-2026-draft.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-09",
     "pages": [],
@@ -2157,7 +2157,7 @@
     "section": "行业标准",
     "language": "原文",
     "url": "https://csrc.nist.gov/News/2026/adversarial-machine-learning-taxonomy-2026-draft",
-    "reading": "daily-2026-11-10.html#nist-aml-2026-draft",
+    "reading": "news-nist-aml-2026-draft.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-09",
     "pages": [],
@@ -2173,7 +2173,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.pm.gc.ca/en/news/statements/2026/11/09/joint-declaration-paris-call-ai-safety-and-security",
-    "reading": "daily-2026-11-10.html#paris-ai-safety-declaration",
+    "reading": "news-paris-ai-safety-declaration.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-09",
     "pages": [],
@@ -2189,7 +2189,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://workos.com/security/bulletins/update-for-october-30th-2026-data-security-incident",
-    "reading": "daily-2026-11-09.html#workos-attribution-update",
+    "reading": "news-workos-attribution-update.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-06",
     "pages": [
@@ -2212,7 +2212,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
-    "reading": "daily-2026-11-09.html#artex-financial-eu",
+    "reading": "news-artex-financial-eu.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-06",
     "pages": [
@@ -2230,7 +2230,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://cert.europa.eu/blog/from-penetration-testing-to-cyber-threat-beware-of-artex",
-    "reading": "daily-2026-11-09.html#artex-financial-eu",
+    "reading": "news-artex-financial-eu.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-06",
     "pages": [
@@ -2248,7 +2248,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/",
-    "reading": "daily-2026-11-09.html#microsoft-november-mxc",
+    "reading": "news-microsoft-november-mxc.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-05",
     "pages": [
@@ -2271,7 +2271,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
-    "reading": "daily-2026-11-09.html#microsoft-november-mxc",
+    "reading": "news-microsoft-november-mxc.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-05",
     "pages": [
@@ -2294,7 +2294,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.cyera.com/webinars/securing-agentic-intent-what-your-agents-are-built-for-vs-what-they-actually-do",
-    "reading": "daily-2026-11-05.html#cyera-intent",
+    "reading": "news-cyera-intent.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "未标明",
     "pages": [
@@ -2317,7 +2317,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://sentra.io/news/sentra-raises-150-million-agentic-data-security",
-    "reading": "daily-2026-11-09.html#sentra-strategic-investment",
+    "reading": "news-sentra-strategic-investment.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-04",
     "pages": [
@@ -2339,7 +2339,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-    "reading": "daily-2026-11-06.html#openai-linux-pipeline",
+    "reading": "news-openai-linux-pipeline.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-04",
     "pages": [
@@ -2360,7 +2360,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.cac.gov.cn/2026-11/04/c_1795550640963842.htm",
-    "reading": "daily-2026-11-06.html#china-agent-interoperability",
+    "reading": "news-china-agent-interoperability.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-04",
     "pages": [
@@ -2380,7 +2380,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.brava.security/news/announcing-brava",
-    "reading": "daily-2026-11-05.html#brava-seed",
+    "reading": "news-brava-seed.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-04",
     "pages": [
@@ -2405,7 +2405,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.brava.security/",
-    "reading": "daily-2026-11-05.html#brava-seed",
+    "reading": "news-brava-seed.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-04",
     "pages": [
@@ -2430,7 +2430,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.brava.security/legal/terms-of-use",
-    "reading": "daily-2026-11-05.html#brava-seed",
+    "reading": "news-brava-seed.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-04",
     "pages": [
@@ -2455,7 +2455,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-dreadnode-advance-ai-trust-and-deliver/",
-    "reading": "daily-2026-11-04.html#dreadnode",
+    "reading": "news-dreadnode.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-03",
     "pages": [
@@ -2478,7 +2478,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://workos.com/security/bulletins/october-30th-2026-data-security-incident",
-    "reading": "daily-2026-11-04.html#workos",
+    "reading": "news-workos.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-02",
     "pages": [
@@ -2500,7 +2500,7 @@
     "section": "行业标准",
     "language": "原文",
     "url": "https://www.cecc.org.cn/standard-detail/id/22123.html",
-    "reading": "daily-2026-11-05.html#cecc-agent-data",
+    "reading": "news-cecc-agent-data.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-10-30",
     "pages": [
@@ -2520,7 +2520,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.f5.com/company/blog/f5-labs-ai-security-model-insights-when-ai-agents-expose-data-without-an-attacker",
-    "reading": "daily-2026-11-04.html#f5",
+    "reading": "news-f5.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-10-30",
     "pages": [
@@ -2538,7 +2538,7 @@
     "section": "行业标准",
     "language": "原文",
     "url": "https://www.isc.org.cn/article/30903098106310656.html",
-    "reading": "daily-2026-11-05.html#isc-agent-eval",
+    "reading": "news-isc-agent-eval.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-10-29",
     "pages": [
@@ -2556,7 +2556,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.mintive.com/blog/mintive-launch",
-    "reading": "daily-2026-11-04.html#mintive",
+    "reading": "news-mintive.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-10-29",
     "pages": [
@@ -2578,7 +2578,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://cognition.com/blog/corridor-joining-cognition",
-    "reading": "daily-2026-11-04.html#corridor",
+    "reading": "news-corridor.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-10-28",
     "pages": [
@@ -2599,7 +2599,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://infisical.com/blog/series-b",
-    "reading": "daily-2026-11-04.html#infisical",
+    "reading": "news-infisical.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-10-27",
     "pages": [
@@ -2621,7 +2621,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://www.ncsc.gov.uk/collection/problem-book/ai-cyber",
-    "reading": "daily-2026-11-04.html#ncsc",
+    "reading": "news-ncsc.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-10-20",
     "pages": [],
@@ -2637,7 +2637,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://developers.google.com/workspace/release-notes",
-    "reading": "daily-2026-11-15.html#google-workspace-agentic-client-enforcement",
+    "reading": "news-google-workspace-agentic-client-enforcement.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-10-12",
     "pages": [
@@ -2660,7 +2660,7 @@
     "section": "技术文档",
     "language": "原文",
     "url": "https://hadrian.io/blog/hadrian-40m-raised-to-tackle-the-ai-hacking-cyber-security-crisis",
-    "reading": "daily-2026-11-04.html#hadrian",
+    "reading": "news-hadrian.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-10-06",
     "pages": [
@@ -2681,7 +2681,7 @@
     "section": "行业标准",
     "language": "原文",
     "url": "https://www.iso.org/standard/27090",
-    "reading": "daily-2026-11-04.html#iso27090",
+    "reading": "news-iso27090.html",
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-10",
     "pages": [],
