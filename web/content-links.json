@@ -54,6 +54,16 @@
       "cyera-intent",
       "workos",
       "google-workspace-agentic-client-enforcement"
+    ],
+    "ai-silverfox": [],
+    "agent-red-team": [
+      "openai-embedded-assessment-agreements",
+      "microsoft-lazarus",
+      "cisco-controlled-redteam",
+      "workos-attribution-update",
+      "openai-linux-pipeline",
+      "brava-seed",
+      "dreadnode"
     ]
   },
   "companies": {

@@ -124,12 +124,14 @@
     "category": "研究与事件",
     "news_type": "研究",
     "pages": [
+      "topic-agent-red-team.html",
       "topic-agent-security.html",
       "topic-intent-security.html"
     ],
     "companies": [],
     "topics": [
-      "intent-security"
+      "intent-security",
+      "agent-red-team"
     ]
   },
   {
@@ -654,6 +656,7 @@
     "news_type": "研究",
     "pages": [
       "defender.html",
+      "topic-agent-red-team.html",
       "topic-agent-security.html",
       "topic-intent-security.html"
     ],
@@ -661,7 +664,8 @@
       "defender"
     ],
     "topics": [
-      "intent-security"
+      "intent-security",
+      "agent-red-team"
     ]
   },
   {
@@ -889,10 +893,13 @@
     "category": "研究与事件",
     "news_type": "路线图",
     "pages": [
+      "topic-agent-red-team.html",
       "topic-agent-security.html"
     ],
     "companies": [],
-    "topics": []
+    "topics": [
+      "agent-red-team"
+    ]
   },
   {
     "id": "nist-aml-2026-draft",
@@ -983,12 +990,14 @@
     "url": "daily-2026-11-09.html#workos-attribution-update",
     "news_type": "安全事件",
     "pages": [
+      "topic-agent-red-team.html",
       "topic-agent-security.html",
       "topic-intent-security.html"
     ],
     "companies": [],
     "topics": [
-      "intent-security"
+      "intent-security",
+      "agent-red-team"
     ]
   },
   {
@@ -1166,10 +1175,13 @@
     "category": "研究与事件",
     "news_type": "研究",
     "pages": [
+      "topic-agent-red-team.html",
       "topic-agent-security.html"
     ],
     "companies": [],
-    "topics": []
+    "topics": [
+      "agent-red-team"
+    ]
   },
   {
     "id": "china-agent-interoperability",
@@ -1237,13 +1249,15 @@
     "news_type": "融资",
     "pages": [
       "topic-adaptive-operations.html",
+      "topic-agent-red-team.html",
       "topic-agent-security.html",
       "topic-financing.html"
     ],
     "companies": [],
     "topics": [
       "financing",
-      "adaptive-operations"
+      "adaptive-operations",
+      "agent-red-team"
     ]
   },
   {
@@ -1263,12 +1277,14 @@
     "category": "融资与并购",
     "news_type": "并购",
     "pages": [
+      "topic-agent-red-team.html",
       "topic-agent-security.html",
       "topic-financing.html"
     ],
     "companies": [],
     "topics": [
-      "financing"
+      "financing",
+      "agent-red-team"
     ],
     "sources": [
       [

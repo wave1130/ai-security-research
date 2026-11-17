@@ -59,10 +59,14 @@
     "url": "reading/d8cc65935e0d.html",
     "status": "中文解读",
     "path": "资料库/AI银狐/AI银狐-信任链与终端防护研究.md",
-    "pages": [],
+    "pages": [
+      "topic-ai-silverfox.html"
+    ],
     "news_ids": [],
     "companies": [],
-    "topics": []
+    "topics": [
+      "ai-silverfox"
+    ]
   },
   {
     "title": "AI银狐 · 专题说明",
@@ -72,10 +76,14 @@
     "url": "reading/ab625832f6a1.html",
     "status": "中文解读",
     "path": "资料库/AI银狐/专题说明.md",
-    "pages": [],
+    "pages": [
+      "topic-ai-silverfox.html"
+    ],
     "news_ids": [],
     "companies": [],
-    "topics": []
+    "topics": [
+      "ai-silverfox"
+    ]
   },
   {
     "title": "Armadin 产品研究与视频资料",
@@ -86,13 +94,16 @@
     "status": "中文解读",
     "path": "资料库/Armadin/Armadin产品研究与视频资料.md",
     "pages": [
-      "armadin.html"
+      "armadin.html",
+      "topic-agent-red-team.html"
     ],
     "news_ids": [],
     "companies": [
       "armadin"
     ],
-    "topics": []
+    "topics": [
+      "agent-red-team"
+    ]
   },
   {
     "title": "Unit 42 External AI Hyperattack Assessment：中文说明",
@@ -103,13 +114,16 @@
     "status": "中文解读",
     "path": "资料库/Armadin/Unit42服务说明-中文.md",
     "pages": [
-      "armadin.html"
+      "armadin.html",
+      "topic-agent-red-team.html"
     ],
     "news_ids": [],
     "companies": [
       "armadin"
     ],
-    "topics": []
+    "topics": [
+      "agent-red-team"
+    ]
   },
   {
     "title": "AI 时代的新数据安全成熟度模型",
@@ -367,12 +381,14 @@
     "status": "中文解读",
     "path": "资料库/行业分析/2026-11-10-Cisco AI Defense-研究解读.md",
     "pages": [
+      "topic-agent-red-team.html",
       "topic-intent-security.html"
     ],
     "news_ids": [],
     "companies": [],
     "topics": [
-      "intent-security"
+      "intent-security",
+      "agent-red-team"
     ]
   },
   {
@@ -565,13 +581,16 @@
     "status": "中文解读",
     "path": "资料库/行业分析/详细解读/armadin-research.md",
     "pages": [
-      "armadin.html"
+      "armadin.html",
+      "topic-agent-red-team.html"
     ],
     "news_ids": [],
     "companies": [
       "armadin"
     ],
-    "topics": []
+    "topics": [
+      "agent-red-team"
+    ]
   },
   {
     "title": "AI 时代威胁情报的角色：从对手转向机会",
@@ -582,13 +601,16 @@
     "status": "中文解读",
     "path": "资料库/行业分析/详细解读/armadin-ti.md",
     "pages": [
-      "armadin.html"
+      "armadin.html",
+      "topic-agent-red-team.html"
     ],
     "news_ids": [],
     "companies": [
       "armadin"
     ],
-    "topics": []
+    "topics": [
+      "agent-red-team"
+    ]
   },
   {
     "title": "ATLAS：AI 系统攻击战术与技术",
@@ -980,13 +1002,16 @@
     "status": "已读官方摘要 · 全文待获取",
     "path": "Armadin · 2026-11-02",
     "pages": [
-      "armadin.html"
+      "armadin.html",
+      "topic-agent-red-team.html"
     ],
     "news_ids": [],
     "companies": [
       "armadin"
     ],
-    "topics": []
+    "topics": [
+      "agent-red-team"
+    ]
   },
   {
     "title": "AI 时代威胁情报的角色：从对手转向机会",
@@ -998,13 +1023,16 @@
     "status": "已读公开正文",
     "path": "Armadin · 2026-11-02",
     "pages": [
-      "armadin.html"
+      "armadin.html",
+      "topic-agent-red-team.html"
     ],
     "news_ids": [],
     "companies": [
       "armadin"
     ],
-    "topics": []
+    "topics": [
+      "agent-red-team"
+    ]
   },
   {
     "title": "2026 SACR AI SOC 报告",
@@ -1248,10 +1276,14 @@
     "reading": "topic-ai-silverfox.html",
     "status": "中文研究已归档 · 原始来源与阅读范围逐项列出",
     "path": "CNCERT / 火绒 / Microsoft 等多来源 · 2026-11-10（专题更新）",
-    "pages": [],
+    "pages": [
+      "topic-ai-silverfox.html"
+    ],
     "news_ids": [],
     "companies": [],
-    "topics": []
+    "topics": [
+      "ai-silverfox"
+    ]
   },
   {
     "title": "ExaU：长期安全Agent的权限、记忆与验收",
@@ -1291,6 +1323,7 @@
     "status": "中文编辑解读 · 非完整译稿 · 未独立实测",
     "path": "OpenAI / Apollo Research · 2026-11-16公告 / 11-17研究",
     "pages": [
+      "topic-agent-red-team.html",
       "topic-agent-security.html",
       "topic-intent-security.html"
     ],
@@ -1299,7 +1332,8 @@
     ],
     "companies": [],
     "topics": [
-      "intent-security"
+      "intent-security",
+      "agent-red-team"
     ]
   },
   {
@@ -1374,13 +1408,16 @@
     "status": "本地原文",
     "path": "资料库/Armadin/Unit42-External-AI-Hyperattack-Assessment.pdf",
     "pages": [
-      "armadin.html"
+      "armadin.html",
+      "topic-agent-red-team.html"
     ],
     "news_ids": [],
     "companies": [
       "armadin"
     ],
-    "topics": []
+    "topics": [
+      "agent-red-team"
+    ]
   },
   {
     "title": "AI时代的数据安全成熟度模型-英文原版",
@@ -1497,6 +1534,7 @@
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-16",
     "pages": [
+      "topic-agent-red-team.html",
       "topic-agent-security.html",
       "topic-intent-security.html"
     ],
@@ -1505,7 +1543,8 @@
     ],
     "companies": [],
     "topics": [
-      "intent-security"
+      "intent-security",
+      "agent-red-team"
     ]
   },
   {
@@ -1854,6 +1893,7 @@
     "path": "2026-11-10",
     "pages": [
       "defender.html",
+      "topic-agent-red-team.html",
       "topic-agent-security.html",
       "topic-intent-security.html"
     ],
@@ -1864,7 +1904,8 @@
       "defender"
     ],
     "topics": [
-      "intent-security"
+      "intent-security",
+      "agent-red-team"
     ]
   },
   {
@@ -1878,6 +1919,7 @@
     "path": "2026-11-10",
     "pages": [
       "defender.html",
+      "topic-agent-red-team.html",
       "topic-agent-security.html",
       "topic-intent-security.html"
     ],
@@ -1888,7 +1930,8 @@
       "defender"
     ],
     "topics": [
-      "intent-security"
+      "intent-security",
+      "agent-red-team"
     ]
   },
   {
@@ -2081,13 +2124,16 @@
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-09",
     "pages": [
+      "topic-agent-red-team.html",
       "topic-agent-security.html"
     ],
     "news_ids": [
       "cisco-controlled-redteam"
     ],
     "companies": [],
-    "topics": []
+    "topics": [
+      "agent-red-team"
+    ]
   },
   {
     "title": "NIST出版页及PDF入口 · NIST",
@@ -2147,6 +2193,7 @@
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-06",
     "pages": [
+      "topic-agent-red-team.html",
       "topic-agent-security.html",
       "topic-intent-security.html"
     ],
@@ -2155,7 +2202,8 @@
     ],
     "companies": [],
     "topics": [
-      "intent-security"
+      "intent-security",
+      "agent-red-team"
     ]
   },
   {
@@ -2295,13 +2343,16 @@
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-04",
     "pages": [
+      "topic-agent-red-team.html",
       "topic-agent-security.html"
     ],
     "news_ids": [
       "openai-linux-pipeline"
     ],
     "companies": [],
-    "topics": []
+    "topics": [
+      "agent-red-team"
+    ]
   },
   {
     "title": "中国网信网官方公告 · 中国网信网 / 乌镇峰会",
@@ -2334,6 +2385,7 @@
     "path": "2026-11-04",
     "pages": [
       "topic-adaptive-operations.html",
+      "topic-agent-red-team.html",
       "topic-agent-security.html",
       "topic-financing.html"
     ],
@@ -2343,7 +2395,8 @@
     "companies": [],
     "topics": [
       "financing",
-      "adaptive-operations"
+      "adaptive-operations",
+      "agent-red-team"
     ]
   },
   {
@@ -2357,6 +2410,7 @@
     "path": "2026-11-04",
     "pages": [
       "topic-adaptive-operations.html",
+      "topic-agent-red-team.html",
       "topic-agent-security.html",
       "topic-financing.html"
     ],
@@ -2366,7 +2420,8 @@
     "companies": [],
     "topics": [
       "financing",
-      "adaptive-operations"
+      "adaptive-operations",
+      "agent-red-team"
     ]
   },
   {
@@ -2380,6 +2435,7 @@
     "path": "2026-11-04",
     "pages": [
       "topic-adaptive-operations.html",
+      "topic-agent-red-team.html",
       "topic-agent-security.html",
       "topic-financing.html"
     ],
@@ -2389,7 +2445,8 @@
     "companies": [],
     "topics": [
       "financing",
-      "adaptive-operations"
+      "adaptive-operations",
+      "agent-red-team"
     ]
   },
   {
@@ -2402,6 +2459,7 @@
     "status": "来源页 · 阅读范围见新闻",
     "path": "2026-11-03",
     "pages": [
+      "topic-agent-red-team.html",
       "topic-agent-security.html",
       "topic-financing.html"
     ],
@@ -2410,7 +2468,8 @@
     ],
     "companies": [],
     "topics": [
-      "financing"
+      "financing",
+      "agent-red-team"
     ]
   },
   {
