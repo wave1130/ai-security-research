@@ -1,772 +1,2635 @@
 [
   {
     "title": "Agent 运行模型、信任边界与风险建模",
-    "kind": "研究简报与笔记",
+    "kind": "技术文档",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/0f4a67f093b4.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "docs/agent-security-model.md"
+    "status": "中文解读",
+    "path": "docs/agent-security-model.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "运行环境驱动的信任边界模型 v0.2",
-    "kind": "研究简报与笔记",
+    "kind": "技术文档",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/5827731c656e.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "docs/environment-boundaries.md"
+    "status": "中文解读",
+    "path": "docs/environment-boundaries.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "落地解决方案 v0.4",
-    "kind": "研究简报与笔记",
+    "kind": "技术文档",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/1d483806de5c.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "docs/implementation-solution.md"
+    "status": "中文解读",
+    "path": "docs/implementation-solution.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "沿原架构图补充边界说明 v0.3",
-    "kind": "研究简报与笔记",
+    "kind": "技术文档",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/0131cf3e63c0.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "docs/original-blueprint-extension.md"
+    "status": "中文解读",
+    "path": "docs/original-blueprint-extension.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "AI银狐：AI信任链、软件投递与终端防护",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/d8cc65935e0d.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/AI银狐/AI银狐-信任链与终端防护研究.md"
+    "status": "中文解读",
+    "path": "资料库/AI银狐/AI银狐-信任链与终端防护研究.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "AI银狐 · 专题说明",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/ab625832f6a1.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/AI银狐/专题说明.md"
+    "status": "中文解读",
+    "path": "资料库/AI银狐/专题说明.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "Armadin 产品研究与视频资料",
-    "kind": "公司研究",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/01e089eeb196.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/Armadin/Armadin产品研究与视频资料.md"
+    "status": "中文解读",
+    "path": "资料库/Armadin/Armadin产品研究与视频资料.md",
+    "pages": [
+      "armadin.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "armadin"
+    ],
+    "topics": []
   },
   {
     "title": "Unit 42 External AI Hyperattack Assessment：中文说明",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/armadin-unit42-chinese.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/Armadin/Unit42服务说明-中文.md"
+    "status": "中文解读",
+    "path": "资料库/Armadin/Unit42服务说明-中文.md",
+    "pages": [
+      "armadin.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "armadin"
+    ],
+    "topics": []
   },
   {
     "title": "AI 时代的新数据安全成熟度模型",
-    "kind": "双语报告",
+    "kind": "中文译稿",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/cyera-translation.html",
-    "status": "中文译稿 · 范围见正文",
-    "path": "资料库/Cyera/AI时代的数据安全成熟度模型-中文译稿.md"
+    "status": "翻译范围见正文",
+    "path": "资料库/Cyera/AI时代的数据安全成熟度模型-中文译稿.md",
+    "pages": [
+      "cyera.html",
+      "topic-data-security.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "cyera"
+    ],
+    "topics": [
+      "data-security"
+    ]
   },
   {
     "title": "Cyera 产品研究与视频资料",
-    "kind": "公司研究",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/b0ff01dc70ee.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/Cyera/Cyera产品研究与视频资料.md"
+    "status": "中文解读",
+    "path": "资料库/Cyera/Cyera产品研究与视频资料.md",
+    "pages": [
+      "cyera.html",
+      "topic-data-security.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "cyera"
+    ],
+    "topics": [
+      "data-security"
+    ]
   },
   {
     "title": "ExaU：长期安全Agent的权限、记忆与验收",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/e220e1177c69.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/Exaforce/2026-11-17-ExaU长期任务与权限研究.md"
+    "status": "中文解读",
+    "path": "资料库/Exaforce/2026-11-17-ExaU长期任务与权限研究.md",
+    "pages": [
+      "exaforce.html",
+      "topic-adaptive-operations.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "exaforce"
+    ],
+    "topics": [
+      "adaptive-operations"
+    ]
   },
   {
     "title": "Exaforce 产品研究与视频资料",
-    "kind": "公司研究",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/ac6b05f4b760.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/Exaforce/Exaforce产品研究与视频资料.md"
+    "status": "中文解读",
+    "path": "资料库/Exaforce/Exaforce产品研究与视频资料.md",
+    "pages": [
+      "exaforce.html",
+      "topic-adaptive-operations.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "exaforce"
+    ],
+    "topics": [
+      "adaptive-operations"
+    ]
   },
   {
     "title": "Microsoft Defender 跟踪补充 · 2026-11-09",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/54faf4b8e8df.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/Microsoft Defender/2026-11-09-产品与威胁研究补充.md"
+    "status": "中文解读",
+    "path": "资料库/Microsoft Defender/2026-11-09-产品与威胁研究补充.md",
+    "pages": [
+      "defender.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "defender"
+    ],
+    "topics": []
   },
   {
     "title": "模型权重审计与Defender扫描边界",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/484a8bbed200.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/Microsoft Defender/2026-11-13-模型供应链防护边界.md"
+    "status": "中文解读",
+    "path": "资料库/Microsoft Defender/2026-11-13-模型供应链防护边界.md",
+    "pages": [
+      "defender.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "defender"
+    ],
+    "topics": []
   },
   {
     "title": "2026年11月16日 · Defender预览期阻断边界核查",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/6f634b6fdfe7.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/Microsoft Defender/2026-11-16-预览期工具响应阻断边界.md"
+    "status": "中文解读",
+    "path": "资料库/Microsoft Defender/2026-11-16-预览期工具响应阻断边界.md",
+    "pages": [
+      "defender.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "defender"
+    ],
+    "topics": []
   },
   {
     "title": "Microsoft Defender：AI安全长期跟踪",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/a80cfa4226c9.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/Microsoft Defender/AI安全产品研究.md"
+    "status": "中文解读",
+    "path": "资料库/Microsoft Defender/AI安全产品研究.md",
+    "pages": [
+      "defender.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "defender"
+    ],
+    "topics": []
   },
   {
     "title": "Zenity 产品研究与视频资料",
-    "kind": "公司研究",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/460392ca23fa.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/Zenity/Zenity产品研究与视频资料.md"
+    "status": "中文解读",
+    "path": "资料库/Zenity/Zenity产品研究与视频资料.md",
+    "pages": [
+      "zenity.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "zenity"
+    ],
+    "topics": []
   },
   {
     "title": "Zenity 视频精读：恶意 MCP、数据外传与记忆投毒",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/d81f39ca4bfa.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/Zenity/视频精读-恶意MCP与记忆投毒.md"
+    "status": "中文解读",
+    "path": "资料库/Zenity/视频精读-恶意MCP与记忆投毒.md",
+    "pages": [
+      "topic-shadow-agent.html",
+      "zenity.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "zenity"
+    ],
+    "topics": [
+      "shadow-ai"
+    ]
   },
   {
     "title": "2026年11月16日 · AI相关安全事件专版",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/1adfa9ff6ba9.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/安全事件/2026-11-16-AI安全事件追踪与防线解读.md"
+    "status": "中文解读",
+    "path": "资料库/安全事件/2026-11-16-AI安全事件追踪与防线解读.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "OpenAI Agent事件：加州司法部诉讼后续",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/b58226cba6f2.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/安全事件/2026-11-17-OpenAI事件诉讼后续.md"
+    "status": "中文解读",
+    "path": "资料库/安全事件/2026-11-17-OpenAI事件诉讼后续.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "MCP环境与身份边界",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/5b8bf8c53d6a.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/影子AI/2026-11-15-MCP环境与身份边界.md"
+    "status": "中文解读",
+    "path": "资料库/影子AI/2026-11-15-MCP环境与身份边界.md",
+    "pages": [
+      "topic-intent-security.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [],
+    "companies": [],
+    "topics": [
+      "shadow-ai",
+      "intent-security"
+    ]
   },
   {
     "title": "影子 AI 专题",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/4a0b6268feb7.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/影子AI/影子AI专题研究.md"
+    "status": "中文解读",
+    "path": "资料库/影子AI/影子AI专题研究.md",
+    "pages": [
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [],
+    "companies": [],
+    "topics": [
+      "shadow-ai"
+    ]
   },
   {
     "title": "Cisco拟引入Claude Mythos：红队能力加强，同时强调授权目标与操作归属",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/7f0c576e0d4f.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/2026-11-10-Cisco AI Defense-研究解读.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/2026-11-10-Cisco AI Defense-研究解读.md",
+    "pages": [
+      "topic-intent-security.html"
+    ],
+    "news_ids": [],
+    "companies": [],
+    "topics": [
+      "intent-security"
+    ]
   },
   {
     "title": "NIST发布对抗机器学习分类草案：增加Agentic SI攻击分类索引",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/851650b82375.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/2026-11-10-NIST-研究解读.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/2026-11-10-NIST-研究解读.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "Vanta拟收购Pillar：治理平台向运行时控制扩展，集成按2027年分期推进",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/5f41553e06a4.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/2026-11-10-Vanta-研究解读.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/2026-11-10-Vanta-研究解读.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "巴黎AI安全联合声明：评测可比性、独立评估和事件预警成为合作议题",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/5a63cded247d.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/2026-11-10-多国政府-研究解读.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/2026-11-10-多国政府-研究解读.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "全球治理与中国标准 · 2026-11-13",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/af02f177ed16.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/2026-11-13-全球治理与中国标准.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/2026-11-13-全球治理与中国标准.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "创业公司融资与治理 · 2026-11-13",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/d44b6839ed72.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/2026-11-13-创业公司融资与治理.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/2026-11-13-创业公司融资与治理.md",
+    "pages": [
+      "topic-financing.html"
+    ],
+    "news_ids": [],
+    "companies": [],
+    "topics": [
+      "financing"
+    ]
   },
   {
     "title": "模型供应链与Agent恢复 · 2026-11-13",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/b5c05f63b18c.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/2026-11-13-模型供应链与Agent恢复.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/2026-11-13-模型供应链与Agent恢复.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "MCP供应链与身份执行 · 2026-11-15",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/4a0c071f17f9.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/2026-11-15-MCP供应链与身份执行.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/2026-11-15-MCP供应链与身份执行.md",
+    "pages": [
+      "topic-intent-security.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [],
+    "companies": [],
+    "topics": [
+      "shadow-ai",
+      "intent-security"
+    ]
   },
   {
     "title": "平台并购与中国标准 · 2026-11-15",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/9bd55089bb0e.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/2026-11-15-平台并购与中国标准.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/2026-11-15-平台并购与中国标准.md",
+    "pages": [
+      "topic-financing.html"
+    ],
+    "news_ids": [],
+    "companies": [],
+    "topics": [
+      "financing"
+    ]
   },
   {
     "title": "嵌入式评估：怎样判断外部审查的独立性",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/61471bd6c20f.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/2026-11-17-嵌入式评估与独立性.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/2026-11-17-嵌入式评估与独立性.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "行业分析资料目录",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/64eca2309731.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/报告目录.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/报告目录.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "Akto：影子 AI 发现、连接器与运行时边界",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/615162144610.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/akto-shadow-ai.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/akto-shadow-ai.md",
+    "pages": [
+      "akto.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "akto"
+    ],
+    "topics": [
+      "shadow-ai"
+    ]
   },
   {
     "title": "ARISE：智能体运行时身份安全执行",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/4a881ed6771b.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/arise.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/arise.md",
+    "pages": [
+      "topic-intent-security.html"
+    ],
+    "news_ids": [],
+    "companies": [],
+    "topics": [
+      "intent-security"
+    ]
   },
   {
     "title": "机会情报：降低攻击者可利用的暴露",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/0efc837139e3.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/armadin-research.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/armadin-research.md",
+    "pages": [
+      "armadin.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "armadin"
+    ],
+    "topics": []
   },
   {
     "title": "AI 时代威胁情报的角色：从对手转向机会",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/c9f668ad02ee.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/armadin-ti.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/armadin-ti.md",
+    "pages": [
+      "armadin.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "armadin"
+    ],
+    "topics": []
   },
   {
     "title": "ATLAS：AI 系统攻击战术与技术",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/6944f67ee1b3.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/atlas.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/atlas.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "T1700：利用 AI 进行数据外传",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/a61b4c8688c2.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/attack.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/attack.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "企业 AI 安全始于 AI Agent",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/bcc8d5df70b4.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/csa.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/csa.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "AI 时代的数据安全成熟度模型",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/01137040aa99.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/cyera.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/cyera.md",
+    "pages": [
+      "cyera.html",
+      "topic-data-security.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "cyera"
+    ],
+    "topics": [
+      "data-security"
+    ]
   },
   {
     "title": "ISO/IEC 42001：AI 管理体系",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/ede58eac9aab.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/iso.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/iso.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "2026 Latio AI 安全报告",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/fb2f258f8829.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/latio-ai.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/latio-ai.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "2026 Latio 安全运营市场报告",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/2e47b27938a7.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/latio-soc.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/latio-soc.md",
+    "pages": [
+      "topic-adaptive-operations.html"
+    ],
+    "news_ids": [],
+    "companies": [],
+    "topics": [
+      "adaptive-operations"
+    ]
   },
   {
     "title": "AI Agent 标准倡议",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/3195198719ac.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/nist-agent.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/nist-agent.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "生成式 AI 风险管理画像",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/09afdfc3c16f.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/nist-genai.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/nist-genai.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "AI 风险管理框架 1.0",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/4d186983cc01.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/nist-rmf.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/nist-rmf.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "Agentic Applications 十大风险（2026 版）",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/31e7126db93b.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/owasp.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/owasp.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
     "title": "Reco：CISO 影子 AI 安全指南",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/8089aae8b0a7.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/reco-shadow-ai.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/reco-shadow-ai.md",
+    "pages": [
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [],
+    "companies": [],
+    "topics": [
+      "shadow-ai"
+    ]
   },
   {
     "title": "2026 SACR AI SOC 报告",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/2e30c9ccddb1.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/sacr-soc.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/sacr-soc.md",
+    "pages": [
+      "topic-adaptive-operations.html"
+    ],
+    "news_ids": [],
+    "companies": [],
+    "topics": [
+      "adaptive-operations"
+    ]
   },
   {
     "title": "影子 AI：从发现到数据与行动治理",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/f7e7b2332ed0.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/shadow-ai.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/shadow-ai.md",
+    "pages": [
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [],
+    "companies": [],
+    "topics": [
+      "shadow-ai"
+    ]
   },
   {
     "title": "Agentic SOC Alliance：三层运营模型",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/26a5ddcf8474.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/soc-alliance.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/soc-alliance.md",
+    "pages": [
+      "topic-adaptive-operations.html"
+    ],
+    "news_ids": [],
+    "companies": [],
+    "topics": [
+      "adaptive-operations"
+    ]
   },
   {
     "title": "允许访问不等于行为对齐",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/b68cfa92b5d4.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/zenity-architecture.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/zenity-architecture.md",
+    "pages": [
+      "zenity.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "zenity"
+    ],
+    "topics": []
   },
   {
     "title": "Zenity：恶意 MCP、会话外传与记忆投毒",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/e6f9502d221f.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细解读/zenity-mcp-case.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细解读/zenity-mcp-case.md",
+    "pages": [
+      "topic-shadow-agent.html",
+      "zenity.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "zenity"
+    ],
+    "topics": [
+      "shadow-ai"
+    ]
   },
   {
     "title": "行业分析详细阅读目录",
-    "kind": "研究简报与笔记",
+    "kind": "研究笔记",
+    "section": "技术文档",
     "language": "中文",
     "url": "reading/7ef98fa763c5.html",
-    "status": "中文说明或研究解读，非全文翻译",
-    "path": "资料库/行业分析/详细阅读目录.md"
+    "status": "中文解读",
+    "path": "资料库/行业分析/详细阅读目录.md",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
-    "title": "AI 时代的数据安全成熟度模型 / The New Data Security Maturity Model for the AI Era",
-    "kind": "报告与文章",
+    "title": "AI 时代的数据安全成熟度模型",
+    "kind": "研究报告",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://www.cyera.com/reports/sacr-the-new-data-security-maturity-model-for-the-ai-era",
     "reading": "industry-report.html?id=cyera",
-    "status": "全文已归档 · 已有中文译稿；Cyera 赞助，SACR 保留编辑控制；封面 9 月，官网上架 10 月 16 日。",
-    "path": "Cyera / SACR · 2026-09"
+    "status": "全文已归档 · 已有中文译稿",
+    "path": "Cyera / SACR · 2026-09",
+    "pages": [
+      "cyera.html",
+      "topic-data-security.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "cyera"
+    ],
+    "topics": [
+      "data-security"
+    ]
   },
   {
-    "title": "影子 AI：从发现到数据与行动治理 / Shadow AI: Discovery, Governance and Verifiable Controls",
-    "kind": "报告与文章",
+    "title": "影子 AI：从发现到数据与行动治理",
+    "kind": "研究报告",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://www.reco.ai/ciso-guide-to-shadow-ai",
     "reading": "shadow-ai.html",
-    "status": "12 章专题 · Reco 全文与官方文档已核对；综合研究与建议属于本项目；厂商能力来自官方描述，未独立部署测评。",
-    "path": "本项目 / Reco / Akto / Zenity / Cyera · 核实于 2026-11-03"
+    "status": "12 章专题 · Reco 全文与官方文档已核对",
+    "path": "本项目 / Reco / Akto / Zenity / Cyera · 核实于 2026-11-03",
+    "pages": [
+      "akto.html",
+      "cyera.html",
+      "topic-data-security.html",
+      "topic-shadow-agent.html",
+      "zenity.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "cyera",
+      "akto",
+      "zenity"
+    ],
+    "topics": [
+      "data-security",
+      "shadow-ai"
+    ]
   },
   {
-    "title": "Reco：CISO 影子 AI 安全指南 / CISO Guide to Shadow AI",
-    "kind": "报告与文章",
+    "title": "Reco：CISO 影子 AI 安全指南",
+    "kind": "研究报告",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://go.reco.ai/hubfs/Gated%20Assets/CISO%20Guide%20to%20Shadow%20AI.pdf",
     "reading": "industry-report.html?id=reco-shadow-ai",
-    "status": "17 页全文已归档 · 已有中文解读；厂商指南，包含产品推广与二手历史统计；未独立追溯全部原始调查，不作为当前全行业比例。",
-    "path": "Reco · 核实于 2026-11-03"
+    "status": "17 页全文已归档 · 已有中文解读",
+    "path": "Reco · 核实于 2026-11-03",
+    "pages": [
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [],
+    "companies": [],
+    "topics": [
+      "shadow-ai"
+    ]
   },
   {
-    "title": "Akto：影子 AI 发现、连接器与运行时边界 / Akto Atlas & Argus: AI Discovery and Security Connectors",
-    "kind": "报告与文章",
+    "title": "Akto：影子 AI 发现、连接器与运行时边界",
+    "kind": "技术文档",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/overview",
     "reading": "industry-report.html?id=akto-shadow-ai",
-    "status": "四份官方技术文档已读 · 页面快照已归档；来自当前官方文档，未经部署验证；支持列表、采集深度、许可和故障行为需按连接器与版本核实。",
-    "path": "Akto · 核实于 2026-11-03"
+    "status": "四份官方技术文档已读 · 页面快照已归档",
+    "path": "Akto · 核实于 2026-11-03",
+    "pages": [
+      "akto.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "akto"
+    ],
+    "topics": [
+      "shadow-ai"
+    ]
   },
   {
-    "title": "Zenity：恶意 MCP、会话外传与记忆投毒 / Shadow AI Discovery & Risk Assessment — Actual Attack-Chain Walkthrough",
-    "kind": "报告与文章",
+    "title": "Zenity：恶意 MCP、会话外传与记忆投毒",
+    "kind": "研究报告",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://www.youtube.com/watch?v=uMV5icICnwo",
     "reading": "zenity-video-umv5.html",
-    "status": "关键画面已逐段核对 · 已有约 5,000 字精读；依据关键画面、烧录说明与简介；未取得完整语音转写，未独立复现攻击。",
-    "path": "Zenity · 核实于 2026-11-03"
+    "status": "关键画面已逐段核对 · 已有约 5,000 字精读",
+    "path": "Zenity · 核实于 2026-11-03",
+    "pages": [
+      "topic-shadow-agent.html",
+      "zenity.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "zenity"
+    ],
+    "topics": [
+      "shadow-ai"
+    ]
   },
   {
-    "title": "机会情报：降低攻击者可利用的暴露 / Opportunity Intelligence Research to Reduce Risk",
-    "kind": "报告与文章",
+    "title": "机会情报：降低攻击者可利用的暴露",
+    "kind": "研究报告",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://www.armadin.com/blog-posts/opportunity-intelligence-research-to-reduce-risk",
     "reading": "industry-report.html?id=armadin-research",
-    "status": "已读官方摘要 · 全文待获取；数据来自 Armadin 客户样本；未取得完整报告，摘要未给出样本规模，不能外推为全行业比例。",
-    "path": "Armadin · 2026-11-02"
+    "status": "已读官方摘要 · 全文待获取",
+    "path": "Armadin · 2026-11-02",
+    "pages": [
+      "armadin.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "armadin"
+    ],
+    "topics": []
   },
   {
-    "title": "AI 时代威胁情报的角色：从对手转向机会 / Solving for Opportunity: The Role of Threat Intelligence in the Age of AI",
-    "kind": "报告与文章",
+    "title": "AI 时代威胁情报的角色：从对手转向机会",
+    "kind": "研究报告",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://www.armadin.com/blog-posts/solving-for-opportunity-the-role-of-threat-intelligence-in-the-age-of-ai",
     "reading": "industry-report.html?id=armadin-ti",
-    "status": "已读公开正文；厂商观点文章，与同日机会情报研究配套；不属于独立标准。",
-    "path": "Armadin · 2026-11-02"
+    "status": "已读公开正文",
+    "path": "Armadin · 2026-11-02",
+    "pages": [
+      "armadin.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "armadin"
+    ],
+    "topics": []
   },
   {
-    "title": "2026 SACR AI SOC 报告 / 2026 SACR AI SOC Report",
-    "kind": "报告与文章",
+    "title": "2026 SACR AI SOC 报告",
+    "kind": "研究报告",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://www.exaforce.com/resources/sacr-ai-soc-report-2026",
     "reading": "industry-report.html?id=sacr-soc",
-    "status": "已读官方介绍 · 表单获取全文；基于 Exaforce 提供的报告介绍；未取得全文，厂商排名不作为独立验证结果。",
-    "path": "Exaforce / SACR · 2026-09-16"
+    "status": "已读官方介绍 · 表单获取全文",
+    "path": "Exaforce / SACR · 2026-09-16",
+    "pages": [
+      "exaforce.html",
+      "topic-adaptive-operations.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "exaforce"
+    ],
+    "topics": [
+      "adaptive-operations"
+    ]
   },
   {
-    "title": "2026 Latio 安全运营市场报告 / 2026 Latio Security Operations Market Report",
-    "kind": "报告与文章",
+    "title": "2026 Latio 安全运营市场报告",
+    "kind": "研究报告",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://www.exaforce.com/resources/2026-latio-security-operations-market-report",
     "reading": "industry-report.html?id=latio-soc",
-    "status": "已读官方介绍 · 表单获取全文；依据厂商转载介绍整理，未读取报告全文；问卷比例未作为本站结论引用。",
-    "path": "Exaforce / Latio · 2026-06-04"
+    "status": "已读官方介绍 · 表单获取全文",
+    "path": "Exaforce / Latio · 2026-06-04",
+    "pages": [
+      "exaforce.html",
+      "topic-adaptive-operations.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "exaforce"
+    ],
+    "topics": [
+      "adaptive-operations"
+    ]
   },
   {
-    "title": "ARISE：智能体运行时身份安全执行 / ARISE: Agentic Runtime Identity Security Enforcement for Agents",
-    "kind": "报告与文章",
+    "title": "ARISE：智能体运行时身份安全执行",
+    "kind": "研究报告",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://softwareanalyst.substack.com/p/arise-agentic-runtime-identity-security",
     "reading": "industry-report.html?id=arise",
-    "status": "已读公开框架正文；SACR 提出的分析框架，不是已通过共识程序的行业标准；本站仅作框架摘要。",
-    "path": "SACR / Zenity 等 · 2026-09-03"
+    "status": "已读公开框架正文",
+    "path": "SACR / Zenity 等 · 2026-09-03",
+    "pages": [
+      "topic-intent-security.html",
+      "zenity.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "zenity"
+    ],
+    "topics": [
+      "intent-security"
+    ]
   },
   {
-    "title": "企业 AI 安全始于 AI Agent / Enterprise AI Security Starts with AI Agents",
-    "kind": "报告与文章",
+    "title": "企业 AI 安全始于 AI Agent",
+    "kind": "研究报告",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://next.cloudsecurityalliance.org/artifacts/enterprise-ai-security-starts-with-ai-agents",
     "reading": "industry-report.html?id=csa",
-    "status": "已读官方摘要 · 下载需账号；Zenity 委托的调查；比例是受访组织自报，未读取完整问卷与样本方法，不代表事件发生概率。",
-    "path": "CSA / Zenity · 2026-04-15"
+    "status": "已读官方摘要 · 下载需账号",
+    "path": "CSA / Zenity · 2026-04-15",
+    "pages": [
+      "zenity.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "zenity"
+    ],
+    "topics": []
   },
   {
-    "title": "允许访问不等于行为对齐 / Allowed Is Not Aligned: Why Retrofitted Tools Can’t Secure AI Agents",
-    "kind": "报告与文章",
+    "title": "允许访问不等于行为对齐",
+    "kind": "研究报告",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://zenity.io/blog/purpose-built-ai-agent-security-architecture",
     "reading": "industry-report.html?id=zenity-architecture",
-    "status": "已读公开文章要点；厂商架构观点；文章提及的外部事件未在本次逐一独立复核，不将其作为效果证明。",
-    "path": "Zenity · 2026-06-02"
+    "status": "已读公开文章要点",
+    "path": "Zenity · 2026-06-02",
+    "pages": [
+      "zenity.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "zenity"
+    ],
+    "topics": []
   },
   {
-    "title": "2026 Latio AI 安全报告 / 2026 Latio AI Security Report",
-    "kind": "报告与文章",
+    "title": "2026 Latio AI 安全报告",
+    "kind": "研究报告",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://zenity.io/press-release/zenity-earns-recognition-in-ai-agent-security-reports-from-latio-and-sacr",
     "reading": "industry-report.html?id=latio-ai",
-    "status": "仅核实报告线索 · 全文待获取；只核实厂商公告，不据此复述原报告排名、评测方法或完整结论。",
-    "path": "Latio / Zenity · 2026-09（公告）"
+    "status": "仅核实报告线索 · 全文待获取",
+    "path": "Latio / Zenity · 2026-09（公告）",
+    "pages": [
+      "zenity.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "zenity"
+    ],
+    "topics": []
   },
   {
-    "title": "Agentic Applications 十大风险（2026 版） / OWASP Top 10 for Agentic Applications 2026",
-    "kind": "标准与指南",
+    "title": "Agentic Applications 十大风险（2026 版）",
+    "kind": "行业标准",
+    "section": "行业标准",
     "language": "原文",
     "url": "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
     "reading": "industry-report.html?id=owasp",
-    "status": "官方指南入口 · 可下载；社区风险指南，不是认证标准；2026 是版次，官方发布日期为 2025 年 12 月。",
-    "path": "OWASP · 2025-12-09"
+    "status": "官方指南入口 · 可下载",
+    "path": "OWASP · 2025-12-09",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
-    "title": "ATLAS：AI 系统攻击战术与技术 / MITRE ATLAS",
-    "kind": "标准与指南",
+    "title": "ATLAS：AI 系统攻击战术与技术",
+    "kind": "行业标准",
+    "section": "行业标准",
     "language": "原文",
     "url": "https://atlas.mitre.org/",
     "reading": "industry-report.html?id=atlas",
-    "status": "官方动态知识库；动态知识库，不是产品覆盖认证；使用时应固定条目及版本。",
-    "path": "MITRE · 持续更新"
+    "status": "官方动态知识库",
+    "path": "MITRE · 持续更新",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
-    "title": "T1700：利用 AI 进行数据外传 / AI-Enabled Exfiltration",
-    "kind": "标准与指南",
+    "title": "T1700：利用 AI 进行数据外传",
+    "kind": "行业标准",
+    "section": "行业标准",
     "language": "原文",
     "url": "https://attack.mitre.org/techniques/T1700/",
     "reading": "industry-report.html?id=attack",
-    "status": "已读官方技术条目；这是 ATT&CK 技术条目，与 ATLAS 互补；条目更新不等于新增强制要求。",
-    "path": "MITRE · 2026-10-09（更新）"
+    "status": "已读官方技术条目",
+    "path": "MITRE · 2026-10-09（更新）",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
-    "title": "AI 风险管理框架 1.0 / AI Risk Management Framework 1.0",
-    "kind": "标准与指南",
+    "title": "AI 风险管理框架 1.0",
+    "kind": "行业标准",
+    "section": "行业标准",
     "language": "原文",
     "url": "https://www.nist.gov/itl/ai-risk-management-framework",
     "reading": "industry-report.html?id=nist-rmf",
-    "status": "官方框架入口 · 可下载；自愿框架；官网说明 1.0 正在修订，本页不把修订计划当作已发布新版。",
-    "path": "NIST · 2023-01-26"
+    "status": "官方框架入口 · 可下载",
+    "path": "NIST · 2023-01-26",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
-    "title": "生成式 AI 风险管理画像 / NIST AI 600-1: Generative Artificial Intelligence Profile",
-    "kind": "标准与指南",
+    "title": "生成式 AI 风险管理画像",
+    "kind": "行业标准",
+    "section": "行业标准",
     "language": "原文",
     "url": "https://doi.org/10.6028/NIST.AI.600-1",
     "reading": "industry-report.html?id=nist-genai",
-    "status": "官方发布入口 · 可下载；是 AI RMF 的配套画像，不是单独的 Agent 认证标准；本次依据 NIST 官方说明整理。",
-    "path": "NIST · 2024-07-26"
+    "status": "官方发布入口 · 可下载",
+    "path": "NIST · 2024-07-26",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
-    "title": "AI Agent 标准倡议 / AI Agent Standards Initiative",
-    "kind": "标准与指南",
+    "title": "AI Agent 标准倡议",
+    "kind": "行业标准",
+    "section": "行业标准",
     "language": "原文",
     "url": "https://www.nist.gov/artificial-intelligence/ai-agent-standards-initiative",
     "reading": "industry-report.html?id=nist-agent",
-    "status": "官方倡议页 · 持续跟踪；标准化倡议，不是一套已经定稿且可据此认证的完整技术标准。",
-    "path": "NIST · 2026-02-17"
+    "status": "官方倡议页 · 持续跟踪",
+    "path": "NIST · 2026-02-17",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
-    "title": "ISO/IEC 42001：AI 管理体系 / ISO/IEC 42001:2023 — Artificial intelligence — Management system",
-    "kind": "标准与指南",
+    "title": "ISO/IEC 42001：AI 管理体系",
+    "kind": "行业标准",
+    "section": "行业标准",
     "language": "原文",
     "url": "https://www.iso.org/standard/42001",
     "reading": "industry-report.html?id=iso",
-    "status": "官方范围已核实 · 全文付费；仅依据 ISO 公开范围和介绍；未购买或归档付费标准，不提供逐条合规认定。",
-    "path": "ISO / IEC · 2023-12"
+    "status": "官方范围已核实 · 全文付费",
+    "path": "ISO / IEC · 2023-12",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
-    "title": "Agentic SOC Alliance：三层运营模型 / Agentic SOC Alliance — Context, Harness, Model",
-    "kind": "报告与文章",
+    "title": "Agentic SOC Alliance：三层运营模型",
+    "kind": "研究报告",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://www.extrahop.com/news/press-releases/agentic-soc-alliance",
     "reading": "industry-report.html?id=soc-alliance",
-    "status": "已读官方发布说明；产业联盟提出的架构倡议，不等同于 OWASP 指南或正式国际标准。",
-    "path": "ExtraHop 等 · 2026-07-22"
+    "status": "已读官方发布说明",
+    "path": "ExtraHop 等 · 2026-07-22",
+    "pages": [
+      "topic-adaptive-operations.html"
+    ],
+    "news_ids": [],
+    "companies": [],
+    "topics": [
+      "adaptive-operations"
+    ]
   },
   {
-    "title": "AI银狐：AI信任链、软件投递与终端防护 / AI Silver Fox: Trust Chains, Software Delivery and Endpoint Defense",
-    "kind": "报告与文章",
+    "title": "AI银狐：AI信任链、软件投递与终端防护",
+    "kind": "研究报告",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://huorong.cn/document/tech/vir_report/2047",
     "reading": "topic-ai-silverfox.html",
-    "status": "中文研究已归档 · 原始来源与阅读范围逐项列出；部分来源仅取得索引或摘要；非完整翻译，未运行恶意样本或验证厂商效果。",
-    "path": "CNCERT / 火绒 / Microsoft 等多来源 · 2026-11-10（专题更新）"
+    "status": "中文研究已归档 · 原始来源与阅读范围逐项列出",
+    "path": "CNCERT / 火绒 / Microsoft 等多来源 · 2026-11-10（专题更新）",
+    "pages": [],
+    "news_ids": [],
+    "companies": [],
+    "topics": []
   },
   {
-    "title": "ExaU：长期安全Agent的权限、记忆与验收 / ",
-    "kind": "报告与文章",
+    "title": "ExaU：长期安全Agent的权限、记忆与验收",
+    "kind": "公告解读",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://www.exaforce.com/blogs/introducing-exau",
     "reading": "reading/e220e1177c69.html",
-    "status": "中文编辑解读 · 非完整译稿 · 未独立实测；见正文来源范围与待核实项；不把公告或试点当成完整验证。",
-    "path": "Exaforce · 2026-11-16公告 / 11-17研究"
+    "status": "中文编辑解读 · 非完整译稿 · 未独立实测",
+    "path": "Exaforce · 2026-11-16公告 / 11-17研究",
+    "pages": [
+      "exaforce.html",
+      "topic-adaptive-operations.html",
+      "topic-agent-security.html",
+      "topic-intent-security.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "exaforce-exau-announcement"
+    ],
+    "companies": [
+      "exaforce"
+    ],
+    "topics": [
+      "shadow-ai",
+      "adaptive-operations",
+      "intent-security"
+    ]
   },
   {
-    "title": "嵌入式评估：访问、披露与独立性 / ",
-    "kind": "标准与指南",
+    "title": "嵌入式评估：访问、披露与独立性",
+    "kind": "公告解读",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
     "reading": "reading/61471bd6c20f.html",
-    "status": "中文编辑解读 · 非完整译稿 · 未独立实测；见正文来源范围与待核实项；不把公告或试点当成完整验证。",
-    "path": "OpenAI / Apollo Research · 2026-11-16公告 / 11-17研究"
+    "status": "中文编辑解读 · 非完整译稿 · 未独立实测",
+    "path": "OpenAI / Apollo Research · 2026-11-16公告 / 11-17研究",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "openai-embedded-assessment-agreements"
+    ],
+    "companies": [],
+    "topics": [
+      "intent-security"
+    ]
+  },
+  {
+    "title": "Akto Argus · 自建AI防护",
+    "kind": "技术文档",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://ai-security-docs.akto.io/akto-argus-agentic-ai-security-for-homegrown-ai/overview",
+    "reading": "industry-report.html?id=akto-shadow-ai",
+    "status": "官方文档 · 2026-11-03归档，未部署验证",
+    "path": "资料库/影子AI/原始资料/akto-argus.json",
+    "pages": [
+      "akto.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "akto"
+    ],
+    "topics": [
+      "shadow-ai"
+    ]
+  },
+  {
+    "title": "Akto · AI发现连接器",
+    "kind": "技术文档",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/endpoints-discovery-agents",
+    "reading": "industry-report.html?id=akto-shadow-ai",
+    "status": "官方文档 · 2026-11-03归档，未部署验证",
+    "path": "资料库/影子AI/原始资料/akto-connectors.json",
+    "pages": [
+      "akto.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "akto"
+    ],
+    "topics": [
+      "shadow-ai"
+    ]
+  },
+  {
+    "title": "Akto · Agentic AI Discovery",
+    "kind": "技术文档",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://ai-security-docs.akto.io/akto-atlas-agentic-ai-security-for-employee-endpoints/ai-agent-activity",
+    "reading": "industry-report.html?id=akto-shadow-ai",
+    "status": "官方文档 · 2026-11-03归档，未部署验证",
+    "path": "资料库/影子AI/原始资料/akto-discovery.json",
+    "pages": [
+      "akto.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "akto"
+    ],
+    "topics": [
+      "shadow-ai"
+    ]
   },
   {
     "title": "Unit42-External-AI-Hyperattack-Assessment",
-    "kind": "原始文档",
+    "kind": "原始PDF",
+    "section": "技术文档",
     "language": "原文",
     "url": "../资料库/Armadin/Unit42-External-AI-Hyperattack-Assessment.pdf",
-    "status": "本地原始文件 · 阅读范围见关联中文说明",
-    "path": "资料库/Armadin/Unit42-External-AI-Hyperattack-Assessment.pdf"
+    "status": "本地原文",
+    "path": "资料库/Armadin/Unit42-External-AI-Hyperattack-Assessment.pdf",
+    "pages": [
+      "armadin.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "armadin"
+    ],
+    "topics": []
   },
   {
     "title": "AI时代的数据安全成熟度模型-英文原版",
-    "kind": "原始文档",
+    "kind": "原始PDF",
+    "section": "技术文档",
     "language": "原文",
     "url": "../资料库/Cyera/AI时代的数据安全成熟度模型-英文原版.pdf",
-    "status": "本地原始文件 · 阅读范围见关联中文说明",
-    "path": "资料库/Cyera/AI时代的数据安全成熟度模型-英文原版.pdf"
+    "status": "本地原文",
+    "path": "资料库/Cyera/AI时代的数据安全成熟度模型-英文原版.pdf",
+    "pages": [
+      "cyera.html",
+      "topic-data-security.html"
+    ],
+    "news_ids": [],
+    "companies": [
+      "cyera"
+    ],
+    "topics": [
+      "data-security"
+    ]
   },
   {
     "title": "Reco-CISO-Guide-to-Shadow-AI",
-    "kind": "原始文档",
+    "kind": "原始PDF",
+    "section": "技术文档",
     "language": "原文",
     "url": "../资料库/影子AI/原始资料/Reco-CISO-Guide-to-Shadow-AI.pdf",
-    "status": "本地原始文件 · 阅读范围见关联中文说明",
-    "path": "资料库/影子AI/原始资料/Reco-CISO-Guide-to-Shadow-AI.pdf"
+    "status": "本地原文",
+    "path": "资料库/影子AI/原始资料/Reco-CISO-Guide-to-Shadow-AI.pdf",
+    "pages": [
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [],
+    "companies": [],
+    "topics": [
+      "shadow-ai"
+    ]
   },
   {
-    "title": "OpenAI与四家外部机构签署嵌入式评估协议：访问与披露边界决定结论力度",
-    "kind": "标准与指南",
+    "title": "总部属性：Exaforce官方5月公告 · Exaforce",
+    "kind": "新闻资料",
+    "section": "技术文档",
     "language": "原文",
-    "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
-    "reading": "daily-2026-11-17.html#openai-embedded-assessment-agreements",
-    "status": "读取OpenAI与Apollo公告；Transluce原页本轮访问失败，不将转述当作其合同原文。未取得协议正文或最终评估报告，不将双方公开描述当作所有访问已实现，也不推断试点已完成、所有问题已修复或达到正式行业认证。",
-    "path": "OpenAI / Apollo Research / METR / Transluce / Goodfire · 2026-11-16"
+    "url": "https://www.exaforce.com/press-release/exaforce-raises-125m-series-b-to-combat-ai-powered-attacks-with-real-time-security-reasoning",
+    "reading": "daily-2026-11-17.html#exaforce-exau-announcement",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-16",
+    "pages": [
+      "exaforce.html",
+      "topic-adaptive-operations.html",
+      "topic-agent-security.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "exaforce-exau-announcement"
+    ],
+    "companies": [
+      "exaforce"
+    ],
+    "topics": [
+      "shadow-ai",
+      "adaptive-operations"
+    ]
   },
   {
-    "title": "人形机器人信息安全强制国标项目征求意见：目前是拟立项阶段",
-    "kind": "标准与指南",
+    "title": "加州司法部11月16日公告 · California DOJ / OpenAI",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+    "reading": "daily-2026-11-17.html#california-openai-hf-lawsuit",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-16",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "california-openai-hf-lawsuit"
+    ],
+    "companies": [],
+    "topics": [
+      "intent-security"
+    ]
+  },
+  {
+    "title": "司法部公布的原始诉状（31页） · California DOJ / OpenAI",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://oag.ca.gov/system/files/attachments/press-docs/complaint-oai-cyber.pdf",
+    "reading": "daily-2026-11-17.html#california-openai-hf-lawsuit",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-16",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "california-openai-hf-lawsuit"
+    ],
+    "companies": [],
+    "topics": [
+      "intent-security"
+    ]
+  },
+  {
+    "title": "Apollo独立说明及限制 · OpenAI / Apollo Research / METR / Transluce / Goodfire",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.apolloresearch.ai/blog/pilot-towards-embedded-evaluations",
+    "reading": "daily-2026-11-17.html#openai-embedded-assessment-agreements",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-16",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "openai-embedded-assessment-agreements"
+    ],
+    "companies": [],
+    "topics": [
+      "intent-security"
+    ]
+  },
+  {
+    "title": "微软运行时概览：Known issues (Preview) · Microsoft Defender",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-runtime-protection-overview",
+    "reading": "daily-2026-11-16.html#defender-preview-tool-response-limit",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "未标明",
+    "pages": [
+      "defender.html",
+      "topic-agent-security.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "defender-preview-tool-response-limit"
+    ],
+    "companies": [
+      "defender"
+    ],
+    "topics": [
+      "intent-security"
+    ]
+  },
+  {
+    "title": "微软Agent支持矩阵 · Microsoft Defender",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-support-matrix",
+    "reading": "daily-2026-11-16.html#defender-preview-tool-response-limit",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "未标明",
+    "pages": [
+      "defender.html",
+      "topic-adaptive-operations.html",
+      "topic-agent-security.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "defender-preview-tool-response-limit",
+      "microsoft-november-mxc"
+    ],
+    "companies": [
+      "defender"
+    ],
+    "topics": [
+      "adaptive-operations",
+      "intent-security"
+    ]
+  },
+  {
+    "title": "Cursor 11月13日官方复盘 · Cursor",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://cursor.com/blog/security-incident-update",
+    "reading": "daily-2026-11-16.html#cursor-fireworks-postmortem",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-13",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-data-security.html"
+    ],
+    "news_ids": [
+      "cursor-fireworks-postmortem"
+    ],
+    "companies": [],
+    "topics": [
+      "data-security"
+    ]
+  },
+  {
+    "title": "Cohere官方公告 · Cohere / AISLE / cubic",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://cohere.com/blog/cohere-expands-its-sovereign-ai-platform-with-aisle-and-cubic",
+    "reading": "daily-2026-11-15.html#cohere-aisle-cubic-completion",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-13",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "cohere-aisle-cubic-completion"
+    ],
+    "companies": [],
+    "topics": [
+      "financing"
+    ]
+  },
+  {
+    "title": "cubic确认与产品延续说明 · Cohere / AISLE / cubic",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.cubic.dev/blog/cubic-joins-cohere",
+    "reading": "daily-2026-11-15.html#cohere-aisle-cubic-completion",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-13",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "cohere-aisle-cubic-completion"
+    ],
+    "companies": [],
+    "topics": [
+      "financing"
+    ]
+  },
+  {
+    "title": "Darktrace产品公告 · Darktrace",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.darktrace.com/blog/introducing-darktrace-mcp-connect-your-ai-assistants-to-the-darktrace-behavioral-defense-platform",
+    "reading": "daily-2026-11-15.html#darktrace-mcp-ga",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-13",
+    "pages": [
+      "topic-adaptive-operations.html",
+      "topic-agent-security.html",
+      "topic-intent-security.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "darktrace-mcp-ga"
+    ],
+    "companies": [],
+    "topics": [
+      "shadow-ai",
+      "adaptive-operations",
+      "intent-security"
+    ]
+  },
+  {
+    "title": "Notion安全公告与修订时间线 · Notion",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.notion.com/en-gb/security/advisories/security-incident-involving-a-third-party-ai-vendor",
+    "reading": "daily-2026-11-16.html#notion-fireworks-impact",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-12",
+    "pages": [
+      "topic-data-security.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "notion-fireworks-impact"
+    ],
+    "companies": [],
+    "topics": [
+      "data-security",
+      "shadow-ai"
+    ]
+  },
+  {
+    "title": "Unit 42原始技术报告 · Unit 42 / CL-STA-1238",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/",
+    "reading": "daily-2026-11-16.html#unit42-cairn-campaign",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-12",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "unit42-cairn-campaign"
+    ],
+    "companies": [],
+    "topics": [
+      "intent-security"
+    ]
+  },
+  {
+    "title": "市场监管总局原始通知 · 市场监管总局标准技术司",
+    "kind": "标准来源",
+    "section": "行业标准",
     "language": "原文",
     "url": "https://www.samr.gov.cn/bzjss/zqyj/art/2026/art_c2d24d77e2cb4363832437cb39c85af6.html",
     "reading": "daily-2026-11-15.html#humanoid-infosec-project-consultation",
-    "status": "已读主管部门通知，未获取项目详细附件；不声称已阅读全文或已有生效合规义务。后续需核实项目编号、归口、技术范围和正式立项结果。",
-    "path": "市场监管总局标准技术司 · 2026-11-12"
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-12",
+    "pages": [
+      "topic-agent-security.html"
+    ],
+    "news_ids": [
+      "humanoid-infosec-project-consultation"
+    ],
+    "companies": [],
+    "topics": []
   },
   {
-    "title": "中国信通院说明智能体协作与MCP安全标准立项，尚非正式标准发布",
-    "kind": "标准与指南",
+    "title": "信通院鲸智社区原始公告入口 · 中国信通院 / MIIT TC1 WG8",
+    "kind": "标准来源",
+    "section": "行业标准",
     "language": "原文",
     "url": "https://aihub.caict.ac.cn/docs/TCS5VZ6QmVGR",
     "reading": "daily-2026-11-13.html#caict-mcp-cooperation-project",
-    "status": "取得信通院原始页面搜索索引内容，但本轮正文访问工具不可达；未获取标准草案、标准编号或工信部项目附件，不声称已读全文。项目立项与标准正式发布分别记录。",
-    "path": "中国信通院 / MIIT TC1 WG8 · 2026-11-12"
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-12",
+    "pages": [
+      "topic-agent-security.html"
+    ],
+    "news_ids": [
+      "caict-mcp-cooperation-project"
+    ],
+    "companies": [],
+    "topics": []
   },
   {
-    "title": "澳大利亚提出强制AI安全义务与专门监管机构，尚属立法方向",
-    "kind": "标准与指南",
+    "title": "Railway 11月10日详细事件报告 · Railway",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://blog.railway.com/p/incident-report-october-security-incident",
+    "reading": "daily-2026-11-16.html#railway-ai-credential-postmortem",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-10",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-data-security.html"
+    ],
+    "news_ids": [
+      "railway-ai-credential-postmortem"
+    ],
+    "companies": [],
+    "topics": [
+      "data-security"
+    ]
+  },
+  {
+    "title": "Corelight原始实验与验证方法 · Corelight",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://corelight.com/blog/mcp-server-supply-chain-risk",
+    "reading": "daily-2026-11-15.html#corelight-mcp-dependency-drift",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-10",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "corelight-mcp-dependency-drift"
+    ],
+    "companies": [],
+    "topics": [
+      "shadow-ai"
+    ]
+  },
+  {
+    "title": "Daylight官方融资公告 · Daylight",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://daylight.ai/blog/as-ai-threats-surge-daylight-raises-80m-led-by-goldman-sachs-alternatives",
+    "reading": "daily-2026-11-13.html#daylight-series-b",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-10",
+    "pages": [
+      "exaforce.html",
+      "topic-adaptive-operations.html",
+      "topic-agent-security.html",
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "daylight-series-b"
+    ],
+    "companies": [
+      "exaforce"
+    ],
+    "topics": [
+      "financing",
+      "adaptive-operations"
+    ]
+  },
+  {
+    "title": "SecurityWeek辅助核对地域与报道日期 · Daylight",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/",
+    "reading": "daily-2026-11-13.html#daylight-series-b",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-10",
+    "pages": [
+      "exaforce.html",
+      "topic-adaptive-operations.html",
+      "topic-agent-security.html",
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "daylight-series-b"
+    ],
+    "companies": [
+      "exaforce"
+    ],
+    "topics": [
+      "financing",
+      "adaptive-operations"
+    ]
+  },
+  {
+    "title": "WhiteMatter公司发布的融资新闻稿 · WhiteMatter（原QuilrAI）",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.prnewswire.com/news-releases/whitematter-raises-20m-series-a-to-close-the-growing-gap-between-ai-autonomy-and-enterprise-governance-302934477.html",
+    "reading": "daily-2026-11-13.html#whitematter-series-a",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-10",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-financing.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "whitematter-series-a"
+    ],
+    "companies": [],
+    "topics": [
+      "financing",
+      "shadow-ai"
+    ]
+  },
+  {
+    "title": "Microsoft Research技术解释 · Microsoft Research / Microsoft Defender",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+    "reading": "daily-2026-11-13.html#microsoft-lazarus",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-10",
+    "pages": [
+      "defender.html",
+      "topic-agent-security.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "microsoft-lazarus"
+    ],
+    "companies": [
+      "defender"
+    ],
+    "topics": [
+      "intent-security"
+    ]
+  },
+  {
+    "title": "Microsoft Threat Intelligence防护指导 · Microsoft Research / Microsoft Defender",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
+    "reading": "daily-2026-11-13.html#microsoft-lazarus",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-10",
+    "pages": [
+      "defender.html",
+      "topic-agent-security.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "microsoft-lazarus"
+    ],
+    "companies": [
+      "defender"
+    ],
+    "topics": [
+      "intent-security"
+    ]
+  },
+  {
+    "title": "Commvault官方扩展公告 · Commvault",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.commvault.com/de-de/news/ai-agent-recovery-plan",
+    "reading": "daily-2026-11-13.html#commvault-agentrecover-extension",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-10",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-data-security.html"
+    ],
+    "news_ids": [
+      "commvault-agentrecover-extension"
+    ],
+    "companies": [],
+    "topics": [
+      "data-security"
+    ]
+  },
+  {
+    "title": "产品博客及首次发布日期说明 · Commvault",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.commvault.com/blogs/agentrecover-ai-agents-are-everywhere-do-you-know-what-theyre-doing",
+    "reading": "daily-2026-11-13.html#commvault-agentrecover-extension",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-10",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-data-security.html"
+    ],
+    "news_ids": [
+      "commvault-agentrecover-extension"
+    ],
+    "companies": [],
+    "topics": [
+      "data-security"
+    ]
+  },
+  {
+    "title": "澳大利亚政府联合公告 · 澳大利亚政府",
+    "kind": "新闻资料",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://www.minister.defence.gov.au/media-releases/2026-11-10/new-australian-ai-safety-security-protections",
     "reading": "daily-2026-11-13.html#australia-ai-safety-proposal",
-    "status": "读取政府原始公告，具体法律文本、罚则和正式生效日待后续公布；与11月9日巴黎合作声明是不同事件。本文为政策跟踪，非具体法律适用结论。",
-    "path": "澳大利亚政府 · 2026-11-10"
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-10",
+    "pages": [
+      "topic-agent-security.html"
+    ],
+    "news_ids": [
+      "australia-ai-safety-proposal"
+    ],
+    "companies": [],
+    "topics": []
   },
   {
-    "title": "NIST发布对抗机器学习分类草案：增加Agentic SI攻击分类索引",
-    "kind": "标准与指南",
+    "title": "PM&C快速审查入口 · 澳大利亚政府",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.pmc.gov.au/domestic-policy/rapid-review-australian-government-arrangements-ai-driven-cyber-incident",
+    "reading": "daily-2026-11-13.html#australia-ai-safety-proposal",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-10",
+    "pages": [
+      "topic-agent-security.html"
+    ],
+    "news_ids": [
+      "australia-ai-safety-proposal"
+    ],
+    "companies": [],
+    "topics": []
+  },
+  {
+    "title": "Fireworks 11月9日安全更新 · Fireworks AI",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://fireworks.ai/security/bulletins/october-2026-security-incident-update",
+    "reading": "daily-2026-11-16.html#fireworks-october-impact-update",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-09",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-data-security.html"
+    ],
+    "news_ids": [
+      "fireworks-october-impact-update"
+    ],
+    "companies": [],
+    "topics": [
+      "data-security"
+    ]
+  },
+  {
+    "title": "NEAR AI原始事件报告 · NEAR AI",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://near.ai/blog/security-incident-report-sglang-vulnerability",
+    "reading": "daily-2026-11-16.html#near-ai-sglang-incident",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-09",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-data-security.html"
+    ],
+    "news_ids": [
+      "near-ai-sglang-incident"
+    ],
+    "companies": [],
+    "topics": [
+      "data-security"
+    ]
+  },
+  {
+    "title": "Vanta公告与分期路线图 · Vanta / Pillar Security",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.vanta.com/resources/vanta-acquires-pillar",
+    "reading": "daily-2026-11-10.html#vanta-pillar-agreement",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-09",
+    "pages": [
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "vanta-pillar-agreement"
+    ],
+    "companies": [],
+    "topics": [
+      "financing"
+    ]
+  },
+  {
+    "title": "Pillar双方协议确认 · Vanta / Pillar Security",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.pillar.security/blog/vanta-to-acquire-pillar-security-building-trust-in-ai-together",
+    "reading": "daily-2026-11-10.html#vanta-pillar-agreement",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-09",
+    "pages": [
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "vanta-pillar-agreement"
+    ],
+    "companies": [],
+    "topics": [
+      "financing"
+    ]
+  },
+  {
+    "title": "Vanta总部官方历史资料 · Vanta / Pillar Security",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.vanta.com/resources/vanta-announces-series-a",
+    "reading": "daily-2026-11-10.html#vanta-pillar-agreement",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-09",
+    "pages": [
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "vanta-pillar-agreement"
+    ],
+    "companies": [],
+    "topics": [
+      "financing"
+    ]
+  },
+  {
+    "title": "Cisco官方技术公告 · Cisco AI Defense",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://blogs.cisco.com/ai/cisco-ai-defense-to-add-anthropics-claude-mythos-for-ai-red-teaming",
+    "reading": "daily-2026-11-10.html#cisco-controlled-redteam",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-09",
+    "pages": [
+      "topic-agent-security.html"
+    ],
+    "news_ids": [
+      "cisco-controlled-redteam"
+    ],
+    "companies": [],
+    "topics": []
+  },
+  {
+    "title": "NIST出版页及PDF入口 · NIST",
+    "kind": "标准来源",
+    "section": "行业标准",
     "language": "原文",
     "url": "https://csrc.nist.gov/pubs/sp/2400-102/e2026/ipd",
     "reading": "daily-2026-11-10.html#nist-aml-2026-draft",
-    "status": "这是征求意见草案，非最终发布标准，也未发现强制合规要求。全文尚待研读，本文是公告级解读，不是全文翻译；出版页面日期与草案状态均按官方记录。",
-    "path": "NIST · 2026-11-09"
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-09",
+    "pages": [],
+    "news_ids": [
+      "nist-aml-2026-draft"
+    ],
+    "companies": [],
+    "topics": []
   },
   {
-    "title": "巴黎AI安全联合声明：评测可比性、独立评估和事件预警成为合作议题",
-    "kind": "标准与指南",
+    "title": "NIST征求意见公告 · NIST",
+    "kind": "标准来源",
+    "section": "行业标准",
+    "language": "原文",
+    "url": "https://csrc.nist.gov/News/2026/adversarial-machine-learning-taxonomy-2026-draft",
+    "reading": "daily-2026-11-10.html#nist-aml-2026-draft",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-09",
+    "pages": [],
+    "news_ids": [
+      "nist-aml-2026-draft"
+    ],
+    "companies": [],
+    "topics": []
+  },
+  {
+    "title": "加拿大政府联合声明全文 · 多国政府 / 前沿模型开发商",
+    "kind": "新闻资料",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://www.pm.gc.ca/en/news/statements/2026/11/09/joint-declaration-paris-call-ai-safety-and-security",
     "reading": "daily-2026-11-10.html#paris-ai-safety-declaration",
-    "status": "已读官方联合声明，未验证各方实施进度。记录为国际治理承诺，不作为新法律或已生效技术标准；签署名单可能随官方后续更新变化。",
-    "path": "多国政府 / 前沿模型开发商 · 2026-11-09"
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-09",
+    "pages": [],
+    "news_ids": [
+      "paris-ai-safety-declaration"
+    ],
+    "companies": [],
+    "topics": []
   },
   {
-    "title": "中国智能体互信互联论坛：身份、协议、责任进入协作议程",
-    "kind": "标准与指南",
+    "title": "WorkOS 11月6日更新 · WorkOS",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://workos.com/security/bulletins/update-for-october-30th-2026-data-security-incident",
+    "reading": "daily-2026-11-09.html#workos-attribution-update",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-06",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "workos-attribution-update"
+    ],
+    "companies": [],
+    "topics": [
+      "intent-security"
+    ]
+  },
+  {
+    "title": "微软威胁研究 · Microsoft Threat Intelligence / CERT-EU",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+    "reading": "daily-2026-11-09.html#artex-financial-eu",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-06",
+    "pages": [
+      "topic-agent-security.html"
+    ],
+    "news_ids": [
+      "artex-financial-eu"
+    ],
+    "companies": [],
+    "topics": []
+  },
+  {
+    "title": "CERT-EU预警 · Microsoft Threat Intelligence / CERT-EU",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://cert.europa.eu/blog/from-penetration-testing-to-cyber-threat-beware-of-artex",
+    "reading": "daily-2026-11-09.html#artex-financial-eu",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-06",
+    "pages": [
+      "topic-agent-security.html"
+    ],
+    "news_ids": [
+      "artex-financial-eu"
+    ],
+    "companies": [],
+    "topics": []
+  },
+  {
+    "title": "微软11月安全更新 · Microsoft Defender / Windows",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/",
+    "reading": "daily-2026-11-09.html#microsoft-november-mxc",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-05",
+    "pages": [
+      "defender.html",
+      "topic-adaptive-operations.html"
+    ],
+    "news_ids": [
+      "microsoft-november-mxc"
+    ],
+    "companies": [
+      "defender"
+    ],
+    "topics": [
+      "adaptive-operations"
+    ]
+  },
+  {
+    "title": "MXC技术文章 · Microsoft Defender / Windows",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+    "reading": "daily-2026-11-09.html#microsoft-november-mxc",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-05",
+    "pages": [
+      "defender.html",
+      "topic-adaptive-operations.html"
+    ],
+    "news_ids": [
+      "microsoft-november-mxc"
+    ],
+    "companies": [
+      "defender"
+    ],
+    "topics": [
+      "adaptive-operations"
+    ]
+  },
+  {
+    "title": "官方研讨会介绍 · Cyera",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.cyera.com/webinars/securing-agentic-intent-what-your-agents-are-built-for-vs-what-they-actually-do",
+    "reading": "daily-2026-11-05.html#cyera-intent",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "未标明",
+    "pages": [
+      "cyera.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "cyera-intent"
+    ],
+    "companies": [
+      "cyera"
+    ],
+    "topics": [
+      "intent-security"
+    ]
+  },
+  {
+    "title": "Sentra官方融资公告 · Sentra",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://sentra.io/news/sentra-raises-150-million-agentic-data-security",
+    "reading": "daily-2026-11-09.html#sentra-strategic-investment",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-04",
+    "pages": [
+      "topic-data-security.html",
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "sentra-strategic-investment"
+    ],
+    "companies": [],
+    "topics": [
+      "financing",
+      "data-security"
+    ]
+  },
+  {
+    "title": "OpenAI原始研究 · OpenAI",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+    "reading": "daily-2026-11-06.html#openai-linux-pipeline",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-04",
+    "pages": [
+      "topic-agent-security.html"
+    ],
+    "news_ids": [
+      "openai-linux-pipeline"
+    ],
+    "companies": [],
+    "topics": []
+  },
+  {
+    "title": "中国网信网官方公告 · 中国网信网 / 乌镇峰会",
+    "kind": "新闻资料",
+    "section": "技术文档",
     "language": "原文",
     "url": "https://www.cac.gov.cn/2026-11/04/c_1795550640963842.htm",
     "reading": "daily-2026-11-06.html#china-agent-interoperability",
-    "status": "已读官方活动公告，未取得全部倡议或自律公约全文；不把合作倡议等同法律、正式技术标准或已验证产品。事件早于本轮主窗口，为此前未收录的中国近期资料补充。",
-    "path": "中国网信网 / 乌镇峰会 · 2026-11-04"
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-04",
+    "pages": [
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "china-agent-interoperability"
+    ],
+    "companies": [],
+    "topics": [
+      "shadow-ai"
+    ]
   },
   {
-    "title": "智能体数据应用安全合规指南：目前仍在征求意见",
-    "kind": "标准与指南",
+    "title": "公司公告 · Brava Security",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.brava.security/news/announcing-brava",
+    "reading": "daily-2026-11-05.html#brava-seed",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-04",
+    "pages": [
+      "topic-adaptive-operations.html",
+      "topic-agent-security.html",
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "brava-seed"
+    ],
+    "companies": [],
+    "topics": [
+      "financing",
+      "adaptive-operations"
+    ]
+  },
+  {
+    "title": "产品首页 · Brava Security",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.brava.security/",
+    "reading": "daily-2026-11-05.html#brava-seed",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-04",
+    "pages": [
+      "topic-adaptive-operations.html",
+      "topic-agent-security.html",
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "brava-seed"
+    ],
+    "companies": [],
+    "topics": [
+      "financing",
+      "adaptive-operations"
+    ]
+  },
+  {
+    "title": "主体说明 · Brava Security",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.brava.security/legal/terms-of-use",
+    "reading": "daily-2026-11-05.html#brava-seed",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-04",
+    "pages": [
+      "topic-adaptive-operations.html",
+      "topic-agent-security.html",
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "brava-seed"
+    ],
+    "companies": [],
+    "topics": [
+      "financing",
+      "adaptive-operations"
+    ]
+  },
+  {
+    "title": "原始来源 · Dreadnode / CrowdStrike",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-dreadnode-advance-ai-trust-and-deliver/",
+    "reading": "daily-2026-11-04.html#dreadnode",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-03",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "dreadnode"
+    ],
+    "companies": [],
+    "topics": [
+      "financing"
+    ]
+  },
+  {
+    "title": "原始来源 · WorkOS",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://workos.com/security/bulletins/october-30th-2026-data-security-incident",
+    "reading": "daily-2026-11-04.html#workos",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-02",
+    "pages": [
+      "topic-data-security.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "workos"
+    ],
+    "companies": [],
+    "topics": [
+      "data-security",
+      "intent-security"
+    ]
+  },
+  {
+    "title": "中国电子商会通知 · 中国电子商会",
+    "kind": "标准来源",
+    "section": "行业标准",
     "language": "原文",
     "url": "https://www.cecc.org.cn/standard-detail/id/22123.html",
     "reading": "daily-2026-11-05.html#cecc-agent-data",
-    "status": "属于本轮新收录的较早材料，并非11月4日新增事件；团体标准征求意见稿不等同国家标准、强制法规或已生效要求。通知正文还出现“四项”字样，与单项标题不一致，范围以附件核实为准。",
-    "path": "中国电子商会 · 2026-10-30"
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-10-30",
+    "pages": [
+      "topic-data-security.html"
+    ],
+    "news_ids": [
+      "cecc-agent-data"
+    ],
+    "companies": [],
+    "topics": [
+      "data-security"
+    ]
   },
   {
-    "title": "智能体全链路动态风险评测方法：已立项，征集参编单位",
-    "kind": "标准与指南",
+    "title": "原始来源 · F5 Labs",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.f5.com/company/blog/f5-labs-ai-security-model-insights-when-ai-agents-expose-data-without-an-attacker",
+    "reading": "daily-2026-11-04.html#f5",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-10-30",
+    "pages": [
+      "topic-agent-security.html"
+    ],
+    "news_ids": [
+      "f5"
+    ],
+    "companies": [],
+    "topics": []
+  },
+  {
+    "title": "中国互联网协会公告 · 中国互联网协会",
+    "kind": "标准来源",
+    "section": "行业标准",
     "language": "原文",
     "url": "https://www.isc.org.cn/article/30903098106310656.html",
     "reading": "daily-2026-11-05.html#isc-agent-eval",
-    "status": "只读立项与征集通知，尚无本轮可核实的最终标准全文；公告中的拟研究内容不代表已经形成可复现工具或正式结论。不自动联系机构或提交参编申请。",
-    "path": "中国互联网协会 · 2026-10-29"
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-10-29",
+    "pages": [
+      "topic-agent-security.html"
+    ],
+    "news_ids": [
+      "isc-agent-eval"
+    ],
+    "companies": [],
+    "topics": []
   },
   {
-    "title": "ISO/IEC 27090:2026 已发布：覆盖 AI 系统安全威胁",
-    "kind": "标准与指南",
+    "title": "原始来源 · Mintive",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.mintive.com/blog/mintive-launch",
+    "reading": "daily-2026-11-04.html#mintive",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-10-29",
+    "pages": [
+      "topic-financing.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "mintive"
+    ],
+    "companies": [],
+    "topics": [
+      "financing",
+      "shadow-ai"
+    ]
+  },
+  {
+    "title": "原始来源 · Corridor / Cognition",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://cognition.com/blog/corridor-joining-cognition",
+    "reading": "daily-2026-11-04.html#corridor",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-10-28",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "corridor"
+    ],
+    "companies": [],
+    "topics": [
+      "financing"
+    ]
+  },
+  {
+    "title": "原始来源 · Infisical",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://infisical.com/blog/series-b",
+    "reading": "daily-2026-11-04.html#infisical",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-10-27",
+    "pages": [
+      "topic-data-security.html",
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "infisical"
+    ],
+    "companies": [],
+    "topics": [
+      "financing",
+      "data-security"
+    ]
+  },
+  {
+    "title": "原始来源 · 英国 NCSC",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.ncsc.gov.uk/collection/problem-book/ai-cyber",
+    "reading": "daily-2026-11-04.html#ncsc",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-10-20",
+    "pages": [],
+    "news_ids": [
+      "ncsc"
+    ],
+    "companies": [],
+    "topics": []
+  },
+  {
+    "title": "Google Workspace官方发布记录 · Google Workspace",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://developers.google.com/workspace/release-notes",
+    "reading": "daily-2026-11-15.html#google-workspace-agentic-client-enforcement",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-10-12",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-intent-security.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "google-workspace-agentic-client-enforcement"
+    ],
+    "companies": [],
+    "topics": [
+      "shadow-ai",
+      "intent-security"
+    ]
+  },
+  {
+    "title": "原始来源 · Hadrian",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://hadrian.io/blog/hadrian-40m-raised-to-tackle-the-ai-hacking-cyber-security-crisis",
+    "reading": "daily-2026-11-04.html#hadrian",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-10-06",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "hadrian"
+    ],
+    "companies": [],
+    "topics": [
+      "financing"
+    ]
+  },
+  {
+    "title": "原始来源 · ISO / IEC",
+    "kind": "标准来源",
+    "section": "行业标准",
     "language": "原文",
     "url": "https://www.iso.org/standard/27090",
     "reading": "daily-2026-11-04.html#iso27090",
-    "status": "仅核对官方目录和公开范围，未获取付费全文；不提供条款编号或合规结论。属于首次标准基线补录，不标作本周新发布。",
-    "path": "ISO / IEC · 2026-10"
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-10",
+    "pages": [],
+    "news_ids": [
+      "iso27090"
+    ],
+    "companies": [],
+    "topics": []
   }
 ]

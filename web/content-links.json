@@ -1,0 +1,77 @@
+{
+  "news_count": 44,
+  "topics": {
+    "financing": [
+      "cohere-aisle-cubic-completion",
+      "daylight-series-b",
+      "whitematter-series-a",
+      "vanta-pillar-agreement",
+      "sentra-strategic-investment",
+      "brava-seed",
+      "dreadnode",
+      "mintive",
+      "corridor",
+      "infisical",
+      "hadrian"
+    ],
+    "data-security": [
+      "cursor-fireworks-postmortem",
+      "notion-fireworks-impact",
+      "railway-ai-credential-postmortem",
+      "commvault-agentrecover-extension",
+      "fireworks-october-impact-update",
+      "near-ai-sglang-incident",
+      "sentra-strategic-investment",
+      "workos",
+      "cecc-agent-data",
+      "infisical"
+    ],
+    "shadow-ai": [
+      "exaforce-exau-announcement",
+      "darktrace-mcp-ga",
+      "notion-fireworks-impact",
+      "corelight-mcp-dependency-drift",
+      "whitematter-series-a",
+      "china-agent-interoperability",
+      "mintive",
+      "google-workspace-agentic-client-enforcement"
+    ],
+    "adaptive-operations": [
+      "exaforce-exau-announcement",
+      "darktrace-mcp-ga",
+      "daylight-series-b",
+      "microsoft-november-mxc",
+      "brava-seed"
+    ],
+    "intent-security": [
+      "california-openai-hf-lawsuit",
+      "openai-embedded-assessment-agreements",
+      "defender-preview-tool-response-limit",
+      "darktrace-mcp-ga",
+      "unit42-cairn-campaign",
+      "microsoft-lazarus",
+      "workos-attribution-update",
+      "cyera-intent",
+      "workos",
+      "google-workspace-agentic-client-enforcement"
+    ]
+  },
+  "companies": {
+    "cyera": [
+      "cyera-intent"
+    ],
+    "akto": [],
+    "defender": [
+      "defender-preview-tool-response-limit",
+      "microsoft-lazarus",
+      "microsoft-november-mxc"
+    ],
+    "armadin": [],
+    "exaforce": [
+      "exaforce-exau-announcement",
+      "daylight-series-b"
+    ],
+    "zenity": []
+  },
+  "resource_count": 143
+}

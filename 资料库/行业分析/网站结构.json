@@ -1,0 +1,231 @@
+{
+  "updated": "2026-11-17",
+  "companies": [
+    {
+      "id": "cyera",
+      "title": "Cyera",
+      "page": "cyera.html",
+      "focus": "数据安全",
+      "primary": true,
+      "aliases": [
+        "Cyera"
+      ]
+    },
+    {
+      "id": "akto",
+      "title": "Akto",
+      "page": "akto.html",
+      "focus": "AI资产与运行时防护",
+      "primary": true,
+      "aliases": [
+        "Akto"
+      ]
+    },
+    {
+      "id": "defender",
+      "title": "Microsoft Defender",
+      "page": "defender.html",
+      "focus": "端点、Agent与安全运营",
+      "primary": true,
+      "aliases": [
+        "Microsoft Defender"
+      ]
+    },
+    {
+      "id": "armadin",
+      "title": "Armadin",
+      "page": "armadin.html",
+      "focus": "进攻验证",
+      "primary": false,
+      "aliases": [
+        "Armadin"
+      ]
+    },
+    {
+      "id": "exaforce",
+      "title": "Exaforce",
+      "page": "exaforce.html",
+      "focus": "安全运营",
+      "primary": false,
+      "aliases": [
+        "Exaforce"
+      ]
+    },
+    {
+      "id": "zenity",
+      "title": "Zenity",
+      "page": "zenity.html",
+      "focus": "Agent安全",
+      "primary": false,
+      "aliases": [
+        "Zenity"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "financing",
+      "title": "融资跟踪",
+      "page": "topic-financing.html",
+      "focus": "融资、并购与产业格局",
+      "terms": [
+        "融资",
+        "并购",
+        "创业公司"
+      ],
+      "news_ids": [],
+      "sections": [
+        {
+          "title": "跟踪口径",
+          "paragraphs": [
+            "按原始公告分别记录单轮融资、累计融资、收购协议与交易完成。金额、轮次、投资方和总部属性沿用已核实来源；谈判及数据库估算不计为已完成交易。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-security",
+      "title": "数据安全",
+      "page": "topic-data-security.html",
+      "focus": "数据发现、权限与防泄漏",
+      "terms": [
+        "数据安全",
+        "数据泄露",
+        "数据恢复",
+        "Cyera",
+        "Sentra"
+      ],
+      "news_ids": [
+        "commvault-agentrecover-extension",
+        "notion-fireworks-impact",
+        "fireworks-october-impact-update",
+        "railway-ai-credential-postmortem"
+      ],
+      "body_html": "<section><h2>成熟度模型与中文译稿</h2><p class=\"section-intro\">从 Cyera / SACR 报告理解数据安全能力如何逐步建设。译稿与编辑分析分别提供。</p><div class=\"topic-resource-links\"><a href=\"reading/cyera-translation.html\">中文正文译稿 ↗</a><a href=\"industry-report.html?id=cyera\">报告详细分析 ↗</a><a href=\"cyera.html\">Cyera 产品档案 ↗</a></div></section><section><h2>数据暴露与 AI 使用</h2><p class=\"section-intro\">结合现有影子 AI 资料，研究数据可见性、OAuth 授权与 AI 服务访问边界。</p><div class=\"topic-resource-links\"><a href=\"shadow-ai.html\">影子 AI 完整专题 ↗</a><a href=\"industry-report.html?id=reco-shadow-ai\">Reco 指南解读 ↗</a></div></section><section id=\"recovery-20261113\"><h2>从防泄露到Agent恢复</h2><p>11月13日研究补充：Agent恢复需同时核实配置、身份与其修改的数据及资源。Commvault的Foundry和AgentCore扩展仍按早期访问目标记录，不将公告写成GA；恢复能力也不等于已经外发的数据可以收回。</p><a href=\"daily-2026-11-13.html#commvault-agentrecover-extension\">产品状态、验证问题与原始来源 ↗</a></section><section id=\"incident-review-20261116\"><h2>从AI会话保留到凭据横向移动</h2><p>2026年11月16日修订：Fireworks及其下游公告说明，需要分别管理在线推理、离线分析与历史Agent轨迹。只读共享数据中若含凭据，仍可成为进入其他系统的通道；未标注身份的聊天也可能自带敏感信息。数据治理应将保留、脱敏、供应商授权与撤销能力一起验证，不能仅凭“零保留”标签判断所有服务。</p><div class=\"topic-resource-links\"><a href=\"daily-2026-11-16.html\">事件事实、原始来源与证据限制 ↗</a><a href=\"news.html#incidents\">持续追踪安全事件 ↗</a></div></section>"
+    },
+    {
+      "id": "shadow-ai",
+      "title": "影子 AI",
+      "page": "topic-shadow-agent.html",
+      "focus": "未纳管的AI工具、Agent与MCP",
+      "terms": [
+        "影子 AI",
+        "影子AI",
+        "影子 Agent",
+        "影子Agent",
+        "Akto",
+        "MCP"
+      ],
+      "news_ids": [
+        "corelight-mcp-dependency-drift",
+        "google-workspace-agentic-client-enforcement"
+      ],
+      "body_html": "<section><h2>发现与纳管</h2><p class=\"section-intro\">研究怎样发现 SaaS 内嵌、自建与后台运行的 Agent，以及发现方法对连接器、权限和遥测的依赖。</p><div class=\"topic-resource-links\"><a href=\"industry-report.html?id=akto-shadow-ai\">Akto 官方技术文档解读 ↗</a><a href=\"zenity.html\">Zenity 产品档案 ↗</a><a href=\"cyera.html\">Cyera 产品档案 ↗</a></div></section><section><h2>关联资料：影子 AI</h2><p class=\"section-intro\">现有影子 AI 专题范围更广，包含浏览器、个人账号与 AI 工具使用；其中 Agent、MCP、身份和权限内容是本专题的研究基础。当前尚未形成独立的影子 Agent 长篇研究。</p><div class=\"topic-resource-links\"><a href=\"shadow-ai.html\">完整影子 AI 专题 ↗</a><a href=\"industry-report.html?id=reco-shadow-ai\">Reco 指南解读 ↗</a><a href=\"zenity-video-umv5.html\">MCP 与记忆投毒案例 ↗</a></div></section><section id=\"mcp-integrity-20261115\"><h2>资产清单之外：运行环境与身份边界</h2><p>2026-11-15补充：固定MCP服务器顶层版本或提交，仍不一定固定实际运行的传递依赖。Corelight实验未发现失陷；它揭示的是启动器重建环境时的依赖漂移暴露，不能将仓库网络连接直接视为安装了恶意代码。</p><p>本专题的资产记录因此增加实际环境这一层：保存启动命令、提交、依赖锁和包哈希，并以重复启动后的安装清单检验稳定性。之后必须有更新责任人和漏洞复核，不能用永久冻结替代维护。Google的Agentic OAuth标记与Darktrace的只读工具模式分别处于身份入口和工具暴露层，均需另外验证服务端权限、直调与撤权边界。</p><a href=\"daily-2026-11-15.html#corelight-mcp-dependency-drift\">原始实验与详细解读 ↗</a></section>"
+    },
+    {
+      "id": "adaptive-operations",
+      "title": "Agent 自适应运营",
+      "page": "topic-adaptive-operations.html",
+      "focus": "持续感知、调查、响应与反馈",
+      "terms": [
+        "自适应运营",
+        "安全运营",
+        "SOC",
+        "Exaforce",
+        "ExaU"
+      ],
+      "news_ids": [
+        "exaforce-exau-announcement",
+        "darktrace-mcp-ga",
+        "daylight-series-b",
+        "brava-seed",
+        "microsoft-november-mxc"
+      ],
+      "sections": [
+        {
+          "title": "研究范围",
+          "paragraphs": [
+            "关注Agent如何从告警分诊走向持续任务：感知变化、调查证据、执行受控响应，再根据结果调整后续工作。自动化程度和防护有效性分别评估。"
+          ]
+        },
+        {
+          "title": "验证重点",
+          "paragraphs": [
+            "检查定时任务和协作中的身份、持久记忆、审批、撤权与执行回执。回答更快、能生成建议或出现阻断告警，均不能单独证明操作正确或控制已经生效。"
+          ]
+        }
+      ],
+      "links": [
+        [
+          "Exaforce产品档案",
+          "exaforce.html"
+        ],
+        [
+          "Defender产品档案",
+          "defender.html"
+        ]
+      ]
+    },
+    {
+      "id": "intent-security",
+      "title": "意图安全",
+      "page": "topic-intent-security.html",
+      "focus": "任务意图、真实授权与执行边界",
+      "terms": [
+        "意图安全",
+        "意图",
+        "授权",
+        "最小权限",
+        "身份",
+        "提示注入",
+        "Agent攻防"
+      ],
+      "news_ids": [
+        "cyera-intent",
+        "workos",
+        "workos-attribution-update",
+        "defender-preview-tool-response-limit",
+        "google-workspace-agentic-client-enforcement",
+        "darktrace-mcp-ga",
+        "california-openai-hf-lawsuit",
+        "openai-embedded-assessment-agreements",
+        "microsoft-lazarus",
+        "unit42-cairn-campaign"
+      ],
+      "sections": [
+        {
+          "title": "研究范围",
+          "paragraphs": [
+            "将意图安全作为研究问题：用户想完成的任务，是否被外部内容、工具输出或持久记忆改变；最终动作是否仍在用户真实授权范围内。此处不把它定义为已经统一的行业标准。"
+          ]
+        },
+        {
+          "title": "验证重点",
+          "paragraphs": [
+            "区分任务目标、模型推理、工具请求与实际副作用。重点检查目标和收件方绑定、最小权限、执行前校验、人工批准及可撤销性；自然语言声称“已授权”不能代替系统权限。"
+          ]
+        }
+      ],
+      "links": [
+        [
+          "Agent攻防研究",
+          "topic-agent-security.html"
+        ],
+        [
+          "Zenity产品档案",
+          "zenity.html"
+        ]
+      ]
+    }
+  ],
+  "extensions": [
+    {
+      "title": "Agent 攻防",
+      "page": "topic-agent-security.html"
+    },
+    {
+      "title": "AI银狐",
+      "page": "topic-ai-silverfox.html"
+    }
+  ]
+}
