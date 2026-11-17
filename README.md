@@ -1,6 +1,6 @@
 # AI 安全研究
 
-每日新闻、深度杂志与资料库。
+每日新闻、主题研究、重点公司跟踪、资料库。
 
 网站：https://wave1130.github.io/ai-security-research/
 
