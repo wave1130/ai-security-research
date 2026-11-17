@@ -266,3 +266,13 @@ AI 安全页面宣称以无专属 Agent 的方式提供运行时可见性和控�
 - [Detect / Triage / Investigate / Respond](https://www.exaforce.com/product-tours)：同一官方导览中心的四类模块演示，按角色选择；不是四条独立录播视频。
 - [AI Security：秘密暴露与 Shadow AI](https://www.exaforce.com/product-tours)：两个 AI 安全导览场景，关注可见性、告警与响应时点。
 - [MDR 与 SIEM Replacement](https://www.exaforce.com/product-tours)：核对运营模式及迁移范围，演示不能代替服务合同。
+
+## 2026-11-17修订：ExaU与长期安全任务
+
+Exaforce介绍ExaU，允许团队创建有特定职责、持久记忆和定时任务的安全Agent，并在平台内协作。官方称其复用安全知识图谱与既有集成，动作进入审计日志；权限与审批约束响应及数据修改。
+
+编辑分析：持久化与协作使SOC工作从一次查询走向长期任务，也使错误指令、过期例外和记忆投毒能够跨会话传播。验收应测试共享Agent在不同用户下的权限交集、记忆修改与回滚、撤权后的定时任务，以及从外部内容到写入动作的审批链。需要将读数据、形成建议、批准动作和执行回执分开，而不是只比较助手回答速度。
+
+本轮读取产品介绍，未取得完整支持矩阵、许可与租户上线条件，亦未实测审批或沙箱逃逸。官方5月公告将总部描述为美国湾区，支持其美国创业公司属性；旧融资只用作背景核查，本条不新增融资金额。
+
+[详细研究](2026-11-17-ExaU长期任务与权限研究.md) · [官方介绍](https://www.exaforce.com/blogs/introducing-exau)

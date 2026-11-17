@@ -70,6 +70,13 @@
     "parent": "cyera.html"
   },
   {
+    "title": "ExaU：长期安全Agent的权限、记忆与验收",
+    "kind": "专题与资料目录",
+    "url": "reading/e220e1177c69.html",
+    "source": "资料库/Exaforce/2026-11-17-ExaU长期任务与权限研究.md",
+    "parent": "exaforce.html"
+  },
+  {
     "title": "Exaforce 产品研究与视频资料",
     "kind": "中文产品研究",
     "url": "reading/ac6b05f4b760.html",
@@ -182,10 +189,24 @@
     "parent": "industry.html"
   },
   {
+    "title": "2026年11月17日 · AI安全产业日报",
+    "kind": "专题与资料目录",
+    "url": "reading/03e72df066b1.html",
+    "source": "资料库/产业日报/2026-11-17.md",
+    "parent": "industry.html"
+  },
+  {
     "title": "2026年11月16日 · AI相关安全事件专版",
     "kind": "专题与资料目录",
     "url": "reading/1adfa9ff6ba9.html",
     "source": "资料库/安全事件/2026-11-16-AI安全事件追踪与防线解读.md",
+    "parent": "industry.html"
+  },
+  {
+    "title": "OpenAI Agent事件：加州司法部诉讼后续",
+    "kind": "专题与资料目录",
+    "url": "reading/b58226cba6f2.html",
+    "source": "资料库/安全事件/2026-11-17-OpenAI事件诉讼后续.md",
     "parent": "industry.html"
   },
   {
@@ -270,6 +291,13 @@
     "kind": "专题与资料目录",
     "url": "reading/9bd55089bb0e.html",
     "source": "资料库/行业分析/2026-11-15-平台并购与中国标准.md",
+    "parent": "industry.html"
+  },
+  {
+    "title": "嵌入式评估：怎样判断外部审查的独立性",
+    "kind": "专题与资料目录",
+    "url": "reading/61471bd6c20f.html",
+    "source": "资料库/行业分析/2026-11-17-嵌入式评估与独立性.md",
     "parent": "industry.html"
   },
   {

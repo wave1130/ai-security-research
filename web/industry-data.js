@@ -1715,5 +1715,51 @@ window.INDUSTRY_REPORTS = [
         "sourceLinks": []
       }
     ]
+  },
+  {
+    "id": "exau-long-running-agents",
+    "org": "Exaforce",
+    "kind": "官方公告中文解读",
+    "topic": "Agent攻防",
+    "date": "2026-11-16公告 / 11-17研究",
+    "title": "ExaU：长期安全Agent的权限、记忆与验收",
+    "en": "",
+    "url": "https://www.exaforce.com/blogs/introducing-exau",
+    "readingUrl": "reading/e220e1177c69.html",
+    "status": "中文编辑解读 · 非完整译稿 · 未独立实测",
+    "summary": "从一次性助手走向长期安全工作：检查权限继承、共享记忆、定时任务撤权与动作证据。",
+    "points": [
+      "来源与状态",
+      "机制和证据边界",
+      "验证与采购问题"
+    ],
+    "question": "证据实际覆盖什么，哪些结论仍不能作出？",
+    "limit": "见正文来源范围与待核实项；不把公告或试点当成完整验证。",
+    "priority": true,
+    "wordCount": 1029,
+    "sections": []
+  },
+  {
+    "id": "embedded-assessment-independence",
+    "org": "OpenAI / Apollo Research",
+    "kind": "官方公告中文解读",
+    "topic": "标准与框架",
+    "date": "2026-11-16公告 / 11-17研究",
+    "title": "嵌入式评估：访问、披露与独立性",
+    "en": "",
+    "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+    "readingUrl": "reading/61471bd6c20f.html",
+    "status": "中文编辑解读 · 非完整译稿 · 未独立实测",
+    "summary": "从首期协议理解外部评估的证据范围，区分试点安排、安全结论与正式认证。",
+    "points": [
+      "来源与状态",
+      "机制和证据边界",
+      "验证与采购问题"
+    ],
+    "question": "证据实际覆盖什么，哪些结论仍不能作出？",
+    "limit": "见正文来源范围与待核实项；不把公告或试点当成完整验证。",
+    "priority": true,
+    "wordCount": 1325,
+    "sections": []
   }
 ];

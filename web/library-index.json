@@ -80,6 +80,14 @@
     "path": "资料库/Cyera/Cyera产品研究与视频资料.md"
   },
   {
+    "title": "ExaU：长期安全Agent的权限、记忆与验收",
+    "kind": "研究简报与笔记",
+    "language": "中文",
+    "url": "reading/e220e1177c69.html",
+    "status": "中文说明或研究解读，非全文翻译",
+    "path": "资料库/Exaforce/2026-11-17-ExaU长期任务与权限研究.md"
+  },
+  {
     "title": "Exaforce 产品研究与视频资料",
     "kind": "公司研究",
     "language": "中文",
@@ -142,6 +150,14 @@
     "url": "reading/1adfa9ff6ba9.html",
     "status": "中文说明或研究解读，非全文翻译",
     "path": "资料库/安全事件/2026-11-16-AI安全事件追踪与防线解读.md"
+  },
+  {
+    "title": "OpenAI Agent事件：加州司法部诉讼后续",
+    "kind": "研究简报与笔记",
+    "language": "中文",
+    "url": "reading/b58226cba6f2.html",
+    "status": "中文说明或研究解读，非全文翻译",
+    "path": "资料库/安全事件/2026-11-17-OpenAI事件诉讼后续.md"
   },
   {
     "title": "MCP环境与身份边界",
@@ -230,6 +246,14 @@
     "url": "reading/9bd55089bb0e.html",
     "status": "中文说明或研究解读，非全文翻译",
     "path": "资料库/行业分析/2026-11-15-平台并购与中国标准.md"
+  },
+  {
+    "title": "嵌入式评估：怎样判断外部审查的独立性",
+    "kind": "研究简报与笔记",
+    "language": "中文",
+    "url": "reading/61471bd6c20f.html",
+    "status": "中文说明或研究解读，非全文翻译",
+    "path": "资料库/行业分析/2026-11-17-嵌入式评估与独立性.md"
   },
   {
     "title": "行业分析资料目录",
@@ -614,6 +638,24 @@
     "path": "CNCERT / 火绒 / Microsoft 等多来源 · 2026-11-10（专题更新）"
   },
   {
+    "title": "ExaU：长期安全Agent的权限、记忆与验收 / ",
+    "kind": "报告与文章",
+    "language": "原文",
+    "url": "https://www.exaforce.com/blogs/introducing-exau",
+    "reading": "reading/e220e1177c69.html",
+    "status": "中文编辑解读 · 非完整译稿 · 未独立实测；见正文来源范围与待核实项；不把公告或试点当成完整验证。",
+    "path": "Exaforce · 2026-11-16公告 / 11-17研究"
+  },
+  {
+    "title": "嵌入式评估：访问、披露与独立性 / ",
+    "kind": "标准与指南",
+    "language": "原文",
+    "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+    "reading": "reading/61471bd6c20f.html",
+    "status": "中文编辑解读 · 非完整译稿 · 未独立实测；见正文来源范围与待核实项；不把公告或试点当成完整验证。",
+    "path": "OpenAI / Apollo Research · 2026-11-16公告 / 11-17研究"
+  },
+  {
     "title": "Unit42-External-AI-Hyperattack-Assessment",
     "kind": "原始文档",
     "language": "原文",
@@ -636,6 +678,15 @@
     "url": "../资料库/影子AI/原始资料/Reco-CISO-Guide-to-Shadow-AI.pdf",
     "status": "本地原始文件 · 阅读范围见关联中文说明",
     "path": "资料库/影子AI/原始资料/Reco-CISO-Guide-to-Shadow-AI.pdf"
+  },
+  {
+    "title": "OpenAI与四家外部机构签署嵌入式评估协议：访问与披露边界决定结论力度",
+    "kind": "标准与指南",
+    "language": "原文",
+    "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+    "reading": "daily-2026-11-17.html#openai-embedded-assessment-agreements",
+    "status": "读取OpenAI与Apollo公告；Transluce原页本轮访问失败，不将转述当作其合同原文。未取得协议正文或最终评估报告，不将双方公开描述当作所有访问已实现，也不推断试点已完成、所有问题已修复或达到正式行业认证。",
+    "path": "OpenAI / Apollo Research / METR / Transluce / Goodfire · 2026-11-16"
   },
   {
     "title": "人形机器人信息安全强制国标项目征求意见：目前是拟立项阶段",
