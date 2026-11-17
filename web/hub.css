@@ -21,3 +21,12 @@ a:hover{text-decoration:none!important}
 @media(max-width:760px){.overview-grid{grid-template-columns:1fr;gap:22px}.topic-card,.company-card{min-height:0;padding:28px}.home-update time{font-size:27px}}
 @media(max-width:420px){.topic-card,.company-card{padding:24px}.topic-card h3{font-size:24px}.hub .company-card .company-name{font-size:27px}.home-update{gap:12px;padding:26px 0 24px}.home-update time{font-size:25px}}
 @media print{.overview-grid{display:block}}
+
+/* A native link covers the card; secondary links remain independently clickable. */
+.navigable-card,a.entry{position:relative;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease,background-color .18s ease}
+.card-link::after{content:"";position:absolute;inset:0;z-index:1;cursor:pointer}
+.navigable-card .update-list a,.navigable-card .story-links a{position:relative;z-index:2}
+.navigable-card:focus-within,a.entry:focus-visible{border-color:var(--blue);box-shadow:0 6px 22px #002fa714}
+@media(hover:hover){.navigable-card:hover,a.entry:hover{transform:translateY(-4px);border-color:var(--blue);box-shadow:0 10px 28px #002fa714;background-color:#fbfcff}.navigable-card:hover .card-link{color:var(--blue)}}
+.navigable-card:active,a.entry:active{transform:translateY(-1px)}
+@media(prefers-reduced-motion:reduce){.navigable-card,a.entry{transition:none}.navigable-card:hover,a.entry:hover,.navigable-card:active,a.entry:active{transform:none}}
