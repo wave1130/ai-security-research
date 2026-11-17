@@ -1,5 +1,6 @@
 /* Secondary pages share a quiet top navigation and one centered reading column. */
 body.secondary-page{background:#f7f8fc}
+a:hover{text-decoration:none!important}
 .secondary-page>aside{display:none}
 .secondary-page main{margin:0 auto;width:100%;max-width:1240px;padding:0 48px}
 .secondary-page .site-navigation{display:flex;flex-wrap:wrap;gap:8px 28px;padding:20px 0;border-bottom:1px solid #dce1f0}
