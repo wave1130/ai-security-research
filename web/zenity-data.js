@@ -4,7 +4,7 @@ window.PRODUCT_RESEARCH = {
   "tagline": "在 Agent 做出行动时，理解并约束它。",
   "lead": "围绕 Surface、Enforce、Protect，展开资产可见性、身份、MCP、安全边界与 AI 检测响应。",
   "channel": "https://www.youtube.com/@zenitysecurity/videos",
-  "updated": "2026-11-03",
+  "updated": "2026-11-19",
   "flow": [
     [
       "SURFACE",
@@ -28,6 +28,10 @@ window.PRODUCT_RESEARCH = {
     ]
   ],
   "sources": {
+    "sandboxes": {
+      "title": "Zenity for Sandboxes 产品公告 · 2026-11-18",
+      "url": "https://zenity.io/blog/introducing-zenity-for-sandboxes"
+    },
     "platform": {
       "title": "平台三层结构",
       "url": "https://zenity.io/platform"
@@ -70,6 +74,16 @@ window.PRODUCT_RESEARCH = {
     }
   },
   "sections": [
+    {
+      "title": "沙箱安全：把任务授权同实际执行关联",
+      "label": "2026-11-19 修订 · 厂商公告解读",
+      "paragraphs": [
+        "Zenity 于 11 月 18 日介绍 Zenity for Sandboxes。AISPM 增加沙箱、模板及其凭据和策略关联；Boundaries 按厂商描述把任务目标和输入来源同沙箱内部的文件、进程与网络活动结合；AIDR 用这些信号帮助调查实际发生了什么。底层内核、虚拟机与隔离仍由沙箱平台负责。",
+        "厂商提出从引导、限制到冻结、重建的不同响应级别。实际验收应逐个记录哪些动作需要审批，冻结时是否保留证据，限制网络与撤销凭据是否同时生效，以及重建前后的日志和策略是否可核对。",
+        "公告列举 OpenShell、E2B、Daytona 和 Modal。不同平台开放的控制接口、默认态、许可证和租户上线节奏未核实；目前不能从产品示意推断各平台都支持相同级别的防护。"
+      ],
+      "sources": ["sandboxes"]
+    },
     {
       "title": "产品定位：治理 Agent 的决策与行动",
       "label": "官方材料解读",

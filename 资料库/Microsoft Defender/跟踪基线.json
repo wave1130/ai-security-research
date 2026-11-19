@@ -12,7 +12,9 @@
   ],
   "status": {
     "discovery": "Windows/macOS GA，存在单独预览组合",
-    "runtime": "Windows Preview，按支持矩阵核实"
+    "runtime": "11月17日Defender官方博客宣布Windows运行时GA；Learn概览和矩阵仍标Preview，具体组合与版本需核对",
+    "cloud_agent_posture": "11月17日公告第三方云Agent姿态预览；依赖Agent 365连接相应平台",
+    "soc": "Perception GA；ISOC核心能力GA，完整SIEM与部分新增功能仍预览"
   },
   "sources": [
     {
@@ -54,7 +56,7 @@
   ],
   "sections": [
     {
-      "title": "最新核实：发现正式可用，运行时防护仍在预览",
+      "title": "历史基线（11月5日）：发现GA，运行时文档标预览",
       "paragraphs": [
         "2026年10月29日，微软宣布Windows和macOS受支持本地Agent及其MCP配置发现正式可用；公告称支持范围扩展到50余种Agent和MCP服务器。Windows运行时防护及Intune部署能力仍为预览，不能用发现的GA状态代替防护状态。",
         "本轮于2026年11月5日建立长期跟踪基线。发现概览和支持矩阵页面标注11月3日更新；这是文档更新时间，不是本轮确认的新功能发布日期。10月29日公告本身还显示10月28日Updated字段，记录时采用文章主日期并保留差异。"
@@ -153,9 +155,24 @@
         "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
         "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/"
       ]
+    },
+    {
+      "title": "11月18日修订：Ignite公告与支持文档并列核实",
+      "paragraphs": [
+        "11月17日Defender博客宣布Windows本地Agent运行时保护正式可用，但同日更新的Learn概览仍写Preview，11月12日支持矩阵也仍标Windows预览。本基线同时保留公告与文档状态，不用公告覆盖未明确的Agent、系统与版本组合。",
+        "Perception平台正式可用与ISOC核心能力GA属于用AI做安全运营；完整SIEM和部分新增功能仍预览。第三方云Agent姿态预览需通过Agent 365接入，不能据此推断任意云Agent都有实时工具阻断。",
+        "本轮概览依然保留Audit告警误写Blocked和部分Claude Code工具响应阻断限制；没有证据证明GA公告已使其修复。提示证据采集及预告默认值变化也需按实际设备版本核对，不能当作运行时保护自动开启。"
+      ],
+      "source_urls": [
+        "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/ignite-2026-whats-new-in-microsoft-defender--sentinel/4569975",
+        "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/",
+        "https://techcommunity.microsoft.com/blog/perception-blog/whats-new-with-microsoft-perception-at-ignite-2026/4571834",
+        "https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-support-matrix",
+        "https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-runtime-protection-overview"
+      ]
     }
   ],
-  "last_checked_at": "2026-11-15",
+  "last_checked_at": "2026-11-19",
   "check_history": [
     {
       "date": "2026-11-06",
@@ -204,7 +221,7 @@
       ]
     }
   ],
-  "last_reviewed_at": "2026-11-16T09:08:04+08:00",
+  "last_reviewed_at": "2026-11-19",
   "documentation_reviews": [
     {
       "id": "defender-preview-tool-response-limit",
@@ -215,6 +232,21 @@
       "first_disclosed_at": null,
       "facts": "微软运行时概览列出两项已知问题：Audit模式告警可能误写为已阻断；某些受影响设备上，Claude Code即使处于Block模式且报告工具响应阻断，仍可能继续处理该响应。这两者分别属于告警表述问题与实际阻断限制。",
       "limit": "本条是11月16日文档核查补录，概览与矩阵分别标11月11、12日更新，不是新增GA或已核实的新问题发布日期。微软未在所读段落列出受影响Claude Code具体版本、修复版本及完整条件；未在用户设备安装或实测，不推断所有Block路径失效。"
+    },
+    {
+      "date": "2026-11-18",
+      "announcement": "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/ignite-2026-whats-new-in-microsoft-defender--sentinel/4569975",
+      "overview": "https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-runtime-protection-overview",
+      "matrix": "https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-support-matrix",
+      "result": "记录GA公告与Preview文档口径差异；没有确认全部租户和组合完成GA切换或旧限制修复。"
+    },
+    {
+      "date": "2026-11-19",
+      "overview": "https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-runtime-protection-overview",
+      "matrix": "https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-support-matrix",
+      "setup": "https://learn.microsoft.com/en-us/defender-endpoint/configure-ai-agent-runtime-protection",
+      "release_notes": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+      "result": "Learn发布说明将Windows和macOS的受支持本地Agent及其配置的MCP发现列入10月GA，WSL发现仍预览。11月17日更新的配置页和运行时概览仍标Preview，矩阵仍将Windows运行时标为预览。部署渠道可为Intune或Defender门户；配置需要支持的Agent与端点状态以及配置文档所列许可。未核实完整GA切换、修复或云端/XDR新增状态，故不另报一次功能发布。"
     }
   ]
 }

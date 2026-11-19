@@ -1761,5 +1761,74 @@
     "priority": true,
     "wordCount": 1325,
     "sections": []
+  },
+  {
+    "id": "ignite-2026-agent-security",
+    "org": "Microsoft",
+    "kind": "官方公告中文解读",
+    "topic": "产品研究",
+    "date": "2026-11-18研究 / 原始日期见正文",
+    "title": "Ignite：Defender与Perception产品状态及授权边界",
+    "en": "",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/",
+    "readingUrl": "reading/b43248e1d73c.html",
+    "status": "中文编辑研究 · 非完整译稿 · 未独立实测",
+    "summary": "结合原始来源区分产品状态、技术机制、证据范围与验证问题。",
+    "points": [
+      "事实与状态",
+      "机制与边界",
+      "编辑分析与验证问题"
+    ],
+    "question": "现有证据能证明什么，哪些条件仍需核实？",
+    "limit": "见正文，不将公告、预览或实验结果泛化为已实测效果。",
+    "priority": true,
+    "wordCount": 2431,
+    "sections": []
+  },
+  {
+    "id": "cyera-omni-endpoint-agents",
+    "org": "Cyera",
+    "kind": "官方公告中文解读",
+    "topic": "数据安全",
+    "date": "2026-11-18研究 / 原始日期见正文",
+    "title": "Cyera Omni：Endpoint、Cy Agents与任务级访问",
+    "en": "",
+    "url": "https://www.cyera.com/press-releases/cyera-expands-its-platform-to-build-out-a-new-security-architecture-for-the-agentic-era",
+    "readingUrl": "reading/4389b08419f6.html",
+    "status": "中文编辑研究 · 非完整译稿 · 未独立实测",
+    "summary": "结合原始来源区分产品状态、技术机制、证据范围与验证问题。",
+    "points": [
+      "事实与状态",
+      "机制与边界",
+      "编辑分析与验证问题"
+    ],
+    "question": "现有证据能证明什么，哪些条件仍需核实？",
+    "limit": "见正文，不将公告、预览或实验结果泛化为已实测效果。",
+    "priority": true,
+    "wordCount": 1211,
+    "sections": []
+  },
+  {
+    "id": "agent-background-evaluation-boundaries",
+    "org": "NewCore / Epoch AI",
+    "kind": "官方公告中文解读",
+    "topic": "Agent安全",
+    "date": "2026-11-18研究 / 原始日期见正文",
+    "title": "Agent后台访问与评测边界",
+    "en": "",
+    "url": "https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website",
+    "readingUrl": "reading/bea820725e19.html",
+    "status": "中文编辑研究 · 非完整译稿 · 未独立实测",
+    "summary": "结合原始来源区分产品状态、技术机制、证据范围与验证问题。",
+    "points": [
+      "事实与状态",
+      "机制与边界",
+      "编辑分析与验证问题"
+    ],
+    "question": "现有证据能证明什么，哪些条件仍需核实？",
+    "limit": "见正文，不将公告、预览或实验结果泛化为已实测效果。",
+    "priority": true,
+    "wordCount": 1087,
+    "sections": []
   }
 ]

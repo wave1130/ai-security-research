@@ -56,6 +56,13 @@
     "parent": "armadin.html"
   },
   {
+    "title": "Cyera Omni：Endpoint、Cy Agents与任务级访问",
+    "kind": "专题与资料目录",
+    "url": "reading/4389b08419f6.html",
+    "source": "资料库/Cyera/2026-11-18-Omni平台与Agent权限研究.md",
+    "parent": "cyera.html"
+  },
+  {
     "title": "AI 时代的新数据安全成熟度模型",
     "kind": "中文正文译稿",
     "url": "reading/cyera-translation.html",
@@ -105,6 +112,13 @@
     "parent": "industry.html"
   },
   {
+    "title": "Microsoft Defender与Perception：Ignite产品状态与授权边界",
+    "kind": "专题与资料目录",
+    "url": "reading/b43248e1d73c.html",
+    "source": "资料库/Microsoft Defender/2026-11-18-Ignite产品状态与授权边界.md",
+    "parent": "industry.html"
+  },
+  {
     "title": "Microsoft Defender：AI安全长期跟踪",
     "kind": "专题与资料目录",
     "url": "reading/a80cfa4226c9.html",
@@ -131,6 +145,13 @@
     "url": "reading/d81f39ca4bfa.html",
     "source": "资料库/Zenity/视频精读-恶意MCP与记忆投毒.md",
     "parent": "zenity.html"
+  },
+  {
+    "title": "Agent后台访问与评测边界：两类证据需要分开",
+    "kind": "专题与资料目录",
+    "url": "reading/bea820725e19.html",
+    "source": "资料库/专题研究/2026-11-18-Agent后台访问与评测边界.md",
+    "parent": "industry.html"
   },
   {
     "title": "2026年11月16日 · AI相关安全事件专版",

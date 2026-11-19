@@ -1,7 +1,11 @@
 {
-  "news_count": 44,
+  "news_count": 60,
   "topics": {
     "financing": [
+      "vero-security-seed-2026",
+      "stepsecurity-series-a-2026",
+      "quorum-ontinue-acquisition-completion",
+      "corma-series-a-2026",
       "cohere-aisle-cubic-completion",
       "daylight-series-b",
       "whitematter-series-a",
@@ -15,8 +19,12 @@
       "hadrian"
     ],
     "data-security": [
+      "stepsecurity-series-a-2026",
+      "microsoft-agent-framework-pypi-compromise",
+      "bitdefender-agent-repository-malware-campaign",
       "cursor-fireworks-postmortem",
       "notion-fireworks-impact",
+      "cyera-endpoint-cy-agents-datasecai",
       "railway-ai-credential-postmortem",
       "commvault-agentrecover-extension",
       "fireworks-october-impact-update",
@@ -27,6 +35,11 @@
       "infisical"
     ],
     "shadow-ai": [
+      "zenity-for-sandboxes-announcement",
+      "vero-security-seed-2026",
+      "defender-runtime-ga-documentation-gap",
+      "copilot-cli-device-code-phishing-study",
+      "grok-bot-background-access-study",
       "exaforce-exau-announcement",
       "darktrace-mcp-ga",
       "notion-fireworks-impact",
@@ -37,19 +50,35 @@
       "google-workspace-agentic-client-enforcement"
     ],
     "adaptive-operations": [
+      "microsoft-perception-isoc-ignite-2026",
+      "quorum-ontinue-acquisition-completion",
+      "gtig-q4-agentic-threat-tracker-2026",
+      "corma-series-a-2026",
       "exaforce-exau-announcement",
       "darktrace-mcp-ga",
+      "cyera-endpoint-cy-agents-datasecai",
       "daylight-series-b",
       "microsoft-november-mxc",
       "brava-seed"
     ],
     "intent-security": [
+      "zenity-for-sandboxes-announcement",
+      "vero-security-seed-2026",
+      "microsoft-agent-framework-pypi-compromise",
+      "bitdefender-agent-repository-malware-campaign",
+      "defender-runtime-ga-documentation-gap",
+      "microsoft-ai-transparency-initiative",
+      "copilot-cli-device-code-phishing-study",
+      "grok-bot-background-access-study",
       "california-openai-hf-lawsuit",
       "openai-embedded-assessment-agreements",
       "defender-preview-tool-response-limit",
+      "epoch-trajectory-agent-boundary-incident",
       "darktrace-mcp-ga",
       "unit42-cairn-campaign",
+      "cyera-endpoint-cy-agents-datasecai",
       "microsoft-lazarus",
+      "miit-agent-terminal-access-notice-2026",
       "workos-attribution-update",
       "cyera-intent",
       "workos",
@@ -57,7 +86,12 @@
     ],
     "ai-silverfox": [],
     "agent-red-team": [
+      "zenity-for-sandboxes-announcement",
+      "microsoft-perception-isoc-ignite-2026",
+      "copilot-cli-device-code-phishing-study",
+      "gtig-q4-agentic-threat-tracker-2026",
       "openai-embedded-assessment-agreements",
+      "epoch-trajectory-agent-boundary-incident",
       "microsoft-lazarus",
       "cisco-controlled-redteam",
       "workos-attribution-update",
@@ -68,10 +102,15 @@
   },
   "companies": {
     "cyera": [
+      "cyera-endpoint-cy-agents-datasecai",
       "cyera-intent"
     ],
     "akto": [],
     "defender": [
+      "microsoft-perception-isoc-ignite-2026",
+      "defender-runtime-ga-documentation-gap",
+      "microsoft-ai-transparency-initiative",
+      "copilot-cli-device-code-phishing-study",
       "defender-preview-tool-response-limit",
       "microsoft-lazarus",
       "microsoft-november-mxc"
@@ -81,7 +120,9 @@
       "exaforce-exau-announcement",
       "daylight-series-b"
     ],
-    "zenity": []
+    "zenity": [
+      "zenity-for-sandboxes-announcement"
+    ]
   },
-  "resource_count": 143
+  "resource_count": 173
 }

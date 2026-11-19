@@ -126,6 +126,32 @@
     ]
   },
   {
+    "title": "Cyera Omni：Endpoint、Cy Agents与任务级访问",
+    "kind": "研究笔记",
+    "section": "技术文档",
+    "language": "中文",
+    "url": "reading/4389b08419f6.html",
+    "status": "中文解读",
+    "path": "资料库/Cyera/2026-11-18-Omni平台与Agent权限研究.md",
+    "pages": [
+      "cyera.html",
+      "topic-adaptive-operations.html",
+      "topic-data-security.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "cyera-endpoint-cy-agents-datasecai"
+    ],
+    "companies": [
+      "cyera"
+    ],
+    "topics": [
+      "data-security",
+      "adaptive-operations",
+      "intent-security"
+    ]
+  },
+  {
     "title": "AI 时代的新数据安全成熟度模型",
     "kind": "中文译稿",
     "section": "技术文档",
@@ -257,6 +283,35 @@
     "topics": []
   },
   {
+    "title": "Microsoft Defender与Perception：Ignite产品状态与授权边界",
+    "kind": "研究笔记",
+    "section": "技术文档",
+    "language": "中文",
+    "url": "reading/b43248e1d73c.html",
+    "status": "中文解读",
+    "path": "资料库/Microsoft Defender/2026-11-18-Ignite产品状态与授权边界.md",
+    "pages": [
+      "defender.html",
+      "topic-adaptive-operations.html",
+      "topic-agent-red-team.html",
+      "topic-intent-security.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "defender-runtime-ga-documentation-gap",
+      "microsoft-perception-isoc-ignite-2026"
+    ],
+    "companies": [
+      "defender"
+    ],
+    "topics": [
+      "shadow-ai",
+      "adaptive-operations",
+      "intent-security",
+      "agent-red-team"
+    ]
+  },
+  {
     "title": "Microsoft Defender：AI安全长期跟踪",
     "kind": "研究笔记",
     "section": "技术文档",
@@ -308,6 +363,30 @@
     ],
     "topics": [
       "shadow-ai"
+    ]
+  },
+  {
+    "title": "Agent后台访问与评测边界：两类证据需要分开",
+    "kind": "研究笔记",
+    "section": "技术文档",
+    "language": "中文",
+    "url": "reading/bea820725e19.html",
+    "status": "中文解读",
+    "path": "资料库/专题研究/2026-11-18-Agent后台访问与评测边界.md",
+    "pages": [
+      "topic-agent-red-team.html",
+      "topic-intent-security.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "epoch-trajectory-agent-boundary-incident",
+      "grok-bot-background-access-study"
+    ],
+    "companies": [],
+    "topics": [
+      "shadow-ai",
+      "intent-security",
+      "agent-red-team"
     ]
   },
   {
@@ -1337,6 +1416,82 @@
     ]
   },
   {
+    "title": "Ignite：Defender与Perception产品状态及授权边界",
+    "kind": "公告解读",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/",
+    "reading": "reading/b43248e1d73c.html",
+    "status": "中文编辑研究 · 非完整译稿 · 未独立实测",
+    "path": "Microsoft · 2026-11-18研究 / 原始日期见正文",
+    "pages": [
+      "defender.html",
+      "topic-adaptive-operations.html",
+      "topic-agent-red-team.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "microsoft-perception-isoc-ignite-2026"
+    ],
+    "companies": [
+      "defender"
+    ],
+    "topics": [
+      "adaptive-operations",
+      "intent-security",
+      "agent-red-team"
+    ]
+  },
+  {
+    "title": "Cyera Omni：Endpoint、Cy Agents与任务级访问",
+    "kind": "公告解读",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.cyera.com/press-releases/cyera-expands-its-platform-to-build-out-a-new-security-architecture-for-the-agentic-era",
+    "reading": "reading/4389b08419f6.html",
+    "status": "中文编辑研究 · 非完整译稿 · 未独立实测",
+    "path": "Cyera · 2026-11-18研究 / 原始日期见正文",
+    "pages": [
+      "cyera.html",
+      "topic-adaptive-operations.html",
+      "topic-data-security.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "cyera-endpoint-cy-agents-datasecai"
+    ],
+    "companies": [
+      "cyera"
+    ],
+    "topics": [
+      "data-security",
+      "adaptive-operations",
+      "intent-security"
+    ]
+  },
+  {
+    "title": "Agent后台访问与评测边界",
+    "kind": "公告解读",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website",
+    "reading": "reading/bea820725e19.html",
+    "status": "中文编辑研究 · 非完整译稿 · 未独立实测",
+    "path": "NewCore / Epoch AI · 2026-11-18研究 / 原始日期见正文",
+    "pages": [
+      "topic-agent-red-team.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "epoch-trajectory-agent-boundary-incident"
+    ],
+    "companies": [],
+    "topics": [
+      "intent-security",
+      "agent-red-team"
+    ]
+  },
+  {
     "title": "Akto Argus · 自建AI防护",
     "kind": "技术文档",
     "section": "技术文档",
@@ -1457,6 +1612,565 @@
     ]
   },
   {
+    "title": "Zenity for Sandboxes 产品公告 · Zenity",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://zenity.io/blog/introducing-zenity-for-sandboxes",
+    "reading": "news-zenity-for-sandboxes-announcement.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-18",
+    "pages": [
+      "topic-agent-red-team.html",
+      "topic-intent-security.html",
+      "topic-shadow-agent.html",
+      "zenity.html"
+    ],
+    "news_ids": [
+      "zenity-for-sandboxes-announcement"
+    ],
+    "companies": [
+      "zenity"
+    ],
+    "topics": [
+      "shadow-ai",
+      "intent-security",
+      "agent-red-team"
+    ]
+  },
+  {
+    "title": "Zenity 官方运营与研发地点说明 · Zenity",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://zenity.io/press-release/zenity-raises-125-million-to-secure-the-era-of-1-billion-ai-agents",
+    "reading": "news-zenity-for-sandboxes-announcement.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-18",
+    "pages": [
+      "topic-agent-red-team.html",
+      "topic-intent-security.html",
+      "topic-shadow-agent.html",
+      "zenity.html"
+    ],
+    "news_ids": [
+      "zenity-for-sandboxes-announcement"
+    ],
+    "companies": [
+      "zenity"
+    ],
+    "topics": [
+      "shadow-ai",
+      "intent-security",
+      "agent-red-team"
+    ]
+  },
+  {
+    "title": "Vero Security 融资与产品公告 · Vero Security",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.vero.security/blog/vero-raises-11m-to-shape-how-ai-security-engineering-is-done",
+    "reading": "news-vero-security-seed-2026.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-18",
+    "pages": [
+      "topic-financing.html",
+      "topic-intent-security.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "vero-security-seed-2026"
+    ],
+    "companies": [],
+    "topics": [
+      "financing",
+      "shadow-ai",
+      "intent-security"
+    ]
+  },
+  {
+    "title": "StepSecurity 创始人融资公告 · StepSecurity",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.stepsecurity.io/blog/stepsecurity-20-million-series-a",
+    "reading": "news-stepsecurity-series-a-2026.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-18",
+    "pages": [
+      "topic-data-security.html",
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "stepsecurity-series-a-2026"
+    ],
+    "companies": [],
+    "topics": [
+      "financing",
+      "data-security"
+    ]
+  },
+  {
+    "title": "StepSecurity 官方条款（注册信息） · StepSecurity",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://app.stepsecurity.io/terms",
+    "reading": "news-stepsecurity-series-a-2026.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-18",
+    "pages": [
+      "topic-data-security.html",
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "stepsecurity-series-a-2026"
+    ],
+    "companies": [],
+    "topics": [
+      "financing",
+      "data-security"
+    ]
+  },
+  {
+    "title": "GitHub / OpenSSF 恶意包通告 · Microsoft Agent Framework",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://github.com/advisories/GHSA-764m-3ppc-5m73",
+    "reading": "news-microsoft-agent-framework-pypi-compromise.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-17",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-data-security.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "microsoft-agent-framework-pypi-compromise"
+    ],
+    "companies": [],
+    "topics": [
+      "data-security",
+      "intent-security"
+    ]
+  },
+  {
+    "title": "Elastic 检测时间线 · Microsoft Agent Framework",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.elastic.co/security-labs/threat-command/we-caught-the-agent-framework-pypi-compromise-six-minutes-after-it-published",
+    "reading": "news-microsoft-agent-framework-pypi-compromise.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-17",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-data-security.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "microsoft-agent-framework-pypi-compromise"
+    ],
+    "companies": [],
+    "topics": [
+      "data-security",
+      "intent-security"
+    ]
+  },
+  {
+    "title": "StepSecurity 核实与响应建议 · Microsoft Agent Framework",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.stepsecurity.io/blog/microsoft-agent-framework-pypi-package-compromised",
+    "reading": "news-microsoft-agent-framework-pypi-compromise.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-17",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-data-security.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "microsoft-agent-framework-pypi-compromise"
+    ],
+    "companies": [],
+    "topics": [
+      "data-security",
+      "intent-security"
+    ]
+  },
+  {
+    "title": "Bitdefender Labs 原始样本研究与防护建议 · Bitdefender Labs",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.bitdefender.com/en-us/blog/labs/how-ai-agents-become-new-targets-in-github-malware-campaign",
+    "reading": "news-bitdefender-agent-repository-malware-campaign.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-17",
+    "pages": [
+      "topic-agent-security.html",
+      "topic-data-security.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "bitdefender-agent-repository-malware-campaign"
+    ],
+    "companies": [],
+    "topics": [
+      "data-security",
+      "intent-security"
+    ]
+  },
+  {
+    "title": "Perception官方公告 · Microsoft",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://techcommunity.microsoft.com/blog/perception-blog/whats-new-with-microsoft-perception-at-ignite-2026/4571834",
+    "reading": "news-microsoft-perception-isoc-ignite-2026.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-17",
+    "pages": [
+      "defender.html",
+      "topic-adaptive-operations.html",
+      "topic-agent-red-team.html"
+    ],
+    "news_ids": [
+      "microsoft-perception-isoc-ignite-2026"
+    ],
+    "companies": [
+      "defender"
+    ],
+    "topics": [
+      "adaptive-operations",
+      "agent-red-team"
+    ]
+  },
+  {
+    "title": "Defender与Sentinel官方公告 · Microsoft",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/ignite-2026-whats-new-in-microsoft-defender--sentinel/4569975",
+    "reading": "news-microsoft-perception-isoc-ignite-2026.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-17",
+    "pages": [
+      "defender.html",
+      "topic-adaptive-operations.html",
+      "topic-agent-red-team.html",
+      "topic-intent-security.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "defender-runtime-ga-documentation-gap",
+      "microsoft-perception-isoc-ignite-2026"
+    ],
+    "companies": [
+      "defender"
+    ],
+    "topics": [
+      "shadow-ai",
+      "adaptive-operations",
+      "intent-security",
+      "agent-red-team"
+    ]
+  },
+  {
+    "title": "Learn运行时概览，仍标Preview · Microsoft Defender",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-runtime-protection-overview",
+    "reading": "news-defender-runtime-ga-documentation-gap.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-17",
+    "pages": [
+      "defender.html",
+      "topic-agent-security.html",
+      "topic-intent-security.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "defender-preview-tool-response-limit",
+      "defender-runtime-ga-documentation-gap"
+    ],
+    "companies": [
+      "defender"
+    ],
+    "topics": [
+      "shadow-ai",
+      "intent-security"
+    ]
+  },
+  {
+    "title": "Learn Agent支持矩阵 · Microsoft Defender",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-support-matrix",
+    "reading": "news-defender-runtime-ga-documentation-gap.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-17",
+    "pages": [
+      "defender.html",
+      "topic-adaptive-operations.html",
+      "topic-agent-security.html",
+      "topic-intent-security.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "defender-preview-tool-response-limit",
+      "defender-runtime-ga-documentation-gap",
+      "microsoft-november-mxc"
+    ],
+    "companies": [
+      "defender"
+    ],
+    "topics": [
+      "shadow-ai",
+      "adaptive-operations",
+      "intent-security"
+    ]
+  },
+  {
+    "title": "Learn运行时配置页（Preview） · Microsoft Defender",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/configure-ai-agent-runtime-protection",
+    "reading": "news-defender-runtime-ga-documentation-gap.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-17",
+    "pages": [
+      "defender.html",
+      "topic-intent-security.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "defender-runtime-ga-documentation-gap"
+    ],
+    "companies": [
+      "defender"
+    ],
+    "topics": [
+      "shadow-ai",
+      "intent-security"
+    ]
+  },
+  {
+    "title": "Learn发布说明（10月发现GA） · Microsoft Defender",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint",
+    "reading": "news-defender-runtime-ga-documentation-gap.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-17",
+    "pages": [
+      "defender.html",
+      "topic-intent-security.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "defender-runtime-ga-documentation-gap"
+    ],
+    "companies": [
+      "defender"
+    ],
+    "topics": [
+      "shadow-ai",
+      "intent-security"
+    ]
+  },
+  {
+    "title": "微软AI透明度倡议原始公告 · Microsoft / 行业参与者",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents/",
+    "reading": "news-microsoft-ai-transparency-initiative.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-17",
+    "pages": [
+      "defender.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "microsoft-ai-transparency-initiative"
+    ],
+    "companies": [
+      "defender"
+    ],
+    "topics": [
+      "intent-security"
+    ]
+  },
+  {
+    "title": "微软设备码钓鱼研究原文 · Microsoft Security Research",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/",
+    "reading": "news-copilot-cli-device-code-phishing-study.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-17",
+    "pages": [
+      "defender.html",
+      "topic-agent-red-team.html",
+      "topic-intent-security.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "copilot-cli-device-code-phishing-study"
+    ],
+    "companies": [
+      "defender"
+    ],
+    "topics": [
+      "shadow-ai",
+      "intent-security",
+      "agent-red-team"
+    ]
+  },
+  {
+    "title": "NewCore公开研究公告（4页） · NewCore / xAI Grok Bot",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://newcore.com/api/newsroom/newcore-research-grok-bot-agents-reached-for-corporate-data-unprompted/pdf",
+    "reading": "news-grok-bot-background-access-study.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-17",
+    "pages": [
+      "topic-intent-security.html",
+      "topic-shadow-agent.html"
+    ],
+    "news_ids": [
+      "grok-bot-background-access-study"
+    ],
+    "companies": [],
+    "topics": [
+      "shadow-ai",
+      "intent-security"
+    ]
+  },
+  {
+    "title": "Quorum Cyber交割公告 · Quorum Cyber / Ontinue",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.quorumcyber.com/insights/quorum-cyber-ontinue-aquisition-complete/",
+    "reading": "news-quorum-ontinue-acquisition-completion.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-17",
+    "pages": [
+      "topic-adaptive-operations.html",
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "quorum-ontinue-acquisition-completion"
+    ],
+    "companies": [],
+    "topics": [
+      "financing",
+      "adaptive-operations"
+    ]
+  },
+  {
+    "title": "公司发布的新闻稿（日期与地区） · Quorum Cyber / Ontinue",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.prnewswire.com/news-releases/quorum-cyber-completes-acquisition-of-ontinue-advancing-its-vision-for-microsoft-first-autonomous-cyber-defense-302940933.html",
+    "reading": "news-quorum-ontinue-acquisition-completion.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-17",
+    "pages": [
+      "topic-adaptive-operations.html",
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "quorum-ontinue-acquisition-completion"
+    ],
+    "companies": [],
+    "topics": [
+      "financing",
+      "adaptive-operations"
+    ]
+  },
+  {
+    "title": "Google Cloud GTIG / Mandiant 季度原报告 · Google GTIG / Mandiant",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+    "reading": "news-gtig-q4-agentic-threat-tracker-2026.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-16",
+    "pages": [
+      "topic-adaptive-operations.html",
+      "topic-agent-red-team.html",
+      "topic-agent-security.html"
+    ],
+    "news_ids": [
+      "gtig-q4-agentic-threat-tracker-2026"
+    ],
+    "companies": [],
+    "topics": [
+      "adaptive-operations",
+      "agent-red-team"
+    ]
+  },
+  {
+    "title": "Corma融资原始公告 · Corma",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.corma.ai/blog/three-months-in",
+    "reading": "news-corma-series-a-2026.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-16",
+    "pages": [
+      "topic-adaptive-operations.html",
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "corma-series-a-2026"
+    ],
+    "companies": [],
+    "topics": [
+      "financing",
+      "adaptive-operations"
+    ]
+  },
+  {
+    "title": "Corma官方联系地址 · Corma",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.corma.ai/privacy-policy",
+    "reading": "news-corma-series-a-2026.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-16",
+    "pages": [
+      "topic-adaptive-operations.html",
+      "topic-financing.html"
+    ],
+    "news_ids": [
+      "corma-series-a-2026"
+    ],
+    "companies": [],
+    "topics": [
+      "financing",
+      "adaptive-operations"
+    ]
+  },
+  {
     "title": "总部属性：Exaforce官方5月公告 · Exaforce",
     "kind": "新闻资料",
     "section": "技术文档",
@@ -1545,57 +2259,6 @@
     "topics": [
       "intent-security",
       "agent-red-team"
-    ]
-  },
-  {
-    "title": "微软运行时概览：Known issues (Preview) · Microsoft Defender",
-    "kind": "新闻资料",
-    "section": "技术文档",
-    "language": "原文",
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-runtime-protection-overview",
-    "reading": "news-defender-preview-tool-response-limit.html",
-    "status": "来源页 · 阅读范围见新闻",
-    "path": "未标明",
-    "pages": [
-      "defender.html",
-      "topic-agent-security.html",
-      "topic-intent-security.html"
-    ],
-    "news_ids": [
-      "defender-preview-tool-response-limit"
-    ],
-    "companies": [
-      "defender"
-    ],
-    "topics": [
-      "intent-security"
-    ]
-  },
-  {
-    "title": "微软Agent支持矩阵 · Microsoft Defender",
-    "kind": "新闻资料",
-    "section": "技术文档",
-    "language": "原文",
-    "url": "https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-support-matrix",
-    "reading": "news-defender-preview-tool-response-limit.html",
-    "status": "来源页 · 阅读范围见新闻",
-    "path": "未标明",
-    "pages": [
-      "defender.html",
-      "topic-adaptive-operations.html",
-      "topic-agent-security.html",
-      "topic-intent-security.html"
-    ],
-    "news_ids": [
-      "defender-preview-tool-response-limit",
-      "microsoft-november-mxc"
-    ],
-    "companies": [
-      "defender"
-    ],
-    "topics": [
-      "adaptive-operations",
-      "intent-security"
     ]
   },
   {
@@ -1764,6 +2427,33 @@
     ],
     "companies": [],
     "topics": []
+  },
+  {
+    "title": "Cyera任务级访问模型说明 · Cyera",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.cyera.com/blog/ema-id-jag-xaa-token-exchange",
+    "reading": "news-cyera-endpoint-cy-agents-datasecai.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-10",
+    "pages": [
+      "cyera.html",
+      "topic-adaptive-operations.html",
+      "topic-data-security.html",
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "cyera-endpoint-cy-agents-datasecai"
+    ],
+    "companies": [
+      "cyera"
+    ],
+    "topics": [
+      "data-security",
+      "adaptive-operations",
+      "intent-security"
+    ]
   },
   {
     "title": "Railway 11月10日详细事件报告 · Railway",
@@ -2182,6 +2872,46 @@
     ],
     "companies": [],
     "topics": []
+  },
+  {
+    "title": "工信厅信管〔2026〕42号：智能体终端设备进网管理通知",
+    "kind": "监管文件",
+    "section": "行业标准",
+    "language": "中文",
+    "url": "https://www.miit.gov.cn/jgsj/xgj/sbgl/art/2026/art_1a83077d0f334f41a00d468e56df5303.html",
+    "reading": "news-miit-agent-terminal-access-notice-2026.html",
+    "status": "官方原文",
+    "path": "2026-11-06",
+    "pages": [
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "miit-agent-terminal-access-notice-2026"
+    ],
+    "companies": [],
+    "topics": [
+      "intent-security"
+    ]
+  },
+  {
+    "title": "工信部政策解读 · 中国工业和信息化部",
+    "kind": "新闻资料",
+    "section": "技术文档",
+    "language": "原文",
+    "url": "https://www.miit.gov.cn/zwgk/zcjd/art/2026/art_7ebf90533ca74af78542c70d3adaabb9.html",
+    "reading": "news-miit-agent-terminal-access-notice-2026.html",
+    "status": "来源页 · 阅读范围见新闻",
+    "path": "2026-11-06",
+    "pages": [
+      "topic-intent-security.html"
+    ],
+    "news_ids": [
+      "miit-agent-terminal-access-notice-2026"
+    ],
+    "companies": [],
+    "topics": [
+      "intent-security"
+    ]
   },
   {
     "title": "WorkOS 11月6日更新 · WorkOS",

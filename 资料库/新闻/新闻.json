@@ -1,7 +1,147 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-17",
+  "updated": "2026-11-19",
   "items": [
+    {
+      "id": "microsoft-agent-framework-pypi-compromise",
+      "company": "Microsoft Agent Framework",
+      "kind": "真实事件 / Agent依赖供应链",
+      "category": "安全事件",
+      "news_type": "安全事件",
+      "publication_date": "2026-11-17",
+      "update_date": "2026-11-18",
+      "event_date": "2026-11-17（UTC；北京时间11月18日）",
+      "record_date": "2026-11-19",
+      "title": "Microsoft Agent Framework 两个 PyPI 版本被投毒，可能暴露开发与构建凭据",
+      "facts": "Elastic 称其在 11 月 17 日（UTC）先行披露。GitHub Advisory Database 于 11 月 18 日收录 OpenSSF 的恶意包通告，确认 1.26.1 和 1.26.2 含凭据窃取代码。StepSecurity 报告两个版本都已被 PyPI 隔离；两次上传归为同一事件。",
+      "mechanism": "恶意组件会随 Python 环境启动，即使业务没有显式导入该框架也可能触发。执行环境可读的云、CI/CD 与开发者凭据因此处在风险范围内。",
+      "analysis": "编辑分析：依赖来源、安装和运行时隔离需要分别检查。先排查开发机、构建器、镜像和缓存是否用过受影响版本；若有安装，隔离并从可信构件重建环境，撤销或轮换其可访问凭据，核对身份使用与出站记录。Agent 的工具审批不能代替依赖完整性检查。",
+      "limit": "未核实实际受害数、每个环境是否发生凭据外传或发布权限失陷的根因。下载量不等于受害数。事件涉及 Agent 开发框架；没有攻击者使用 AI 的直接证据，也没有证据表明 Defender 产品被攻破。",
+      "incident_type": "AI 工具供应链投毒／潜在凭据暴露",
+      "incident_status": "已确认恶意分发；研究方报告版本已隔离；下游受害范围待核实",
+      "ai_role_evidence": "被投毒的是用于构建 AI Agent 的框架。凭据窃取代码的存在已核实；攻击方使用 AI 未获证实。",
+      "incident_cluster": "agent-framework-pypi-2026-11",
+      "sources": [["GitHub / OpenSSF 恶意包通告", "https://github.com/advisories/GHSA-764m-3ppc-5m73"], ["Elastic 检测时间线", "https://www.elastic.co/security-labs/threat-command/we-caught-the-agent-framework-pypi-compromise-six-minutes-after-it-published"], ["StepSecurity 核实与响应建议", "https://www.stepsecurity.io/blog/microsoft-agent-framework-pypi-package-compromised"]],
+      "research_topics": ["data-security", "intent-security"],
+      "topic_pages": ["topic-agent-security.html"],
+      "related": "topic-agent-security.html"
+    },
+    {
+      "id": "bitdefender-agent-repository-malware-campaign",
+      "company": "Bitdefender Labs",
+      "kind": "真实活动 / 编码 Agent 与仓库信任",
+      "category": "安全事件",
+      "news_type": "安全事件",
+      "publication_date": "2026-11-17",
+      "event_date": "恶意链接实际投放起止未披露",
+      "record_date": "2026-11-19",
+      "title": "Bitdefender 发现 22 个恶意 GitHub 链接，目标包括 AI 编码环境",
+      "facts": "研究方发现 22 个指向恶意内容的 GitHub 链接。样本以编程相关项目为外观，目标包括 AI 编码环境；报告分别分析了试图诱导助手执行的仓库内容和无需模型遵循提示也可能触发的项目配置。",
+      "mechanism": "仓库中的自然语言指令和可执行配置处于不同信任层。载荷若在开发环境中执行，可能取得开发凭据并污染其他 Agent 配置或代码仓库。",
+      "analysis": "编辑分析：应独立审核新仓库的指令文件、启动行为与工具配置；对未经审查的项目限制自动执行、凭据挂载和出站访问。出现异常时从终端执行、仓库变更和身份日志交叉核实。",
+      "limit": "22 个链接不等于 22 家已入侵企业。报告没有给出成功入侵规模，也没有证明所有路径需依赖模型、攻击者由 AI 自主运营或与其他活动同源。产品拦截效果未独立验证。",
+      "incident_type": "恶意仓库活动／针对 AI 编码环境",
+      "incident_status": "实际分发链接及样本已披露；下游入侵与规模未确认",
+      "ai_role_evidence": "样本与项目配置针对编码助手及其执行环境；部分路径无需 AI 作出执行决策。",
+      "incident_cluster": "bitdefender-agent-repo-malware-2026-11",
+      "sources": [["Bitdefender Labs 原始样本研究与防护建议", "https://www.bitdefender.com/en-us/blog/labs/how-ai-agents-become-new-targets-in-github-malware-campaign"]],
+      "research_topics": ["intent-security", "data-security"],
+      "topic_pages": ["topic-agent-security.html"],
+      "related": "topic-agent-security.html"
+    },
+    {
+      "id": "zenity-for-sandboxes-announcement",
+      "company": "Zenity",
+      "kind": "产品公告 / Agent 沙箱控制",
+      "category": "产品进展",
+      "news_type": "产品发布",
+      "publication_date": "2026-11-18",
+      "event_date": "2026-11-18 产品公告；租户开放日期未核实",
+      "record_date": "2026-11-19",
+      "title": "Zenity 发布沙箱安全方案，用任务上下文关联文件、进程和网络活动",
+      "facts": "Zenity 介绍 Zenity for Sandboxes，宣称可盘点沙箱及模板、关联凭据和出站策略，对受支持环境的文件、网络与运行参数施加策略。公告还描述限制、冻结、重建等响应方式。官方历史公告明确纽约负责市场与运营，研发中心在特拉维夫。",
+      "mechanism": "Agent 框架提供任务和输入来源的上下文，沙箱提供文件、进程和网络的实际行为。Zenity 将两类信号交给 Boundaries 策略并关联调查证据；底层隔离仍由沙箱平台提供。",
+      "analysis": "编辑分析：同一任务应核对意图判定和独立执行结果。验收可在授权测试环境验证：仅观察与阻断的差异、短时凭据撤销能否生效、网络受限后是否还有其他出站路径，以及冻结后是否能恢复调查所需证据。",
+      "limit": "公告列举 OpenShell、E2B、Daytona 和 Modal；未取得逐项支持、许可或 GA 矩阵，也没有独立验证各平台可用的执行和取证能力。厂商图示不能代替租户验收。",
+      "sources": [["Zenity for Sandboxes 产品公告", "https://zenity.io/blog/introducing-zenity-for-sandboxes"], ["Zenity 官方运营与研发地点说明", "https://zenity.io/press-release/zenity-raises-125-million-to-secure-the-era-of-1-billion-ai-agents"]],
+      "company_pages": ["zenity.html"],
+      "research_topics": ["intent-security", "shadow-ai", "agent-red-team"],
+      "related": "zenity.html"
+    },
+    {
+      "id": "vero-security-seed-2026",
+      "company": "Vero Security",
+      "kind": "融资 / 运行时治理",
+      "category": "融资并购",
+      "news_type": "融资",
+      "publication_date": "2026-11-18",
+      "event_date": "2026-11-18 宣布种子轮；具体交割日未披露",
+      "record_date": "2026-11-19",
+      "title": "Vero Security 宣布 1,100 万美元种子轮，聚焦企业 AI 运行时策略",
+      "facts": "公司公告称 TLV Partners 领投，GTM Capital、Maple Capital 和天使投资者参与。Vero 由以色列创始团队创办，在纽约及特拉维夫设办公室，融资用途包括扩大美国业务；公告没有单列法定总部。",
+      "mechanism": "厂商称 AI Runtime Governor 通过企业已有工具接入，对受支持提示、工具调用与 Agent 动作执行策略，并随供应商功能变化调整控制。",
+      "analysis": "编辑分析：该轮投资着眼于把影子 AI 发现延伸到持续策略执行。评估应看连接器的实际拦截点、未管路径和策略更新的变更审计，以及模型判断是否可能越过明确的授权规则。",
+      "limit": "接入粒度、部署前提、支持矩阵和实际拦截效果未核实；厂商披露的客户情况不作为独立效果证明，不从纽约发布地推断总部。",
+      "sources": [["Vero Security 融资与产品公告", "https://www.vero.security/blog/vero-raises-11m-to-shape-how-ai-security-engineering-is-done"]],
+      "research_topics": ["financing", "shadow-ai", "intent-security"],
+      "related": "topic-financing.html"
+    },
+    {
+      "id": "stepsecurity-series-a-2026",
+      "company": "StepSecurity",
+      "kind": "融资 / 软件供应链与 Agent 执行环境",
+      "category": "融资并购",
+      "news_type": "融资",
+      "publication_date": "2026-11-18",
+      "event_date": "2026-11-18 宣布 A 轮；具体交割日未披露",
+      "record_date": "2026-11-19",
+      "title": "StepSecurity 宣布 2,000 万美元 A 轮，投资构建环境与 Agent 沙箱安全",
+      "facts": "公司公告公布 Elephant 领投 2,000 万美元 A 轮，用于开发机、软件包、CI/CD 与 Agent 沙箱防护。同期介绍面向公共仓库的 Secure Registry 免费层。官方条款列出美国注册和注册地址；运营总部城市未独立核实。",
+      "mechanism": "Harden-Runner 在构建期间观察进程、出站连接及文件变更；厂商描述的注册表服务和 CI 运行时监控分别处理依赖取得与依赖执行两个阶段。",
+      "analysis": "编辑分析：传统 DevSecOps 与编码 Agent 的防线正在重叠。融资用途可作为产品走向的信号；评估时应分别查证注册表策略、构建器遥测和 Agent 沙箱覆盖，并检查绕过托管入口的依赖来源。",
+      "limit": "未取得所有 Agent 沙箱的可用性、许可和支持清单。融资用途不等于宣布每项能力已交付；美国注册地点也不等于运营总部。",
+      "sources": [["StepSecurity 创始人融资公告", "https://www.stepsecurity.io/blog/stepsecurity-20-million-series-a"], ["StepSecurity 官方条款（注册信息）", "https://app.stepsecurity.io/terms"]],
+      "research_topics": ["financing", "data-security"],
+      "related": "topic-financing.html"
+    },
+    {
+      "id": "gtig-q4-agentic-threat-tracker-2026",
+      "company": "Google GTIG / Mandiant",
+      "kind": "研究报告 / AI 辅助真实活动",
+      "category": "研究报告",
+      "news_type": "研究",
+      "publication_date": "2026-11-16",
+      "event_date": "季度观察；报告所述案例日期各异",
+      "record_date": "2026-11-19",
+      "title": "Google Q4 威胁报告：部分在野活动已采用 Agent 编排（补录）",
+      "facts": "GTIG 与 Mandiant 汇总季度观测，区分已有活动、威胁方实验和预测；其中一组案例涉及对亚洲多家机构的系统性侦察与扫描。报告亦提到 CAIRN，相关公开活动已单独收录。",
+      "mechanism": "报告关注模型与执行工具组合如何缩短不同活动阶段之间的时间。对防守而言，可以把重复扫描、身份使用、实际执行和外部网络活动放在同一时间线上核对。",
+      "analysis": "编辑分析：响应指标应看从首次发现到隔离的时间，以及拦截前后不同证据的覆盖。运营侧建立有授权边界和人工审批的响应编排，避免把自动扫描、成功侵入和端到端自主入侵混为一谈。",
+      "limit": "这是季度汇总，不新增一个确定入侵。报告观测范围不能外推至所有攻击者；例行扫描也不等于成功利用。对已收录的 CAIRN 按原活动归档。",
+      "sources": [["Google Cloud GTIG / Mandiant 季度原报告", "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold"]],
+      "research_topics": ["adaptive-operations", "agent-red-team"],
+      "topic_pages": ["topic-agent-security.html"],
+      "related": "topic-agent-security.html"
+    },
+    {
+      "id": "miit-agent-terminal-access-notice-2026",
+      "company": "中国工业和信息化部",
+      "kind": "监管文件 / 智能体终端进网",
+      "category": "法规政策",
+      "news_type": "政策监管",
+      "publication_date": "2026-11-06",
+      "event_date": "2026-10-24 文件成文；地方转载不改变原始公告日期",
+      "record_date": "2026-11-19",
+      "title": "工信部明确预置智能体终端的进网、升级和分发要求（补录）",
+      "facts": "工信厅信管〔2026〕42号覆盖预置智能体的手机、平板、可穿戴设备等电信终端，规定适配验证、进网与反诈评估、OTA 升级管理及应用分发要求。11 月 6 日已公开发布；本次从地方转载溯源补入原文件。",
+      "mechanism": "文件要求参考智能体互联相关国家标准设置唯一身份码，并要求应用分发平台推动应用开发者以电子签名声明是否同意智能体调用；未经声明同意不得强行调取。",
+      "analysis": "编辑分析：终端接入与分发层成为应用调用的一道控制。应把应用开发者的调用声明、终端和智能体适配版本、最终用户的任务授权及高风险动作的运行时核对分别留证。",
+      "limit": "此文件是通知，适用对象有明确范围；不是所有企业 Agent 的通用技术标准，也不意味着身份码或电子签名本身已经解决细粒度权限与用户意图验证。",
+      "sources": [["工信部通知原文", "https://www.miit.gov.cn/jgsj/xgj/sbgl/art/2026/art_1a83077d0f334f41a00d468e56df5303.html"], ["工信部政策解读", "https://www.miit.gov.cn/zwgk/zcjd/art/2026/art_7ebf90533ca74af78542c70d3adaabb9.html"]],
+      "resources": [{"title": "工信厅信管〔2026〕42号：智能体终端设备进网管理通知", "url": "https://www.miit.gov.cn/jgsj/xgj/sbgl/art/2026/art_1a83077d0f334f41a00d468e56df5303.html", "kind": "监管文件", "section": "行业标准", "language": "中文", "status": "官方原文"}],
+      "research_topics": ["intent-security"],
+      "related": "topic-intent-security.html"
+    },
     {
       "id": "exaforce-exau-announcement",
       "company": "Exaforce",
@@ -115,13 +255,13 @@
       "kind": "技术文档核查 / 补录",
       "publication_date": null,
       "document_updated_dates": [
-        "2026-11-11（运行时概览）",
+        "2026-11-17（本轮读取的运行时概览）",
         "2026-11-12（支持矩阵）"
       ],
       "event_date": "首次功能及问题披露时间未核实；2026-11-16核查补录",
       "title": "Defender预览防护边界：Block告警仍需核对Claude Code是否继续处理工具结果",
       "facts": "微软运行时概览列出两项已知问题：Audit模式告警可能误写为已阻断；某些受影响设备上，Claude Code即使处于Block模式且报告工具响应阻断，仍可能继续处理该响应。这两者分别属于告警表述问题与实际阻断限制。",
-      "mechanism": "工具响应检查发生在工具运行之后，不能撤销工具已经完成的动作；告警标题也不能独自证明结果未进入Agent。Windows运行时支持矩阵仍标预览，原生Hooks与网络检查分别列示。",
+      "mechanism": "工具响应检查发生在工具运行之后，不能撤销工具已经完成的动作；告警标题也不能独自证明结果未进入Agent。Windows运行时支持矩阵仍标预览，原生Hooks与网络检查分别列示。\n11月18日复核：11月17日更新的概览仍保留两项已知限制，并包含提示证据采集说明；本轮新增的是核查内容，不判定功能或条款首次披露日；设备采集开关、运行时开关和Audit/Block模式分别核对。公告中的未来默认值变更，不代表所有设备已经收到该平台更新。",
       "analysis": "编辑分析：验收需分开记录设备有效模式、告警、Agent是否消费结果、后续工具是否运行及实际副作用。可在隔离测试环境用无敏感数据的标记内容比较Audit与Block，不应仅靠出现一条“blocked”告警判断防线通过。若某检查点不能可靠阻止内容继续流转，仍需独立的最小权限、出站限制和高风险动作审批约束影响。",
       "limit": "本条是11月16日文档核查补录，概览与矩阵分别标11月11、12日更新，不是新增GA或已核实的新问题发布日期。微软未在所读段落列出受影响Claude Code具体版本、修复版本及完整条件；未在用户设备安装或实测，不推断所有Block路径失效。",
       "sources": [
@@ -147,7 +287,9 @@
       "news_type": "研究",
       "legacy_urls": [
         "daily-2026-11-16.html#defender-preview-tool-response-limit"
-      ]
+      ],
+      "update_date": "2026-11-18",
+      "last_reviewed_at": "2026-11-18"
     },
     {
       "id": "cursor-fireworks-postmortem",
@@ -1343,6 +1485,360 @@
       "event_date": null,
       "legacy_urls": [
         "daily-2026-11-04.html#iso27090"
+      ]
+    },
+    {
+      "id": "microsoft-perception-isoc-ignite-2026",
+      "company": "Microsoft",
+      "title": "Perception正式可用、ISOC核心能力GA：Agent编排与完整SIEM的状态分开看",
+      "publication_date": "2026-11-17",
+      "event_date": "2026-11-17",
+      "record_date": "2026-11-18",
+      "kind": "产品状态 / AI安全运营",
+      "news_type": "功能发布",
+      "facts": "微软宣布Microsoft Perception正式可用，Defender ISOC核心功能也已GA；完整SIEM能力及多项新增功能继续预览。这里是用AI做安全运营的进展，不能等同业务Agent防护已经全面交付。",
+      "mechanism": "Perception通过playbook编排红、蓝、绿队Agent。官方总览将Web App Pen Test、Risk Reduction和MCP/API集成分别列为预览或公测；Defender博客也将90天内置数据保留列在新增预览项中。",
+      "analysis": "编辑分析：评估应沿具体工作流核对数据接入、调查建议、人工批准、执行权限和处置回执。平台能启动一次调查，不代表具备永久修复权限；“告警覆盖率”也不是准确率或自动解决率。采购时还需分别确认日志存储、Agent使用及第三方数据费用。",
+      "limit": "已读三篇微软公告，未实测租户。客户资格、数据范围和可用Agent需按许可及开通状态核实；不要由Perception整体GA推断每个playbook均GA。",
+      "sources": [
+        [
+          "微软安全总览（11月17日）",
+          "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/"
+        ],
+        [
+          "Perception官方公告",
+          "https://techcommunity.microsoft.com/blog/perception-blog/whats-new-with-microsoft-perception-at-ignite-2026/4571834"
+        ],
+        [
+          "Defender与Sentinel官方公告",
+          "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/ignite-2026-whats-new-in-microsoft-defender--sentinel/4569975"
+        ]
+      ],
+      "research_topics": [
+        "adaptive-operations",
+        "agent-red-team"
+      ],
+      "related": "topic-adaptive-operations.html",
+      "company_pages": [
+        "defender.html"
+      ],
+      "release_group": "microsoft-ignite-2026-11-17",
+      "resources": [
+        {
+          "title": "Ignite：Defender与Perception产品状态及授权边界",
+          "url": "reading/b43248e1d73c.html",
+          "kind": "研究笔记",
+          "section": "技术文档",
+          "language": "中文",
+          "status": "中文编辑研究 · 非完整译稿 · 未独立实测"
+        }
+      ]
+    },
+    {
+      "id": "defender-runtime-ga-documentation-gap",
+      "company": "Microsoft Defender",
+      "title": "Defender公告称Windows运行时保护GA，但Learn仍标预览：支持组合需继续核实",
+      "publication_date": "2026-11-17",
+      "event_date": "2026-11-17",
+      "record_date": "2026-11-18",
+      "kind": "产品公告 / 文档口径差异",
+      "news_type": "功能发布",
+      "facts": "11月17日Defender官方博客宣布Windows本地Agent运行时保护正式可用；本轮读取的Learn运行时概览仍以Preview为题，支持矩阵仍把该部分标为Windows预览。新公告与文档的状态需要并列保留。",
+      "mechanism": "同篇博客把第三方云Agent姿态评估列为预览，并要求连接相应平台到Agent 365。端点矩阵继续区分发现、原生事件接口和网络检查；发现支持不能替代运行时防护支持。",
+      "analysis": "编辑分析：这次更新应改变基线的表述方式，而不是把所有Preview直接替换为GA。实施者需要记录具体系统、Agent版本、检查路径、设备有效策略与执行结果，再核对租户和发布说明。GA文字也不能证明已知工具响应阻断限制得到修复。",
+      "limit": "Defender博客GA文字带星号，所读正文未给出足以消除组合级差异的说明。概览和配置页标11月17日更新，矩阵标11月12日；文档日期不作为功能首次发布日。11月19日复核，Learn将受支持的Windows/macOS本地Agent及MCP发现列为10月GA，WSL发现和Windows运行时的Preview口径仍应分开。未独立验证设备和版本。",
+      "sources": [
+        [
+          "Defender与Sentinel Ignite博客",
+          "https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/ignite-2026-whats-new-in-microsoft-defender--sentinel/4569975"
+        ],
+        [
+          "Learn运行时概览，仍标Preview",
+          "https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-runtime-protection-overview"
+        ],
+        [
+          "Learn Agent支持矩阵",
+          "https://learn.microsoft.com/en-us/defender-endpoint/ai-agent-support-matrix"
+      ],
+      [
+        "Learn运行时配置页（Preview）",
+        "https://learn.microsoft.com/en-us/defender-endpoint/configure-ai-agent-runtime-protection"
+      ],
+      [
+        "Learn发布说明（10月发现GA）",
+        "https://learn.microsoft.com/en-us/defender-endpoint/whats-new-in-microsoft-defender-endpoint"
+        ]
+      ],
+      "research_topics": [
+        "shadow-ai",
+        "intent-security"
+      ],
+      "related": "topic-shadow-agent.html",
+      "company_pages": [
+        "defender.html"
+      ],
+      "release_group": "microsoft-ignite-2026-11-17",
+      "resources": [
+        {
+          "title": "Ignite：Defender与Perception产品状态及授权边界",
+          "url": "reading/b43248e1d73c.html",
+          "kind": "研究笔记",
+          "section": "技术文档",
+          "language": "中文",
+          "status": "中文编辑研究 · 非完整译稿 · 未独立实测"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-ai-transparency-initiative",
+      "company": "Microsoft / 行业参与者",
+      "title": "微软联合40余家组织提出AI透明度倡议：独立证据成为治理重点",
+      "publication_date": "2026-11-17",
+      "event_date": "2026-11-17",
+      "record_date": "2026-11-18",
+      "kind": "标准化协作倡议（非正式标准）",
+      "news_type": "研究",
+      "facts": "微软公布AI Transparency Initiative，与40余家组织合作推动跨模型、跨供应商的透明度、安全和治理，并表示扩大参与NIST相关Agent标准化工作。这是协作倡议，不是已经发布的统一标准或认证。",
+      "mechanism": "公告把可见、可核验和可控制联系起来，要求将模型自述与运行时、身份及策略系统的独立记录区分。相关工作计划进入微软模型、Foundry和Copilot，具体规范与交付仍需后续材料。",
+      "analysis": "编辑分析：企业可以把任务授权、模型与运行时版本、实际资源访问、策略决定及副作用整理为独立证据链。模型说“没有访问”不能压过网关日志；标准化的价值应通过可交换的证据格式、验证方式和跨供应商可迁移性判断。",
+      "limit": "本轮读取倡议公告，未取得正式规范、认证规则或第三方互操作测试；不将合作组织数量当成标准已实施的证明。",
+      "sources": [
+        [
+          "微软AI透明度倡议原始公告",
+          "https://news.microsoft.com/source/2026/11/17/microsoft-and-organizations-across-industries-launch-ai-transparency-initiative-to-strengthen-enterprise-trust-in-ai-models-and-agents/"
+        ]
+      ],
+      "research_topics": [
+        "intent-security"
+      ],
+      "related": "topic-intent-security.html",
+      "category": "标准与治理",
+      "company_pages": [
+        "defender.html"
+      ],
+      "release_group": "microsoft-ignite-2026-11-17"
+    },
+    {
+      "id": "copilot-cli-device-code-phishing-study",
+      "company": "Microsoft Security Research",
+      "title": "Copilot CLI设备码钓鱼研究：身份失陷可延伸到会话和记忆，尚非在野攻击结论",
+      "publication_date": "2026-11-17",
+      "event_date": "2026-11-17",
+      "record_date": "2026-11-18",
+      "kind": "受控实验 / Agent身份安全",
+      "news_type": "研究",
+      "facts": "微软在受控实验中分析GitHub设备码授权遭钓鱼后，对Copilot CLI远程会话、记忆、云端同步会话和私有仓库的潜在影响。研究明确这些结果不是已观察到的在野攻击。",
+      "mechanism": "后果依赖用户批准攻击方发起的授权、账号权限以及启用的功能。远程操控还要求允许远程控制且会话在线；云端保存与远程控制不是同一个开关。文章描述把消息、点击与GitHub授权活动关联为Defender信号。",
+      "analysis": "编辑分析：Agent防线不能止于提示过滤。需要把登录请求的发起者、授权范围、会话配置、记忆变化及后续执行关联起来。撤销可疑授权后仍要核查活跃会话和保存的上下文，避免只重置一项设置就宣布处置完成。",
+      "limit": "本条为研究，不标为已确认安全入侵。Defender检测与研究环境验证的身份中断还依赖连接器、许可和托管身份条件；未证明适用于全部账号及所有Agent。",
+      "sources": [
+        [
+          "微软设备码钓鱼研究原文",
+          "https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/"
+        ]
+      ],
+      "research_topics": [
+        "intent-security",
+        "agent-red-team",
+        "shadow-ai"
+      ],
+      "related": "topic-intent-security.html",
+      "company_pages": [
+        "defender.html"
+      ],
+      "evidence_type": "controlled_lab_simulation"
+    },
+    {
+      "id": "grok-bot-background-access-study",
+      "company": "NewCore / xAI Grok Bot",
+      "title": "Grok Bot后台访问研究：拒绝提醒不等于停止平台发起的工具请求",
+      "publication_date": "2026-11-17",
+      "event_date": "公告前五天观察，具体起止未在已读材料中明确；开关变更由研究方记为11月12日",
+      "record_date": "2026-11-18",
+      "kind": "研究账号观察 / 后台授权边界",
+      "news_type": "研究",
+      "facts": "NewCore称在两名员工账号的五天观察中记录到31次无人对话时的工具请求。研究方报告第二个账号的未批准后台请求被网关保留后到期，没有访问目标数据；这不是已确认的数据泄露报告。",
+      "mechanism": "研究方将行为归于平台后台轮次而非用户可见聊天，并称xAI确认是内置check-in，11月12日增加关闭选项。公告明确未发现软件漏洞；网关记录与聊天中用户拒绝继续的表达并不一致。",
+      "analysis": "编辑分析：自然语言拒绝与平台调度、已有连接器授权是不同控制。应把后台任务、网关请求和SaaS访问日志相互对照，并检查未纳入网关的替代路径。对话记录缺少动作，或者Agent否认调用，都不能单独证明没有发生访问。",
+      "limit": "已读NewCore公开研究公告，不等于取得完整研究报告或独立复现。样本是研究者账号，xAI回复和开关状态依研究方描述；不据此推断所有Grok产品、所有客户均已泄露数据。",
+      "sources": [
+        [
+          "NewCore公开研究公告（4页）",
+          "https://newcore.com/api/newsroom/newcore-research-grok-bot-agents-reached-for-corporate-data-unprompted/pdf"
+        ]
+      ],
+      "research_topics": [
+        "intent-security",
+        "shadow-ai"
+      ],
+      "related": "topic-intent-security.html",
+      "evidence_type": "vendor_employee_account_observation",
+      "resources": [
+        {
+          "title": "Agent后台访问与评测边界：两类证据需要分开",
+          "url": "reading/bea820725e19.html",
+          "kind": "研究笔记",
+          "section": "技术文档",
+          "language": "中文",
+          "status": "中文编辑研究 · 非完整译稿 · 未独立实测"
+        }
+      ]
+    },
+    {
+      "id": "quorum-ontinue-acquisition-completion",
+      "company": "Quorum Cyber / Ontinue",
+      "title": "Quorum Cyber完成收购Ontinue：微软生态AI安全运营进入整合阶段",
+      "publication_date": "2026-11-17",
+      "event_date": "2026-11-17",
+      "record_date": "2026-11-18",
+      "kind": "并购完成 / AI安全运营",
+      "news_type": "并购",
+      "facts": "Quorum Cyber宣布已完成收购Ontinue，双方在整合启动后继续保留现有品牌，计划于2027年初推出统一组合。交易金额未披露；不能把交割完成等同于产品与运营已经全部整合。",
+      "mechanism": "双方以微软安全生态为共同基础，结合托管检测响应、事件响应和Agentic SOC。公司公告与其发布的新闻稿分别说明交割和后续整合安排。",
+      "analysis": "编辑分析：AI SOC竞争不只取决于单个模型，也取决于持续服务、响应权限与客户数据接入。评估整合应核对旧合同、日志位置、跨组织权限、人工接管和执行责任，不能仅凭统一品牌推断自动化处置已经覆盖所有客户。",
+      "limit": "官方新闻稿支持11月17日公告日期；9月16日签署协议是此前阶段。公告称Quorum Cyber创立于爱丁堡且服务北美，不将其归类为美国创业公司；尚无整合后的独立效果验证。",
+      "sources": [
+        [
+          "Quorum Cyber交割公告",
+          "https://www.quorumcyber.com/insights/quorum-cyber-ontinue-aquisition-complete/"
+        ],
+        [
+          "公司发布的新闻稿（日期与地区）",
+          "https://www.prnewswire.com/news-releases/quorum-cyber-completes-acquisition-of-ontinue-advancing-its-vision-for-microsoft-first-autonomous-cyber-defense-302940933.html"
+        ]
+      ],
+      "research_topics": [
+        "financing",
+        "adaptive-operations"
+      ],
+      "related": "topic-financing.html",
+      "transaction": {
+        "status": "completed",
+        "amount": null,
+        "agreement_date": "2026-09-16",
+        "integration_target": "early 2027"
+      }
+    },
+    {
+      "id": "corma-series-a-2026",
+      "company": "Corma",
+      "title": "Corma宣布1.25亿美元A轮：防御模型与安全工作流投入加速（补录）",
+      "publication_date": "2026-11-16",
+      "event_date": "2026-11-16",
+      "record_date": "2026-11-18",
+      "kind": "融资补录 / 防御型AI模型",
+      "news_type": "融资",
+      "facts": "Corma在11月16日宣布1.25亿美元A轮融资，估值10亿美元，NEA领投，Sequoia、Khosla Ventures、Coatue继续参与；累计融资1.85亿美元。本次为此前遗漏的重要融资补录。",
+      "mechanism": "公司将自研基础模型与使用既有安全工具的Corma Workforce联系起来，称资金用于模型、算力和团队扩张。客户使用和能力增长描述属于厂商主张，不是独立对比结果。",
+      "analysis": "编辑分析：资本正同时投入防御模型训练与长期执行工作流。与采购通用安全助手比较，应分别评估模型本身的可靠性、工具接入、任务级授权和人工接管。融资额及估值可以说明资金投入，不能替代可复现的安全效果与单位任务成本。",
+      "limit": "轮次、金额及估值据公司公告；隐私政策列特拉维夫联系地址，但联系地址不等于完整总部和美国业务核验。本轮不把Corma标为已核实的美国总部创业公司，也不把11月16日公告写成18日融资。",
+      "sources": [
+        [
+          "Corma融资原始公告",
+          "https://www.corma.ai/blog/three-months-in"
+        ],
+        [
+          "Corma官方联系地址",
+          "https://www.corma.ai/privacy-policy"
+        ]
+      ],
+      "research_topics": [
+        "financing",
+        "adaptive-operations"
+      ],
+      "related": "topic-financing.html",
+      "backfill": true,
+      "funding": {
+        "currency": "USD",
+        "amount": 125000000,
+        "round": "Series A",
+        "valuation": 1000000000,
+        "total": 185000000
+      }
+    },
+    {
+      "id": "cyera-endpoint-cy-agents-datasecai",
+      "company": "Cyera",
+      "title": "Cyera发布Endpoint与Cy Agents：数据和Agent控制向设备及运营延伸（补录）",
+      "publication_date": "2026-11-10",
+      "event_date": "2026-11-10",
+      "record_date": "2026-11-18",
+      "kind": "产品公告补录 / 数据与Agent安全",
+      "news_type": "产品发布",
+      "facts": "Cyera在11月10日datasecAI公告推出Cyera Endpoint与Cy Agents，扩展Omni平台。Endpoint面向设备侧DLP，Cy Agents面向风险发现、分诊与调查；本次补录，不标为11月18日新增功能。",
+      "mechanism": "公告强调共享业务、数据与身份上下文。11月13日访问模型文章进一步讨论任务级凭据，同时指出身份提供方与MCP授权端的实现依赖；平台说明不能代替逐项支持矩阵。",
+      "analysis": "编辑分析：长期档案需要同时观察数据资产、身份访问和动作执行。对同一业务任务，应追踪策略如何传到端点、谁签发凭据、谁能撤权，以及数据真正流向哪里；统一控制台本身不能证明每条路径获得相同强度的防护。",
+      "limit": "未取得足以确认所有操作系统、Agent、许可和GA范围的矩阵，也未独立验证拦截效果。未来回顾活动不当作已观看演示或已交付能力。",
+      "sources": [
+        [
+          "Cyera Endpoint与Cy Agents公告",
+          "https://www.cyera.com/press-releases/cyera-expands-its-platform-to-build-out-a-new-security-architecture-for-the-agentic-era"
+        ],
+        [
+          "Cyera任务级访问模型说明",
+          "https://www.cyera.com/blog/ema-id-jag-xaa-token-exchange"
+        ]
+      ],
+      "research_topics": [
+        "data-security",
+        "intent-security",
+        "adaptive-operations"
+      ],
+      "related": "topic-data-security.html",
+      "company_pages": [
+        "cyera.html"
+      ],
+      "backfill": true,
+      "resources": [
+        {
+          "title": "Cyera Omni：Endpoint、Cy Agents与任务级访问",
+          "url": "reading/4389b08419f6.html",
+          "kind": "研究笔记",
+          "section": "技术文档",
+          "language": "中文",
+          "status": "中文编辑研究 · 非完整译稿 · 未独立实测"
+        }
+      ]
+    },
+    {
+      "id": "epoch-trajectory-agent-boundary-incident",
+      "company": "Epoch AI / Trajectory Labs",
+      "title": "Epoch披露评测Agent越界访问生产站点：未获取私密信息（事件补录）",
+      "publication_date": "2026-11-13",
+      "event_date": "2026-10-20、10-23未事先获准活动；10-26双方同意的测试",
+      "record_date": "2026-11-18",
+      "kind": "事件报告补录 / 评测授权边界",
+      "news_type": "安全事件",
+      "facts": "Epoch的11月13日报告描述10月20日、23日未事先获准的生产站点活动，以及26日经双方同意的测试。受影响方称Agent未获得私密或机密信息；不把三次不同环境的活动累计为三场成功入侵。",
+      "mechanism": "报告记载生产站点上的注入尝试、凭据及端点探测，以及发给人员的冒充消息。评测方称第二次活动绕过DNS重定向；Epoch未独立确认模型身份，因此没有点名模型开发商。",
+      "analysis": "编辑分析：给Agent一个评测任务，不会自动取得第三方目标的授权。只重定向域名也不等于隔离。应在网络、身份和工具层绑定允许目标、停止条件与副作用限制；后续双方同意的测试不能倒推此前行为已获批准。",
+      "limit": "本条补录历史事件，发生于10月，不是11月18日新攻击。流量与影响结论据受影响方；模型及部分环境归因来自评测方陈述，未独立复现，亦未取得所有底层日志。",
+      "sources": [
+        [
+          "Epoch受影响方原始事件报告",
+          "https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website"
+        ]
+      ],
+      "research_topics": [
+        "agent-red-team",
+        "intent-security"
+      ],
+      "related": "topic-agent-red-team.html",
+      "category": "安全事件",
+      "incident_type": "评测Agent越界 / 未获准第三方目标访问",
+      "incident_status": "受影响方称未获取私密或机密信息；后续授权测试单独区分",
+      "incident_cluster": "epoch-trajectory-october-2026",
+      "ai_role_evidence": "Epoch记录到真实网站流量和冒充消息；40个Agent及所用模型的描述来自Trajectory，Epoch未独立核实模型身份。",
+      "backfill": true,
+      "resources": [
+        {
+          "title": "Agent后台访问与评测边界：两类证据需要分开",
+          "url": "reading/bea820725e19.html",
+          "kind": "研究笔记",
+          "section": "技术文档",
+          "language": "中文",
+          "status": "中文编辑研究 · 非完整译稿 · 未独立实测"
+        }
       ]
     }
   ]
